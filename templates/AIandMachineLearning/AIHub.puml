@@ -1,0 +1,12 @@
+sprite $AIHub [70x70/16z] {
+vPS7ZciX34Lnl_lVyA-JWcGRHwZdgax9oSC7ZD_wXh2quGb30uU47Y6EGVm0COnYBOGm31tNSxicmJXIKmBZH2qP7wJIJO4F4dHbkRVD-33SMhwnBVWuChVi
+pD7RFbiE-VUSCRDDqVS06zcsqp-HdstpuAlIyd1lEKG2i5CRzDQoFJwr5P0ijvrRTdfzAdXRbfUsDRFxAePlvP78RTEnOjPjSifBoxmzfIe0gIcMMsQ5F9TZ
+j1RvUtaajHq91S5ldztB8vbjGKO1LY3sTNX2UTYEch8xhYcn53M5U4Q1HaUnu175qL80fvsIzveuK01-fnHzpuyKUL780FS48dCA30X9gzkP9jafW1Qc5zUK
+uAM0xBitttNBImhWH2vhFqcIzZigAV5e7zkfbhptQdq2R6l0ESNoXidye0YHFpfeIQ7yzyxB7gPrSGHt5ugMtTk8_3y58Qkz1QAxr7IzTbrxcylXLiDEoG-Y
+dwTbqdSA-t6Uqlmk9tzGo2QpNHG3YeGqumtD1hBWHMLNWSudCYAVpzzyDntUJwgfxRjt9BsTuFC2zxb-oSejzmNkBL_PvbN7BYpVl0dVsBRLnwRhwQCnbTo7
+fS_wXlm6
+}
+
+GCPEntityColoring(AIHub)
+!define AIHub(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AIHub, AIHub)
+!define AIHub(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AIHub, AIHub)

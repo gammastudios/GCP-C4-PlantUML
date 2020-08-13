@@ -1,0 +1,9 @@
+sprite $Logging [70x70/16z] {
+xTQ5WS9004JHUEPq-g_sN87rZ_CBU95LPtPBwN8CW171I00ZHY4O7LmHWWX194OHW62A00HJ546chzPYPjLltLSgLXHGvcv78KP7LXH02fKLKVIBj2XAA9a5
+Pss823DgLfuHHRO0HOoYi18SwGChlnrGCV151rAqxaYRKNFNpyqAigRl_56ZOa9vzbTD8sr2yM_RIlzPLwAuUXrbtJlc8iMLYkDAtZfQeRiKm9XH2CQCGZ0c
+58TYb3i2iHdbcK1i1B4PnG2In_WAUWK
+}
+
+GCPEntityColoring(Logging)
+!define Logging(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Logging, Logging)
+!define Logging(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Logging, Logging)

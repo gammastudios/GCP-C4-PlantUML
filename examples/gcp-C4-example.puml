@@ -1,0 +1,47 @@
+@startuml
+
+!define GCPPuml https://raw.githubusercontent.com/gamma-data/GCP-C4-PlantUML/master/templates
+!includeurl GCPPuml/C4_Context.puml
+!includeurl GCPPuml/C4_Component.puml
+!includeurl GCPPuml/C4_Container.puml
+!includeurl GCPPuml/GCPC4Integration.puml
+!includeurl GCPPuml/GCPCommon.puml
+
+!includeurl GCPPuml/Networking/CloudDNS.puml
+!includeurl GCPPuml/Networking/CloudLoadBalancing.puml
+!includeurl GCPPuml/Compute/ComputeEngine.puml
+!includeurl GCPPuml/Storage/CloudStorage.puml
+!includeurl GCPPuml/Databases/CloudSQL.puml
+
+title Sample C4 Diagram with GCP Icons
+
+Person(publisher, "Publisher")
+System_Ext(device, "User")
+
+Boundary(gcp,"gcp-project") {
+	CloudDNS(dns, "Managed Zone", "Cloud DNS")
+	CloudLoadBalancing(lb, "L7 Load Balancer", "Cloud Load Balancing")
+	CloudStorage(bucket, "Static Content Bucket", "Cloud Storage")
+	Boundary(region, "gcp-region") {
+		Boundary(zonea, "zone a") {
+			ComputeEngine(gcea, "Content Server", "Compute Engine")
+			CloudSQL(csqla, "Dynamic Content", "Cloud SQL")
+		}
+		Boundary(zoneb, "zone b") {
+			ComputeEngine(gceb, "Content Server", "Compute Engine")
+			CloudSQL(csqlb, "Dynamic Content\n(Read Replica)", "Cloud SQL")
+		}
+	}
+}
+
+Rel(device, dns, "resolves name")
+Rel(device, lb, "makes request")
+Rel(lb, gcea, "routes request")
+Rel(lb, gceb, "routes request")
+Rel(gcea, bucket, "get static content")
+Rel(gceb, bucket, "get static content")
+Rel(gcea, csqla, "get dynamic content")
+Rel(gceb, csqla, "get dynamic content")
+Rel(csqla, csqlb, "replication")
+
+@enduml

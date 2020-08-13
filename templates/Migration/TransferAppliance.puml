@@ -1,0 +1,9 @@
+sprite $TransferAppliance [70x70/16z] {
+xTPLRWGn50NHOLV8T_-h3NFSyjEembFVhIErESLECQzY20m60mA3enWCZc8m60eO30Q3enWCZc8m831DKK1W-6O51Q4f2bDaDMp0J9HTMM5PMSDSOOoq-uyt
+TmAxWjA7ocPrNtLS85aSrGFrmYTN_wFnqBwCRjiSf-nVlfxFzFmtslsgMvUKAECIZCBosYrtpDezZ9JEXrv65mhAP4_Nb5OufUPA9ifsFOgtTUVSDHJfFZAO
+E8h1n51Q3CPy7VfA14HJeY1HaCHHpWmaSPHk88c298uI0Qan-GVT
+}
+
+GCPEntityColoring(TransferAppliance)
+!define TransferAppliance(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, TransferAppliance, TransferAppliance)
+!define TransferAppliance(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, TransferAppliance, TransferAppliance)

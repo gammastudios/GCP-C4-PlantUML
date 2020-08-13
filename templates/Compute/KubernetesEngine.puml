@@ -1,0 +1,10 @@
+sprite $KubernetesEngine [70x70/16z] {
+xTO5ZYCn44RXtz3nMshV_xHBJaa1LyUQhkLzmg7Fe54vVR7_yRe80uXH244W00bJ2432548GGX28KGX0mXG2a325PQH9QPLfEEbxPKrXNfPryPYNo3R-NatV
+QczInj_2HL0bxtgEaIH96qE1v5rFyvMnU0PC0Uzw374FOyhakpTvojsgIVbkXux2HCbSAxeZtSqmKwgTnZfIzcD5DoLVOI2ESijay1ME547J29fCSN8L9QZZ
+SgMtArA50add5AbHfDDAGY-L_aSecnuKkOhxlziaaM-KxI8bNzbdYar8Kp90EHeDKwKoQaeetVBUj9ifoboxq6w_dxmfvGpTkl9DsBin_jLO_ZFGVSK6r6GI
+EuZ3K6nrM7_M_3SfsuLuY8MJhgLJpxrTpnhISIlQy6f1dwK2c1wZH30zHebWUeJIlMAKT-SGAqRPpo7MISIAKNe0iiRqVw0l
+}
+
+GCPEntityColoring(KubernetesEngine)
+!define KubernetesEngine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, KubernetesEngine, KubernetesEngine)
+!define KubernetesEngine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, KubernetesEngine, KubernetesEngine)

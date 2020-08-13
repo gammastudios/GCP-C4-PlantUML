@@ -1,0 +1,11 @@
+sprite $CloudArmor [70x70/16z] {
+xTO5TiGW60JW7qXWgjp_j3Mwa_B2i09RdoUhV4YmV6B-W-CPCvWv2iOGPW2Phc00cQvW2WA9p60mWy4rbUGidCu8mqhIWBBQ5itqaL2A1xZoPZtAf5rNggB-
+0FOLFHnrvvnaYFHBHCfIsO-7npvz1ZibeXs_Kv9M4bJyxaSYGmfcAf0A1ragP20LRuTnZgcdF7OLpXfxIKS14QaiAEl8TnG8XOZnJK-1LEmbCN91nFELM120
+IC2PocAsreW3uynmKbQpG2JM2AofPBNNraYAwKm5DM9bDCoVgzG8tSAjpTstEJ2kGgYefkJys6pC7h7t8HC7GLC97n37ZT9Q7Rh9cjaGOzaecY8KPrOX4O1g
+ocEMp8QuhQY9faXbDIvi8a4YtJx5gZkURuMY-hIMxf1T-eXS1zMOU4X5CywudXqzZVGlGMxHrwcKJs1WZ1-ws8dhZq8oH698LxtmvlaACmN9OmWpHxaPGfWv
+okCGmemXp1mbZo7C3EFdvna
+}
+
+GCPEntityColoring(CloudArmor)
+!define CloudArmor(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudArmor, CloudArmor)
+!define CloudArmor(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudArmor, CloudArmor)

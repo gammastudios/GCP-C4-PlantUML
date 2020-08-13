@@ -1,0 +1,9 @@
+sprite $APIMonetization [70x70/16z] {
+xT97UiCm50DXk1AfS__JflU4vFj4xE9PkVws15BiakTLZ03Z1EDg0IIcE83454SGHn0xepY0n1G7a9ZYJKYRCCtpzfB6YWlf3yKb9A-SfRq7Z1TgPQLrDdgf
+YaWwsZv86Z35swgXuaNbXIaTjtDdevVk0Qy7bN7Qb9dSaDv6zGxVRwksASU0ydb5kyv6wUYC4zYeIVgzqV7bQLtHo_VgTnVeA0VxK5UuNrO0M5MkU6bH8Q7S
+yzQImdihI_FPzDIT_8BkXWhU6XabmP1G6Wa60WmP9S6GKH8C2OLU6UKgWK16kKyW444Wen10QWp_e4S
+}
+
+GCPEntityColoring(APIMonetization)
+!define APIMonetization(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, APIMonetization, APIMonetization)
+!define APIMonetization(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, APIMonetization, APIMonetization)

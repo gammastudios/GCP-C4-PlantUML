@@ -1,0 +1,10 @@
+sprite $CloudShell [70x70/16z] {
+xTO5SiKm30JGiBQKlVzfo-1KbgpEx63_3dry1Yc9MSmj6ATY21We65GZG6GA18XCWGI1104q2WI8J840aIdmY80nYG8VctvdnA2JoMN-kx9DFkYaEfMSiKoP
+kuh1fxArzJN5wq4b8OBz7Jdma-CZ4GE4czkPtWAViw-i2yojPyrsfZyHOFviikLpPUbUHLiBJCrVLm0uucf7LJRiRTlaaucxzjh1Q_DkHrtPBigSbobk_eko
+DGrzr7Qt6NxDzYLNDlTFQpykA6xGutiZqbiLV8xU1ipfLNsca_6byndSNjRIlS96jpgtI7HIlkrcKpaPCskBM7vRA4ucwtqoOuxQUi0csMHcM7mnSw2WiXve
+JXuAnQXWbAT3lK818bCeGIX1I8rofq18ZN8g45A2a1g50gJ6y1_a1G
+}
+
+GCPEntityColoring(CloudShell)
+!define CloudShell(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudShell, CloudShell)
+!define CloudShell(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudShell, CloudShell)

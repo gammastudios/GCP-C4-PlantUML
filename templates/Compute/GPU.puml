@@ -1,0 +1,10 @@
+sprite $GPU [70x70/16z] {
+xTO7GiCm58DXlGJNOiNtlotTK-IP83O_TBTVfqVhx3_cEOnr7eKPOc3eKHmCFOg3eKCX7GmT33sAWw57SJ2aWQaMXI808xa2iBiG6SClLfWWWNMnEzwT31JL
+MGKgYkQGWAfgHYkOYrhXQqf-xObXgWo9Ccbb7CUp--EanFeM-SbG5qUbd2c5kbo1Ll9AAJWeE5V6KleXxD9d5oW5srRlKyx6eLRwFrrOlgFgK0PcIiS8mDMr
+MfaCez4mfclJJ4H05n7vB7LgW8gYwQtpxa1HcrDO0KGfTm2EerFKjnxLT3qwjLXf5iMpyt0ejJaOv-xGhpG3ObEQ1MaEP9r7kJSWwppAP43MEP1r7gKPa3wc
+_O5U
+}
+
+GCPEntityColoring(GPU)
+!define GPU(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GPU, GPU)
+!define GPU(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GPU, GPU)

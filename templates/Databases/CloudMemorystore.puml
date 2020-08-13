@@ -1,0 +1,9 @@
+sprite $CloudMemorystore [70x70/16z] {
+xTQ7RUKm40PXnkD_3jh-k_KAuMLgQNaGxIdW0y5iY_sbECBm64KH0Z1Y588Hen2C24KY616C68LWn2W48m7CG1ITBK1QUevJven-e8ofqhpoGkczjww7PeZI
+GLcFBIfQKVIoVaKqdPSheq2feR8jA0eLlKOULZUO5ozIjAJeM2c14jNlPs9CvoLM7eQdRrLAgNaVVVMqbzDUzTg9sVNazM1UrfGKAiYkirZ92yeMAVzIeDXU
+D2_H_JAOMufGjgFRko_UtZ92iMkCOZgRCGh16A4C8nZoTyWh1Y2OOWXY1E8nody0yHXb0n2FG3n6CG1PO-mNz0K
+}
+
+GCPEntityColoring(CloudMemorystore)
+!define CloudMemorystore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudMemorystore, CloudMemorystore)
+!define CloudMemorystore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudMemorystore, CloudMemorystore)

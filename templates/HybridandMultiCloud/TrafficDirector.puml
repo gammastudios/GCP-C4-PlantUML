@@ -1,0 +1,11 @@
+sprite $TrafficDirector [70x70/16z] {
+rTW7ZiKW38JXeNgsvlwtNR4j1OJjwDN_09-S7bYEKKyMBPhI46CtK6ZkwWeTNKRvT23-OJ9TlPX7yG_pGcVLF4fr3YCSL20JHOoZ16HEiY4506SPHu4-Z7vM
+Mc9dE4W2MabHjAkSOaCIhGp72H0uJq6CYkXA_LK2KDLXg2gpAtLHXLsbE1IE5Od8RcLqnoP5wPbk4BIIQDTehHybugziLZWweB-YR9GyLTWb4KYfCM6ZH7eh
+o9JGc5M1q9lKlpEqAfddYZi5mbF9NWayLzufY4sclutIe23CqU_4LQaH-Ba3idB3TELLaVMk3ZAvTzNtIyPVkLDcZEmKIlfLIeVObLPpalA2qPMCK3j4KMgl
+97PTz1iW5r4MYw8YYt2IfgoTLvPDbPDI0X1JrNyGfyhwqkko_p8BMiNo5szvM_MvbXBAADPXb56C3EeGTohLlhIXiy-BA9TPDrvMkVzw-Wds6Iwu_o8NKHOZ
+edKA-G8
+}
+
+GCPEntityColoring(TrafficDirector)
+!define TrafficDirector(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, TrafficDirector, TrafficDirector)
+!define TrafficDirector(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, TrafficDirector, TrafficDirector)

@@ -1,0 +1,9 @@
+sprite $CloudExternalIPAddresses [70x70/16z] {
+tTPL0e9G00LHsslE_bThTv1Z3lLtQ7X8_Nyfpp2IE4eKf9Y9enXC7CLWOYY9mSHWuYW64qSnc4HWnegIfjL1EkTUegG0wLvsL8R3uGDb_5GPTIvBSh5zUcNI
+IecfvA5IU7NlcRHMbeeIYA34KLAW5FHffO1s5FvD0HnbsLe1eAqoOLTB1KDP5drt1tSzKIXG7bU4WAFGM97-qmQ3eOmn67Dqw2i8YAQW82W8ECh4GC1HbWO2
+2WAEWeA0OFn1Qm
+}
+
+GCPEntityColoring(CloudExternalIPAddresses)
+!define CloudExternalIPAddresses(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, CloudExternalIPAddresses)
+!define CloudExternalIPAddresses(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, CloudExternalIPAddresses)

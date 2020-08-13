@@ -1,0 +1,10 @@
+sprite $RecommendationsAI [70x70/16z] {
+pTY5TiCm341HXwmtrFz_xKZj5bBjnIgyGstWdZ3fEYhIKX30G03pJcNl4Oi2wZTItHYnA122m5KLuLz9nAA0ioWH314A1xgImg5YbJ8YgvXNhGnfcRWAr2ii
+2bTO9DCiAIYuIfgLPqedmmM5IaMWtoZuIXRhhFG68ibLs2g2TL9wnbyaiSkCPGKO9w3RLTvjKOhA01Yofw2gkK998q2V74LKAIl63CbJKEgKD8t9LwXJvjKh
+KxRQb7DtLyYpGF8oRjeqkSi2j6-NdlqqGb5zAXylVRO6Hv6gSxh76Xt5dauRbQpVjIfgjIbZYABdMfJt44N_MYkJ_9HFYbZckOWUFtPrtb55VMMQjVoRMVL0
+JuUFzDGSmMYC4i5eYF98RvyHZ4OeeX6CNkY9odBGzvS0Hakr8zO1unC
+}
+
+GCPEntityColoring(RecommendationsAI)
+!define RecommendationsAI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, RecommendationsAI, RecommendationsAI)
+!define RecommendationsAI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, RecommendationsAI, RecommendationsAI)

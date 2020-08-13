@@ -1,0 +1,9 @@
+sprite $CloudDeploymentManager [70x70/16z] {
+xTO3OWDH00RX-4tvt_-qPRJMr9qO-wsHaVt7S6CCWS5WG61m58F1KGm6Gm63mM1m58F1KGm61AOe2WWCNwpGWMo7uwhIggn6jE6g6Z9UMNETgR18EJ8iLXv7
+Aj2da3120UXJw5FOdP43z2bqAmNA4NdxC4lP7Jy2HtEESXJEGmFJ5TYyFE-llYamTUaMod6NkLvLZ57gN3swIZSodb7s098yBbQKVVhcmuvIPOJ2TOzZJW7h
+-d6sNWmbbnmbmrlUdjQayxJ1n51A3CQyElIL28YcH46Y88cZt1X8uYYF1f8eIE8e4P1nJFv0pm
+}
+
+GCPEntityColoring(CloudDeploymentManager)
+!define CloudDeploymentManager(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDeploymentManager, CloudDeploymentManager)
+!define CloudDeploymentManager(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDeploymentManager, CloudDeploymentManager)

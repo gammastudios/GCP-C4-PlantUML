@@ -1,0 +1,10 @@
+sprite $IDEPlugins [70x70/16z] {
+xTU7RiCm30HGRLwNzVzVsysKO6JGBQuxX-NvGcZ5cWTp2U8m300S1HG4820q1GI4fe22W88070K4XAQ0WD0KK13F24K120o-MG45WL0KX8Yajs0taP9CIg30
+fQMKyPIUR4wmh9XL1LKFpXWziDcyOfyhJX5jgdvUpAf5nPRIHhN5v5LBBqinI3R7NOypWZH5nBOfp4bzEWZYVhx1AaMF8yQroi1Byi5YrirIWLN3bA1rXoi6
+BmawAHmk5j7Z4IfoQjFqcXmENZTsjGOtZGmozC0fMz3PchexvfPpMceTBmUBETrgXOkyOtqP7rwbS6IHsZZhBaCX_HyncCbH6CnaA38P3EVhaACmcCbH60n_
+JsB3KQuOo9mSPMCWnuiXxUqPp0n3CFv07W
+}
+
+GCPEntityColoring(IDEPlugins)
+!define IDEPlugins(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, IDEPlugins, IDEPlugins)
+!define IDEPlugins(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, IDEPlugins, IDEPlugins)

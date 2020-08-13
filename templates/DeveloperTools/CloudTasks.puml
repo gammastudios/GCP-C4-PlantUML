@@ -1,0 +1,9 @@
+sprite $CloudTasks [70x70/16z] {
+xTS5OiD050FH7zGKTV_JbjdiLJaJfXSpkDCP4ydJYUay5RCwjWt9Sub10IKGo2XA811HXXab5460OM7N4KK91DojI30a595WM9KoIWA1TqYHO4Weubt7_NuF
+tDsBxej1XlVjgpP0LHsVN-ZkXHvUrD26N2qApmhJ2iEA7f7jg7AOKkWCofHo65JKf3mpq3X6o8RcOI6Z4506EYcWYEAVezYAA2QoDlfdA7xi9oX-wZgYk4K9
+x65JIkZ88w_uEnL_xFiKTuiWLaHnHj5Y930mPn7bay-45L4SGUoVf9mb43k2tBK6kGK
+}
+
+GCPEntityColoring(CloudTasks)
+!define CloudTasks(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTasks, CloudTasks)
+!define CloudTasks(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTasks, CloudTasks)

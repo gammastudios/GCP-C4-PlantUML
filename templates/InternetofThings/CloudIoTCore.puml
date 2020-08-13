@@ -1,0 +1,10 @@
+sprite $CloudIoTCore [70x70/16z] {
+xTO5TYGn38HXcMkfw_wdtQ07BSN9gmU1VvY-ORcvsKzuknr3m43100866aN1GACe6430GACe66WK1GEDec000JEmRjXBOql1kcAp734nakrS-gZIxRBcCJxI
+R5aQ2yPLp2sxIem0Oui9tqw-LHt5UIcrlvpEAr9FzbHPCbWhTPufE6lh5tD852oGyvtjIYbexgzufPIbObFVJQCWK83zigDqlBFvjDNcg1dmubTJIEugpNgW
+7FxOpcSb-fhzSMasO7PMccNKzGmVT1dBGBS-bHTn_M8OA0OK6m2A0K2suIW7VIPVJeCKVIxXobZcWnkIuOKP4K8Y_jLOtbkfGwLRzP4jPSJZ0DnZUepuodw3
+2aQvTQXNA41a2YK89GYfKNuf45AZ70g4b22aHg40sMFu3Ne
+}
+
+GCPEntityColoring(CloudIoTCore)
+!define CloudIoTCore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudIoTCore, CloudIoTCore)
+!define CloudIoTCore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudIoTCore, CloudIoTCore)

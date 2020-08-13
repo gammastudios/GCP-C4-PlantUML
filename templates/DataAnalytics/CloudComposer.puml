@@ -1,0 +1,9 @@
+sprite $CloudComposer [70x70/16z] {
+xTP50i9050HHd4Rx_gV5NNv62gVsUR4n9_PFpQKO02E2aG16Z48mOXI24Q5812E24QCGZ1Y5O2I06UgYritQiQ9K9MBqOaKHaguC4KK1Sg7r54GgmTL7PR1_
+epkCgfKveiWMe8XHz1Hbt-kLpgv1rTVTzq6ARKQPLoltvtHdLu8oIbnVOiM4CczSTrCK4ugFCOgB5VEA2nNa_38qmP2dGrunW62A4SG8OZFAY41iHfaJY8qW
+DgCOGD8O_q1B
+}
+
+GCPEntityColoring(CloudComposer)
+!define CloudComposer(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudComposer, CloudComposer)
+!define CloudComposer(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudComposer, CloudComposer)

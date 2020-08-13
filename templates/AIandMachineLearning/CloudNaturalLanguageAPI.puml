@@ -1,0 +1,9 @@
+sprite $CloudNaturalLanguageAPI [70x70/16z] {
+xTP5WeGm04HHd1gj-vzsD2kwWluT_PV8mqcyisVQZZ0aCOeGH08GJ160O8eGH0WYCOe015C489YY5QJvJwMu9ZCpekYaee3GoZXDGPccHpyYHPcKUrJc3QLP
+r4P52JckY5HqG6c3ee9aPLeqrvJFkXBBYcm1YW0bLh-xTr9SLxf5lVXdn2ks6ULpxztjQWhoJR_uhukA2UNJfKlAqJ4WAgkZMjicess2GeomYCBCF0XbXkPI
+06D68HWp2i6OK5oBKLu8n6QKJmAn4SHc50F8FiOtw1i
+}
+
+GCPEntityColoring(CloudNaturalLanguageAPI)
+!define CloudNaturalLanguageAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, CloudNaturalLanguageAPI)
+!define CloudNaturalLanguageAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, CloudNaturalLanguageAPI)

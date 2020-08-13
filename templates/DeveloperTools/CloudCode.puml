@@ -1,0 +1,10 @@
+sprite $CloudCode [70x70/16z] {
+vTU5Je1130FWVuUiwBt_sn9ZMSCkZHHljCY7zDVz7m8HWq6EG5Gi261109kY4HsFykf000i2s1IDwDWKZUXub5i70cpE0nmC70gcP7AJp8YibTo4WYdhkbRs
+9fZN0zA-aHebtvK3qhwH6qSXzOtSvbzcHjetSlkG4v9nLI91RM1cPQsCXW2jtQoSbCF4qH0W2Xd_gFrmcZWQ0aGX8tEUE1e2H26IuL6Z8K0KefcRFcgYfn1c
+zCGS_fnWsgZqM_By44mVjI4yFpYl0zD6RGZFpzaOc3PgGsX-UV0cZLe8pKzvdHGaZJhCBqvgVKwVa2q61xT1aKnaDO5iNfi77nedwKuo3yvDtv36mQafPAVX
+3ckuspkVFBO1cTVMUR0yr_sWvzsV-1x0iI2QyIi_znsMOq7shK4XHY0YgOr_a3S
+}
+
+GCPEntityColoring(CloudCode)
+!define CloudCode(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCode, CloudCode)
+!define CloudCode(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCode, CloudCode)

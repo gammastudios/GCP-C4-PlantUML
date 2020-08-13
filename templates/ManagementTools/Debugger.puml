@@ -1,0 +1,10 @@
+sprite $Debugger [70x70/16z] {
+xTS5Li1048FX-WIT-vyMcUAmsPGNdFzfxQjRYls7VefXOE1We6P0R0eCY4s11O450JmA38XDWG6nAJY4XCW4MAkeW3Mq5J1aMwiDjqKfwzuHPHcgPT-KKeOz
+j1amPUPAQCh05JIHKh0tb59jRoeGb50LC6NeAsWWMATfmctpKoLgxEikknVSlK8J4461Hr6G-_2k5XdHDsMsxuz-T6Eixf7WIgTx1Ww58vcIClMKItOttYlT
+kp45PMFAILPz1Kn9KG5JBllFtL96qEUkg80f-HXL5gwqcTYgA0NLjiUGHBCnm4gDcJX25Bb81-FvElGe3YOzYeFn_9EqyYWd3YJJerpg24j774mwcEpcC7v-
+rm
+}
+
+GCPEntityColoring(Debugger)
+!define Debugger(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Debugger, Debugger)
+!define Debugger(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Debugger, Debugger)

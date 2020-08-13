@@ -1,0 +1,11 @@
+sprite $CloudDNS [70x70/16z] {
+xTO5UkHG30JXVgXQzFrFkn267iNACbHmwFzazd6o__5oPSFtVHJAI9tX-oZVW-6dAtmNX2BIy9KK2NmLv7ieIXGAoBShoXKAo5Nz31EOcXwrNrJW12F7P4Xi
+xfarTDCkALFIFGEmTLKaZ5sjyMH_sPw9NBbVD_dESn4Xf6wEevGXJzoLA9nlMSOYVWTBXlbeb9qTEbFIDCEuDIjH6eR3lZ40rWBO0GjOsoWcFvC4kb-jhQYW
+ZOGq4Kr4sy1ufTA52Ab1HMbISAyiDG530kZ9sdLR-affQ8M4H5pPAYkIG0k9AKdaYjzt8mAu-M5l0Emfk7frldYc-bXL7EA7cRg8B7ksAnnAlNQMaYJv2qkO
+yq8sZ1mox2XUOLynpJnZaPoHzlqS5k58cT3pba5o1RgUnEikzzCO3iaLO8_UMb_uedIpMxybgoFVNpdgoFTHR5N4LqPytqTvKqLytqVvM4LyPSHNLdnbn5Sm
+_k8-0m
+}
+
+GCPEntityColoring(CloudDNS)
+!define CloudDNS(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDNS, CloudDNS)
+!define CloudDNS(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDNS, CloudDNS)

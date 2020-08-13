@@ -1,0 +1,10 @@
+sprite $Stackdriver [70x70/16z] {
+xTO7KcGn34NHaUETXFQ_Md9osmWrzIh2NS2fz_FtP3_nUHb3mA1WGC2WKHGC6aN1e510mQ1Wq2WA1esYO430J8d2tg-rnh4OOLmem0YKt9G1rJWK8csVOjP2
+XhqTAMRX6FPiHGom-qh0i3LFnsF1cCpnTEWMCwIdFDJPkqbDcL3DWZ7fg_nQFJBiHOWPkMnxWAPTpymrm9OcNshOKY5JQ_rzsvRSsUrrxOAfEOLTASSfiJAZ
+CVs4U6BCW1vFSRz97LDqcJzyqwtAknkFlUax4u-vwYt5E3Fr_5x8ZfbGuocUljeZG59ZEWmZLZmnvfp72kqYZcd-F1JAT0MZ_3lKAov0P8fB49SWxXhbjm9n
+roWt2YG_nkCqYWkG7EFVe3i
+}
+
+GCPEntityColoring(Stackdriver)
+!define Stackdriver(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Stackdriver, Stackdriver)
+!define Stackdriver(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Stackdriver, Stackdriver)

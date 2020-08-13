@@ -1,0 +1,10 @@
+sprite $AutoMLVision [70x70/16z] {
+vPXLakWm30JDceUw_scNoQHCgfJ5_awrMH3z0U0G1mVZ4NXeu64173GDDCrZAe2B1BZKWfDSQC5fN2HeBXQuI20k5XnAMXgeXvh_c8XXH33ptvvA3HCP2ypO
+964c7Mmm9agO4Nk3GKqbOytUai83ODYVSdYWWi8-vGWE-vGRIAojpM2HbILt1ykmtzg29QM28dLRc_hR8kIUItVARRYuEOJ2poKDBxky6KBeoKXtvltwCXZA
+wuVXYTf9kSd4CBpisAqlWQBkJdax5GMDR2-IQW5BteOB8uVmuS98HNouKCF2XmizeTc62xKjcSi3QcfQc2c6HFzlNsLFnCGlVOLOa77AbaQO5Aj75jGq89Yu
+eWfISR6eYqJ_upJ5jMh--3xWrwNzaRXOr45oxhIBKoVie77wGs3pYvRO48uVm2q
+}
+
+GCPEntityColoring(AutoMLVision)
+!define AutoMLVision(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AutoMLVision, AutoMLVision)
+!define AutoMLVision(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AutoMLVision, AutoMLVision)

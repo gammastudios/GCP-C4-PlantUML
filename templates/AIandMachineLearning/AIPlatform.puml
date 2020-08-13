@@ -1,0 +1,10 @@
+sprite $AIPlatform [70x70/16z] {
+xTU5RiGm48JXy4unx_-stQisOAqdRgGHjBs_UFG575n_s3EqKnYUHe440GI8J840aIcG890WW4Q1094f420o1MraYWpp_b-3CQIwo31qKKj1ggyeCs4eOjsX
+ZFl_TvNup1oA0Oi_Cn268BD_P2gKW5FMd9N-j4J668v4nNe1gw5qXJ9TA-JZUOmOrXhblW8ZzTcO5IgNrP2f8qiK8KT7sHiAnOeNSta7MkX83_5g8plD-NnI
+W8Kkq-Ke0ui7cF-syolB7SPmRZppVEtcTo-FWEMxX6GbLnjflXE0LL4emWyBGr8Ce3lIPtMmHtZbKGgNHnYa7hEHb3W26ZlQ8KNs8p8hJ9c9GeuBZ67AW5Jh
+T5IHAS9FZMD2RfySxvmRkJ9M56CAPoeAHRXYqV4lKYQwbX8mgqPHCAj6KJ2QUnAMHdaH89v6-HGWdWBnDCggG3o1yGVw0W
+}
+
+GCPEntityColoring(AIPlatform)
+!define AIPlatform(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AIPlatform, AIPlatform)
+!define AIPlatform(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AIPlatform, AIPlatform)

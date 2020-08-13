@@ -1,0 +1,10 @@
+sprite $CloudSQL [70x70/16z] {
+xTO5Zkmm48JX2dOzIj__j8_MwcIX7C-eXBk_QCYVD2Ob1_kAzuqO1eOEXgCP49j20s9JQ45eGKYFGWDYKsX0R0h7aHNxA1CK1Vurg524rapH03BZR7jIsV2w
+a8n60gs5Q4tyeEWfSuqiKSno1-7qUjYc5TufEy_c6uLIGLpsdbHOY51g7D1H3gdiQCrbI8MPL2tbeBLJbTJXLGiVRzfgdvpxPeb75I0kfw1DrUDA6pkt2I7m
+Z59piTHxgMHN0VRQSoEAlbl8G95IaU5DCrLoxwxNXQvb2gaSObxsjj3dZ4ozwqueRMHTkfkQtRYxfKWIcEhVnJEtr7bu0AaSgPdjkhhBoBsR_GqJQ6qQqGo7
+jalUCe4pAgIlo0EabUmUxerZI58tKnQcPoa3anx5mQH7SJ3fK5BbKRuva4oFSZYGJ0kIwL7IW8mn-Gdw0m
+}
+
+GCPEntityColoring(CloudSQL)
+!define CloudSQL(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSQL, CloudSQL)
+!define CloudSQL(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSQL, CloudSQL)

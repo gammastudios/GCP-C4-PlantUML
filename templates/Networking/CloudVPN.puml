@@ -1,0 +1,9 @@
+sprite $CloudVPN [70x70/16z] {
+xTO5Wi9G30RXrF_LT__JxcB1witW36uVLacQs3kD5pGyHX62I022AG8GJ162I022ALg2b5v8CQyUO7GpHQF8kD9c6aJHVANDwCQAUf1HfT59RMKSajTI5594
+AeeepYYi_BQKUbSpGr4BCK-xCZChHnIDANvhMD6mabcrEQ-NAQUQUVUkZF-wfMKR1FcFgg2YEhDS6bR2Qu0hls45MQS_xcShzOjkTrE3x4aIe01xM4019Wz2
+QP1PYfaE4OMTcdab8KWA8XwZVCGGZr5-OuWNH3n6IK740umdw1y
+}
+
+GCPEntityColoring(CloudVPN)
+!define CloudVPN(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVPN, CloudVPN)
+!define CloudVPN(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVPN, CloudVPN)

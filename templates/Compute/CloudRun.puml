@@ -1,0 +1,10 @@
+sprite $CloudRun [70x70/16z] {
+vPY7SkqW44FN1hDwBuN__zeqJKb3u3jArvJKU-Oi7VeV2AOnC5Ou2GS63WfWm3GifpbK00i4-50AJkO3AJWT2mJDGe45WhHGe2499azXRl4ojIOf-uHpg-ff
+iN5cRb4X8zUc27wyHcYTL4rR8k9uak8tumW8ZeZOML9CT0Gb8o8ejHMjeuRA7X6D9Q5f7VOoC2YfKEe0fCvOXILHQYTqh4E8BEaWBFUnJeufbIK1X4aTGaOb
+RPGgWD1HuKX9EcGoPQoZIggKUf5pEeqbKUf5IbeeZehQHQsxBA9xUYuo7tKB8htNwGoOz_5yDfPWr6nyZ5mPC1N1oYgbH9YL5LE8C9RLEnTsabpVIVhjvRlQ
+Fxt39bZG0HbrPgWLQxlzvEIn6FCfY4aBfLiW_HQdKoq7tkzv3_3VZz92wGR8kTwkffkm0MDw8T3vXuNyixoS_87S0m
+}
+
+GCPEntityColoring(CloudRun)
+!define CloudRun(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudRun, CloudRun)
+!define CloudRun(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudRun, CloudRun)

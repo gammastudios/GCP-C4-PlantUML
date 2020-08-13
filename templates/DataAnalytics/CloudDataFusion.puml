@@ -1,0 +1,10 @@
+sprite $CloudDataFusion [70x70/16z] {
+vTXNUeKm34HXmJMUITN-Lvj2UU16YasOzFFE_z5T_4rW8tYpmfwy4IbW-AKA9GXDeb22K8AG6WKU1YfEXXGma2YaW8548VEgeTZIYFSOD9JHjYRc2hiLOyhK
+_L63BKsmsgyyxf39h5T1VZtMhx0aFzjZ2fDJQIlnoQ2bu4BKEeKAVOqjPGcnWXu5BOKhaYYrWhlA4XdScP8fl0vBZ4w6tOejdLJA4WE6kTBTeqGX_wzoiRbo
+JYd3NAoWLwdJ71ZblSfeSqMYN4B4_PELSPVbIl9_IVfKvSRdJYf-N2aPuey7b2bLdFj6InjutQqVPWO4fv8fH5BqiqoP_f3CWaxD3_cX857S5OnerYmu6KWK
+ySf6lyfoZG9--IBMyxvQUNG5ymKx9wvH840Ifuay0m
+}
+
+GCPEntityColoring(CloudDataFusion)
+!define CloudDataFusion(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataFusion, CloudDataFusion)
+!define CloudDataFusion(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataFusion, CloudDataFusion)

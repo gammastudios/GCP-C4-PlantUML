@@ -1,0 +1,9 @@
+sprite $VirtualPrivateCloud [70x70/16z] {
+xTO3Ui0050JX5s-vzpzj6HjJTpw5Vmplx3zjjyS0616C131Y588Hen2C24KY616C68LWn2W48m5CXIWIm6XK4dLvFI6QYWDADANZ2PaM6LrGAaJH8gAOjAo8
+L7HHKOrSEY_I8w9e7b6UfkchaLRDX7gydZ3EMYeY5iRtzg_usoknyorLHzsxVhoi8C_qpVTvIpqoxrr2WRv7oqoHrrLB4vgWxpJ1c50g4mpvTyWh1X1CCO8O
+GMn6kI4Gcr4U2SH649jH323x6F-1dW4
+}
+
+GCPEntityColoring(VirtualPrivateCloud)
+!define VirtualPrivateCloud(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, VirtualPrivateCloud, VirtualPrivateCloud)
+!define VirtualPrivateCloud(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, VirtualPrivateCloud, VirtualPrivateCloud)

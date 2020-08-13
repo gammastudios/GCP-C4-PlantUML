@@ -1,0 +1,9 @@
+sprite $DedicatedInterconnect [70x70/16z] {
+xTP5ei8m00RXfsIm_FU_BIkS-k3ClbyjbfvzeZl301m51G41qHG4H5DG41eHWy5WS1I3mL4C1WIcA0fZwqQ-JlEKPeO9IXdqLPeK6f212gR2H8LcvFlhe9zs
+fIeA2OA2ew0fpTSVAhlAOojfi7w4VtGN9OcZL2xrUwZyjYlAd2wFiqhLj3Fbi4P5sGFi_IWPhKZxjC74K4eCnZmT-ae4H5EY856Gn57c1f8uIZMGH44IHuc0
+z6Fo1cq
+}
+
+GCPEntityColoring(DedicatedInterconnect)
+!define DedicatedInterconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, DedicatedInterconnect, DedicatedInterconnect)
+!define DedicatedInterconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, DedicatedInterconnect, DedicatedInterconnect)

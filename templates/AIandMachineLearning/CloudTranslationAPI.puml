@@ -1,0 +1,10 @@
+sprite $CloudTranslationAPI [70x70/16z] {
+xTPLmjmm40JXCgf3dlkVDcGU_SiTJZqjVcP9SMV_q-qSXYIF8WiY6H2R8WDYKsH1P44aZo83ObDaG6oAB4XcYaMH38n-iI8Bed9H6Vl-yPrHhWFTtnDAspHl
+Atf40GQbCa9LxODIqwCA3A3SWrUvWA1JhbQM0sz0LGrD_KNT_dSOLGL5kaiHj1AWlNQ-2mTOlhzT3sD_GjH2cVz__pq9G9ilcYJOZ-jKN69qhANCEz5z2vex
+b1RIkIrvnsuhp3LA5HZdylMBo4m7j3FLrhV0792LAVqIodnLyt7jxz8LpCyq7Exlzhmx8-JxUwv4OhhpKRHeZvD2FKhTrNWukd9uCpb6RuL3CSr73YOyYeC9
+XrB2mJXNXtub38XD2GiI5YJ2exnp814UPN8W4HOamgE40RcFYN-WBm
+}
+
+GCPEntityColoring(CloudTranslationAPI)
+!define CloudTranslationAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTranslationAPI, CloudTranslationAPI)
+!define CloudTranslationAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTranslationAPI, CloudTranslationAPI)

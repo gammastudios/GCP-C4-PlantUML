@@ -1,0 +1,10 @@
+sprite $AutoMLVideoIntelligence [70x70/16z] {
+vPY7RiCm30MfINRw_x-sov0BMBb61DXzRO8L72W-Mslx1zXLV0x69M42BIm9qDpOChUUKXYMkFXKYpc9iO0aGDFDpIsKuWGaNa8jBEdvH6CDMxASKRAmfCb4
+kLACsXbDCf4DD5XAbHa52qfKO42iuTRQ2fpoBccs15dsrYPpM33bRejSJXcwYUYbKieHhEhu-XXEkUxzAPRVsZnChTcCKiffTBcRIhC-dZdeEPJITqihKh8q
+5T4nscepK4kstLAjlQ33el0cG35wMEeBXoMlXrV73wSHTP7rOfBOpdjtc-ZnJEULa4QQSz8LIzcCEPwwquCquPdz2qqNYXRFTC5BaMEwsD3YcIusXmQd2rn8
+HZTdb2qRT7C2KfuqkCHIQojPU43DiL3ZofPPmiMqV4BPylrxgPkWtM60vZ74yZFF0V7d8pK76dFYOvoIU4lysLvNBG4Q3Rav-GSy0m
+}
+
+GCPEntityColoring(AutoMLVideoIntelligence)
+!define AutoMLVideoIntelligence(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AutoMLVideoIntelligence, AutoMLVideoIntelligence)
+!define AutoMLVideoIntelligence(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AutoMLVideoIntelligence, AutoMLVideoIntelligence)

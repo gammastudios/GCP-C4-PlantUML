@@ -1,0 +1,11 @@
+sprite $CloudFirestore [70x70/16z] {
+hTQ7ZYiX38LX2CRdp6sy_zFUFiZQjGU8_AjipISyH8JnAQx2M0Rkj40AjxgU5MwMCC_gsP09YobCO8GP2ZEK7ynWmACG37HOW2GmI57uHjdAH18Of2YCKsKO
+DXMyIcbWr0u2RULleW64DQAjtDMcoyN0DLx55Cq5WyIps4Gz9bJG7IEQAtmglPX4Ykb0aN9NXIJQauALKkN_i2erL7XDn5Dg1sUGKA6FKEvPR6Z7ofo5AeBf
+L5UXh_HkNsX8YAyem-pcT3u5nisDcTjr7jeqrauyYvES6MBNOB_lT0jssioXQjT5BomKmOVvV6GWLch3foChEkyYfOewnsUaVF4LWRjluMddAFSiC-3_N14o
+iFmWqtQ_v-8JS_0vlCop3fGbWpAJznMrX_03Ch2Zr0uVcQqKEqsio489JuLh-_uoPt7Qlaj169PmhyjIhenRCxFlthCS1SU8MuvodI89Yxb61ZF2aAAC56Ia
+8EDAKGPIbB6B931Z7Tv0VW4
+}
+
+GCPEntityColoring(CloudFirestore)
+!define CloudFirestore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirestore, CloudFirestore)
+!define CloudFirestore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirestore, CloudFirestore)

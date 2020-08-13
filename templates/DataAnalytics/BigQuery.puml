@@ -1,0 +1,10 @@
+sprite $BigQuery [70x70/16z] {
+xTO5TWCn40FGHOzAg_lVjY_We3KEw66hCFsORJwO_w0VWx6BHu450Go8JO41iIcm8928Wu63WKTnCF0e3WOmC65H00C3dIYblAcKeIRwJ6hKgB9sb76upefc
+ScJOPRnyiQICBWbG4xkN9L5acqntPKCpUNtktnhHofOLfVzUpHcH_xkkSNvp5OnKSCovRnPH69LeAdXIAKvbT-zKvddD5AAPQ-Luvr76fvKZKvMAXfe2igi3
+MAkoG-Pi8csTURHJAZmBf3yTerH452MecVLwGPa7EQMPA5Zg-bQNBC5iJ9aoN6TiCsmeSlsUWIP3TXciLzjHYw5ciiA5H8Z76STs7mhHIj-aWt6U3lqA3OXD
+eGMX1I4zoeS38JtAva182q9w51gGnnZ-WVm2
+}
+
+GCPEntityColoring(BigQuery)
+!define BigQuery(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, BigQuery, BigQuery)
+!define BigQuery(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, BigQuery, BigQuery)

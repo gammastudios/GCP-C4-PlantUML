@@ -1,0 +1,10 @@
+sprite $CloudVideoIntelligenceAPI [70x70/16z] {
+xTP7ci8m40NXjgrG4tN_smuPeQ_b-7P3RSW_uD1oMTaxbbjZ21WK30WOD8g2GQCe610mQ1G5WqPHC6WK1GC29aiK433ebLnLFLfaUCcg8Dkj2RyLoW1ZgsHV
+eQyOq2ZHS1XV0SYF_rGfPhw2emm038yFt-xSO8V1Ko3QhLgPp5D-Eye4rbGzv-mc_AOj2ZtbzcvVMLFzkV6uOZJjKmQ90eoFuhQj6y_PgGI2VPHItA-ab25l
+EkhyOtU0ZSglerXxzweGNQLxJjlZNgeLS9IF_dm9foOx1TFBV1bQXLspBZNAx_BS3R1wUkUk0d51aQngQ5POZQ9WYaB9HS4ehmxrIX4WCgL8aA90JccK3m5o
+IgFy2f1J2kIKHYa2P1rJ_a5_
+}
+
+GCPEntityColoring(CloudVideoIntelligenceAPI)
+!define CloudVideoIntelligenceAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVideoIntelligenceAPI, CloudVideoIntelligenceAPI)
+!define CloudVideoIntelligenceAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVideoIntelligenceAPI, CloudVideoIntelligenceAPI)

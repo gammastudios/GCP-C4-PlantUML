@@ -1,0 +1,8 @@
+sprite $PartnerInterconnect [70x70/16z] {
+xTP7We9000LHM7NDgFtlVrjNPZ9bjlOyKgTCx1VZJJ441eC1WS5H30P7CHWC1Gm6Wy5H30P7CHWGcA8eB6qOQPkkLAMROOLIfdsLZeix7uPL2gR2IeLkf3bs
+fWnyugee90WAZeAWT0FToaNjAodErtrP9OcZr9bAsu48SxgypYfLrNKtA3j972MB5McVDfWOIed1cAT3Nuc0Q4eK90gIECgVWIIEKWqaKP34KI8WqvXyGNi
+}
+
+GCPEntityColoring(PartnerInterconnect)
+!define PartnerInterconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PartnerInterconnect, PartnerInterconnect)
+!define PartnerInterconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PartnerInterconnect, PartnerInterconnect)

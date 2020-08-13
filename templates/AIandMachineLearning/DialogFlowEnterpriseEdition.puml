@@ -1,0 +1,10 @@
+sprite $DialogFlowEnterpriseEdition [70x70/16z] {
+xTQ5SWD138DX7wwBVl-dBRSAMD5brkNyGuNacpq5OsENNDTbe1h59TBFU9NIptYreYj1l0j1DOeBf5uPp6mIZ49cUstjK9gXJGmpqAYPbWrosAoKP92ibZ0S
+MOtLX487EJqFGzoIw3ejKUHX1hgC8-LuKgwy3hZGQQTKyOC-RfqEiXuVA4CS9n-E1yakwvufDi0v-ZLPnbC5RmUuduzqOgwOBM-_htXDG54PMfFNn7O5DVoj
+Gp73NteK6qmgeHNxLKf4r2ZttGfvJP_rPkTNaJA3dMeIxrBed57kWpABCb0GXLxMoX3Ek1W42XXvdC450eMFuwIG39Gc4QrCpcgXcHc3aE8eehX4jB8MV5LT
+N21QqKK54nLAi6gKgnu4rIZtFGZgGb2D4bq8gZ1-Vuy
+}
+
+GCPEntityColoring(DialogFlowEnterpriseEdition)
+!define DialogFlowEnterpriseEdition(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, DialogFlowEnterpriseEdition, DialogFlowEnterpriseEdition)
+!define DialogFlowEnterpriseEdition(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, DialogFlowEnterpriseEdition, DialogFlowEnterpriseEdition)

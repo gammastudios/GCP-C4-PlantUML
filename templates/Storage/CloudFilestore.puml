@@ -1,0 +1,9 @@
+sprite $CloudFilestore [70x70/16z] {
+xT1LWiCm40HHitknxt_QPGXDvB4hdFgp9Js13vLA0SOaHY8O4Om8fHF1I03pYYXAD2AAOWHWEaHHie5094OHW62A00HJ522uCcvMOhIhQhCvIZr9KVOeLPTG
+iZb6XcPtiT9fkofe31abb5hRZT5HXZOgUXajZr4AhrBubrQQVOe29IYbt1NRvwBui_DG_1sZU95YLddK_FmVepmGYCqe7O7O26AVJl5sfrAygzCetjqf54ST
+Nt7SiHMRO4mmPXI2iG76KyeRxm
+}
+
+GCPEntityColoring(CloudFilestore)
+!define CloudFilestore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFilestore, CloudFilestore)
+!define CloudFilestore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFilestore, CloudFilestore)

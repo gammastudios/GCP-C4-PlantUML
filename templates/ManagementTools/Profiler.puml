@@ -1,0 +1,11 @@
+sprite $Profiler [70x70/16z] {
+hPQ75gGm24L94TZA_t_jDdF46VEKp79FjLrVEdQ1z0bxHWF8YWJJxHRH6CjHrYqQPac2oR7yp92eO4j26D4rG9H514H92AFB28YoI2oAdD4hNoDHX4wqI1Zz
+o290icRH70iZYIFbnAPJi0KZLTxlH2MY1uKkce15Ug4_bAv3GbJrbIzF4YvqK5Yrqbyw20DoD7gXxTSL39E00Q8P5GtJWwISTGLDO9rIHs_y2of73-aCQDdU
+ExBJNpOqWGNF_UtgrIaWIlSaN2k_tOjQZexiv4sx2ODxXNU9QtZSZT9651wEyVNGHQbZFo6dZDjLm_ZFdH4Dp1XaaTDUvzUhbhsJdStlNp3h2LdCxF_xHUQM
+CX-Z1iR8_h8sNu34U3vtPTVvQIIx3LXilgJBxlFLNURT8iYYxVXKUcjTxjQq6GvpISzZlD-XQzc1jxPjt01HG9XAVwdi9nCQPkVc3AYjLPypK88rJanYeg1H
+JWsKP4_dT6MT4IfKkPL2L4hZOAcg7v1PDUTNy9OIPLrZEPOCpLTWaSKe2Hg3S8h5KYHn3QTOx9uSYor9C9yuVWC
+}
+
+GCPEntityColoring(Profiler)
+!define Profiler(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Profiler, Profiler)
+!define Profiler(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Profiler, Profiler)

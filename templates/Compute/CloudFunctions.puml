@@ -1,0 +1,9 @@
+sprite $CloudFunctions [70x70/16z] {
+xTO5Li0m48JXhOJziSxzJuixczUq3CzWwlRLasWm_s4_8uQ1mS60WS6ZE1WyYeF1eO23mS7WKHmC7iN1W859YyBND8fapVIHY0A9o77b2Oaea1xJHwBnEH6b
+_QvKo0ebatpE23BELFisw3AbKkswGf-XOCezEQ9i5WK9Wu97WRuoJmaiKmFMMCyfqzDqUHgtY6XdbATfFbcDEIBcKyhpLLmyZJCYJZxTR1-AcjNuZgPVL2Hv
+bEt7IlUVdWvykzalN-9e-QAgb8vf5DbqYAaHz9fw_taSgPdiNWk5qcSA17OGSJPoC78eAGVZR1tw5HaGco8B8WiYUPHB1o9vbCs1I1P4yYWo86EC_a3k0G
+}
+
+GCPEntityColoring(CloudFunctions)
+!define CloudFunctions(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFunctions, CloudFunctions)
+!define CloudFunctions(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFunctions, CloudFunctions)

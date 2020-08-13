@@ -1,0 +1,10 @@
+sprite $CloudTPU [70x70/16z] {
+xTO76jCm44JXfoXh3Isw_stHPz5PAyOCdPTU_BkNVhB_wNaEO-HHP47MZ3oAWv57SJ1oA9A3aOEHHt4myYWEHZ8mpQ8e2QZI1imFvHcZNwpe2L8ObVayNsvA
+Qak5B2Mja49MovbSOTM1eYD54fls0ecPKaOB1JGZ5ieZLsgjZA90bKR1jClu9LqoofkhbXrhx1eGobifaf0szZ9bNKJmGPaY8Q16747BTHHIOrHvtmNbZe9D
+Q7HTOTIKAkUNxWtOD9NhwsW-gy9tA52uImfeAsMv1r3qlerDp7BbSQY4FjQ8GsMzJoTVPahhELDA8M_ySdYKIhgHfQJ7jnvtRqhgAqKDA15tuFtUcNNkVDJE
+dez6bvLkKJnN7WwbTGVZl3hqAzs0s9HkGRe36NcK5mPav54U1cJaG4OUfJkGaS7u2teB
+}
+
+GCPEntityColoring(CloudTPU)
+!define CloudTPU(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTPU, CloudTPU)
+!define CloudTPU(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTPU, CloudTPU)

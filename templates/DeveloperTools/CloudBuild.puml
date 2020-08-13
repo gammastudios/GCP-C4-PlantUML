@@ -1,0 +1,10 @@
+sprite $CloudBuild [70x70/16z] {
+xTS5TaCX48NXUGBpr_U_slh4B-64gVV6xJi4vw4p_-5yCWmWHo45WGGaJI41ILD8GKX184SX0KbJw41obMgEIY_Yzfofat5EPxAth5qA9xFODdwU4HMo7xz0
+SJlAr6PqXKHqzRXMLbEfiZ3jaW2spO9YE97zAbrRDIEGoO4QzS02CByNY-B7ZFe_0CiKFwy0x_TshDmhnMO0A54rySafXKOh5_1e5soAsZcbe1K3stcoWac5
+ymhuk3A3ZIjGnfK2ffJ-seLbN05iK66s7KGhhH5Ts9--bvPoh-U5K6B-58eOq_jpP7spb1ApdLPYLZAJYfwbR3TGh3NPtJyenlUKjRaCjDQ0Ub91899XELBg
+HOlZjASiAAIjm8uoiDnJtXLl8n5KPbXNH3nZHqRExZ17oM0UCfIhXmmcvqoYagDSZI6H7EK-0-alJERPNcSGYMGOFpzF
+}
+
+GCPEntityColoring(CloudBuild)
+!define CloudBuild(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudBuild, CloudBuild)
+!define CloudBuild(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudBuild, CloudBuild)

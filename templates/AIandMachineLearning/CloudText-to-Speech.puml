@@ -1,0 +1,9 @@
+sprite $CloudText [70x70/16z] {
+xTO5SiGm50HHQKaJdFkVDioHlwTI7TukCZupEEoOraiCW171I00ZHY4OCGh1Y50aWX71Y548Hen2C1B030MD_QWL1RNRAaP1lSsO3-nABtT6eQA9CX15SwI_
+IBSTDhjAqLHfBteQFwmgAfIdIrCecY3QlUWUtQuebxQ3azfR6uKYMu0YHj4dAUrrdwGyKRXY1VqcnJQZNAwStTqBfRUxjkyGMxcYsRltn4zCg1oMN-3vUPbr
+wOA95JjN3akAdJAxTbkXP4o6M04pD8dvyo2KOO8X_mvvnG22AKOG8uZDA2S4OZFA9O7O268pYW4aO_mFkWO
+}
+
+GCPEntityColoring(CloudText-to-Speech)
+!define CloudText-to-Speech(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudText-to-Speech, CloudText-to-Speech)
+!define CloudText-to-Speech(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudText-to-Speech, CloudText-to-Speech)

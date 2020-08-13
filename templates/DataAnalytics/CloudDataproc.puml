@@ -1,0 +1,10 @@
+sprite $CloudDataproc [70x70/16z] {
+xTQ7RiKW38LXjazNUF-dxNP0ZKMiSZJRN-DElko4xkm_tESn20mO3BmH49e20a9JG450GG2E0W92Kq10Q0gSYCJmNdOo0hCIlXEN0hCQpk1WO1VUY-tJYax5
+tfwg6cuPs8t12qKSIZpVoTtAO6TT08VI1hTMi592QasFqOh1Kj6mwF0gM3OGMqak1NUAhb64Drj1-tBAdW9alR1tbB6ZDnN85vFSUrVlJbb7pKneNaK7p4eA
+Md4guQBKC2NM9M0ZkQWozebkggKSbgB7DwcgWvEXMDTqdUyg4Vd7_hWgqWqcpueAfo9NfLjAkIXnka_5Yt9qaz6TgWT6wVYzej5O5LC9GIJDnnLXP2068s5K
+XgqrvsEjZHqoPPzpg-TqDA_WchFZSV-BEaEHpc2OiqE-qWa8JUaKf6yY6aTvs4CqZdBi8Teced6KJa1yJFy3lG4
+}
+
+GCPEntityColoring(CloudDataproc)
+!define CloudDataproc(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataproc, CloudDataproc)
+!define CloudDataproc(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataproc, CloudDataproc)

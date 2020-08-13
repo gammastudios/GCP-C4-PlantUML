@@ -1,0 +1,10 @@
+sprite $AutoMLTables [70x70/16z] {
+vPY7ZaGX24LHKUvM__zhjpEDVSWalAqdPUexGMvYc_y0B4bmH3o230qoB422PY3Co2W5I940krfm9JjQS3Kf4emK2r8aa1GBbf9HB-XBpICCXIuHM1xzKZeP
+6c1nvoOXIrqq60OcY_WDHgYKjiW9Xafl8C9sok-IZX1-oWKn_9J7HwC75dYjrMusgW8N-SpIDDZZHuRBHclrGPQFyHLrSaU8UjBQIWsGUcoI17ikch8QEy1g
+GIFYU2trv7sHeHRHXiMAaHCB7IrLmrl3-aTZwKJnOWhXt2BrtLBC3E7G-Jnr0Ve0m9kbJFWqVGoQ7iDA9iDd5BMqpUaYieQmBAOBPocAJnSpOB7JXRN4DPkJ
+x_GjBROEJ5SpoC8mk0iiKCbGOBYPHvO3SbBsDH9POkVAWbul41XITq6Af5XcYiIclOPJDhm_vnnmi-lvI58iCq5oNTgST19Eq2JT4FZSX2K-6OxVppC
+}
+
+GCPEntityColoring(AutoMLTables)
+!define AutoMLTables(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AutoMLTables, AutoMLTables)
+!define AutoMLTables(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AutoMLTables, AutoMLTables)

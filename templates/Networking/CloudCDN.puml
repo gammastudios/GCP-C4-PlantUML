@@ -1,0 +1,10 @@
+sprite $CloudCDN [70x70/16z] {
+xTT7Ka0n38DXKorQTF_RCWcTZ1mFQ0V__dslfx3PVpZNCGmC70ow6H2R0WDYKs1181470mS3Z-9WeBg9x2iQYOBf8tqcDR8nMgcGwuhf8Wd1T9NNenTpYnC3
+hM1rhPLiA8bNHYeu8LZ8AoCLd9H49u7eD5Eyuglu2Fg5Zwb81F6fsuAfa4qf6840kw8PWIHsHJ8Q4KgNMNynf8AOuLGkHYWAeRgQNT482C7iYaP0ULExeX5I
+Fk9DKSXK1dwRvPzErimrFlhvA1KVJ4XbyC34EnDQuLbvPLep2G__L5HAbubP0o4AfaB03fDzP0PLYIJPPmmBkzI8QOtfOEXH78ndJwBoA7SEXFGemu6G1cJc
+KMX0UWp_GCy
+}
+
+GCPEntityColoring(CloudCDN)
+!define CloudCDN(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCDN, CloudCDN)
+!define CloudCDN(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCDN, CloudCDN)

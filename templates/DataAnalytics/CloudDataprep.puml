@@ -1,0 +1,9 @@
+sprite $CloudDataprep [70x70/16z] {
+xTP9RkuW44NXMpR-EUybCVlVRL3wZW9PTvOSYUateQkss5_CSnY0Hy62W06nAHWGcu85mOA0Hy60s1GCY4rX7P6qobIBmaM51SIlr9em2H9IF2lF1JzLSsNN
+xL2PAgG8sc7JN25N18e59KEewh6WaEzFANnK2eFEToNVwRoE61G6ohxnqgQliPfwzKcJBYkXvmKwkAmee3mhN5SEbKCRW7HRKKPtI07Fp8hYscdBgMiUvMJG
+_dnrvZkJtUcYKdGiABKbZ3O8PShwApLNpfOnLRqwLsOVIGHC5SklXkU7jIZkoIDN8e9HrJHB6PZcKHnCyoWEfZcKDigZ_3CWFOzo6f2U0-bvb6P0rfZs2te4
+}
+
+GCPEntityColoring(CloudDataprep)
+!define CloudDataprep(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataprep, CloudDataprep)
+!define CloudDataprep(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataprep, CloudDataprep)

@@ -1,0 +1,8 @@
+sprite $Trace [70x70/16z] {
+xTR50G915CPWd1-RzDyjjtT1reAJ0hwLKNhsBzqPHX97YO8a0g8f4H1DYO94GH97YO1eIWH4Kt87cLMRWSnMKTAjT3DviHAgJ52sDvHbjKswAsHQffAfAKYQ
+eWHYT4MPTTL1_fMAjrA404Tf1WAPs1Q3mL0Q7KolaSPGe78KHYlu2YCL36KhtQK41aSn67obKX0K11nbPo3WACr0G470KL0G48mlw0m
+}
+
+GCPEntityColoring(Trace)
+!define Trace(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Trace, Trace)
+!define Trace(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Trace, Trace)

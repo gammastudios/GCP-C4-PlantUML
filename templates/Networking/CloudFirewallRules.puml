@@ -1,0 +1,8 @@
+sprite $CloudFirewallRules [70x70/16z] {
+xTRL0S9G0CLGdA1t_sbnTtZ1cw_ggKjkh8hhtM8830O30eEZ60oEOZ0O2XWC1eEZ60oEOZ0WC5r5uT4k89tQJi31gAeSCXGetGFbmHG4BEKqqZbnFZhGM4q-
+nL2iZ1M51AFmOHNSkv-d1A5FKgnxD-DYHNccUv_pbXh7O9HlWFqzIXvMfE-qmSHGkZ4Oy-_GLo8WcX85YO8aZj8paCHHnWQIA4ZYA56GH31-e2a
+}
+
+GCPEntityColoring(CloudFirewallRules)
+!define CloudFirewallRules(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirewallRules, CloudFirewallRules)
+!define CloudFirewallRules(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirewallRules, CloudFirewallRules)

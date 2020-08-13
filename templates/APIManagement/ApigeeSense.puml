@@ -1,0 +1,11 @@
+sprite $ApigeeSense [70x70/16z] {
+xTS5SiGm50DGirNC_KzR-EiisLPWDDYgNGgyCITPTkO_sCvkWqUZG89m1dg5Hu3854WGI110eq20o1GGHAzujwOmXYDmjs07Kp5AFQY0LSYI2SEGw1vJpYYk
+3s4eKd19cZALALqTuepXI3kb1XzlsyAScJGiBDd0i38LNMXHqEBzMh1AweGkrJ_tQxwS7iRZvdEW-65tNBOuI-eBGxkuTR87O2VFnirCUPfCLaIWJ1HmnL9Q
+EG2SLwpZpohU-NOgodcb5I03y5JXhTlQD1PlNNPQoNTzQs_ve99ifBOreLZJrEbu6OpTSbSOTzjugv37GFd4SwpW4S3rbCQIsSZcjBkbLSvFLpjqAIkJcb5l
+6xjih7MrNxdAS5tWJ7ZU4D5dpuMajEOc26M2SuhBMdqqF2O8LzQAq7cilVFW2gzFNVOmYHS5chj3ZQ9W5esYO9JF97qqoiiPf8z6-LGW-mkZUhRd4I3xcEKF
+v1i
+}
+
+GCPEntityColoring(ApigeeSense)
+!define ApigeeSense(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ApigeeSense, ApigeeSense)
+!define ApigeeSense(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ApigeeSense, ApigeeSense)

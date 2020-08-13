@@ -1,0 +1,10 @@
+sprite $CloudDataflow [70x70/16z] {
+xTO5RiHG30JG2VufnVS_RI4AIQvX9PSx8clXrVtWh2Jp7yR960KCAnXcKu2KAIn0oXIM83IH2eOL3Bz8eOdKAnCQzynljKgCD03ehdN8DEeCUCj8ibkhELJu
+Rh3cr0A6HXgsT6HUqGaGCe5qs3EQxKRAY6jQq8ox9WImboxZB4XRYxsjtb0if3yNOskYizlnEr6l6OkpECgurqTXALI8KcO0aK9XaDx-RfnXekfbVp6Towbl
+rtNfRrLWlXX7_zcflxmutBQwSziH0Eh5ZzcZyBoqn7dHPrSlGMD2MPBtQ8Qbc7TwEWVbnc6DC-repuPfKpfdRFe3yvnrapEZk8ZFpBWcV0YGuVnk8H8_ZmQQ
+aPYPmbuaL1hMpDwwICHqHnEZ-Mz9IXbLhGvSnB0pwjeVTbAZL31IerGmKg68bHhbhW8HgL6M2YJVZFYfKQG0oJ7o1_82
+}
+
+GCPEntityColoring(CloudDataflow)
+!define CloudDataflow(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataflow, CloudDataflow)
+!define CloudDataflow(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataflow, CloudDataflow)

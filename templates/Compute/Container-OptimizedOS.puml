@@ -1,0 +1,10 @@
+sprite $Container [70x70/16z] {
+xTS5SiKm30HGsm5jARd_QGi1XIH3PmVR7IZ-PwQvClz1EJK6WG63GMq824q10Q4fe22W80170G6XAI0WD0LrI1-snA664JmZuP9OLl1C3FTq1SQlI2y0fDj-
+QbCKWIOwJ171zLCs8xwoziAY59a2eihbzxt7MEs9s9KGqeMn5Rigs9GKVZAeRustsxNZfcXobPai9Ub_6bDNIpZ7G12EdkWK6Iz_lCTGz3FzyeCEsA0LhScf
+GRBqKjnh9S3GhkXtetQoL2hZHGbHcxNKunSjMZBW6EpaBSac1MXHHbT93Kgo57--vETkF2bTTkxEax-E05KAYzfVqqjMHKu596UtisPCr7KqOYpjBtvbUjKA
+UzsKtp93QDbt_OD46X2VwL5z7lcCdlBI5yz6Mm728wbut1Fk3APotNS7M17INOh0p1o5mSmSXS6mtYHsECfBAsA7eqmCfBuoxBUz7G9Inyn_85y
+}
+
+GCPEntityColoring(Container-OptimizedOS)
+!define Container-OptimizedOS(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Container-OptimizedOS, Container-OptimizedOS)
+!define Container-OptimizedOS(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Container-OptimizedOS, Container-OptimizedOS)

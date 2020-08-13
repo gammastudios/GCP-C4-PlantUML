@@ -1,0 +1,9 @@
+sprite $PersistentDisk [70x70/16z] {
+vTRL0G9X30HXdCMo_LUBFA4vo-1Jm7Vogu7-8xK76ASOHGWY0GYc240mHGYY524O4OmOXM34A0GZ0SmIKJIq5cJqA4p96HMK9QBeZ5GKjIhgqXcfA3eZ5INQ
+bT6vLBK5A4AKlELPAoX2bHU-WxigYrDb9NadKB7DA54UAv-gAaldpEAcN47skc3sNKBXpgEScJugGO1p6c1CA4iJ37axv1K32AOOGOmWDgEi2CHcb20G6q5i
+HZ60T6Fy1nq
+}
+
+GCPEntityColoring(PersistentDisk)
+!define PersistentDisk(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PersistentDisk, PersistentDisk)
+!define PersistentDisk(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PersistentDisk, PersistentDisk)

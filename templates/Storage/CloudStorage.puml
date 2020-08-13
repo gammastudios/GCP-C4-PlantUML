@@ -1,0 +1,8 @@
+sprite $CloudStorage [70x70/16z] {
+xTQ5eO8n0CJWfpHOR_zjcU3Gu6I0xvTgZkmJXpCCm55G410GJK50D0K5eI86Wy7WA0Q3enWC2CnG510OxgoW80n5GK70KJhoLHgDuLZbkodp10L-YaB2yKfx
+5sXAgIYbdwBm1Xb_ztJbsr3Wkob9X5cNP0ghiRpCzmcpRZpEBZLZC34KwJmoc3YAmSHGHWp6l1twIWH4Kw8WKP34KPO6aZZAD914GH97YO0Sn-GDsW4
+}
+
+GCPEntityColoring(CloudStorage)
+!define CloudStorage(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudStorage, CloudStorage)
+!define CloudStorage(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudStorage, CloudStorage)

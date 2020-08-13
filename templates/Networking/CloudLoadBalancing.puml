@@ -1,0 +1,9 @@
+sprite $CloudLoadBalancing [70x70/16z] {
+xT5LGiL040NHUPQ-sDJ-LukxGnTE_SHFHdXb_-Nb3EDbXXXC8Z1n58E9enXC32Knc1XC7CLWuYW6amXCAKeYCFamfSRzNc3IK4fHmcLfAJ6Lj9HB9crb0dcX
+CRPv8OYWn57oeSfgF5OfokxjoeCPFJqMlhsoBAlBJwh6s5HTdktgKGSUPSP5oUvcSoxFdb1cMm6WgnJdDHKCPN9PEc4eO30O38vYC1XAOJ0WCFZAPGAYAIW8
+2WAEicSWu2ZJG411m55G432Cdzy9
+}
+
+GCPEntityColoring(CloudLoadBalancing)
+!define CloudLoadBalancing(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudLoadBalancing, CloudLoadBalancing)
+!define CloudLoadBalancing(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudLoadBalancing, CloudLoadBalancing)

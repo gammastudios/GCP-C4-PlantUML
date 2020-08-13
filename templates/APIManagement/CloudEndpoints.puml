@@ -1,0 +1,9 @@
+sprite $CloudEndpoints [70x70/16z] {
+xTH5OkKm00HHVLGDkUz_src5rS4AftQcPvAKH_OJ3sSOWAEW820WceA0Q0eAGaKC1eF1KGm6Hp4O49YfA20mlBE2WZ0L1GK1H-d872VkjXk5QSWOSu6C9RCb
+ASZWJljHc8wSUGfJa0bFO3hoDAQ_phWPdLd-YFqA6OVBlPC76uKvNkxRSRiqPb5528MfoA0hdNduIKWgSox8MjaAmvtEvIVtXM4F2-R0elbnLgaj1XD3IGmc
+1XD7CPWOoep1908JHp6OE8h1n53ISfHV1f8uocOWYO8aZX85IGpZy_SV
+}
+
+GCPEntityColoring(CloudEndpoints)
+!define CloudEndpoints(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudEndpoints, CloudEndpoints)
+!define CloudEndpoints(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudEndpoints, CloudEndpoints)

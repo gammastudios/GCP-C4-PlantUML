@@ -1,0 +1,10 @@
+sprite $CloudPubSub [70x70/16z] {
+xTPNKWKn34HHEQg9slzgILClgx4eHEP-gyxaiItOVrWNCH8OP3100eCS9OF1foj8GK2H30OP3Bv8mG99Lxg8A4XHf8h46JecMp45fBbGG95y1Ii54GIwGA1S
+qQdOTOpCYOieqaIaE8h_q9aYk_5JfSXpH27tebuex4Qx2FJaN2R6Ghbt5TJZQJsvqJBXdGoyjEs6XnoBeyFDGDeXMtXNiklh5VtKSp7mLFPAXRnTcRNZMT0T
+W_uieLN45Ta7R6S2sLKyn0mSqTFlV6kuoZrJEi7zZvefYjCQKTHSXasJ6sDR_dY3hpl_1SvCVxMjV15OVGJ15N_r3SGKpjI5OY6bhPGOyxfYGKL52bXgXFdy
+ZPtbA1cCvIWPZ6KenifHhZ8GinpbFWCnYoCPZ6KmjYp3-Faz0W
+}
+
+GCPEntityColoring(CloudPubSub)
+!define CloudPubSub(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudPubSub, CloudPubSub)
+!define CloudPubSub(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudPubSub, CloudPubSub)

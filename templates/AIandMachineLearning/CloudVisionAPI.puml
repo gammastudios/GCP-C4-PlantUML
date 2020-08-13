@@ -1,0 +1,10 @@
+sprite $CloudVisionAPI [70x70/16z] {
+xTOrUWH144FX7dwcqVrFQsQx8D16jfBb_sjLBQcP_r2dOnWO70mO63oAWy6ZE1WS2ZWO70mUnS7WKHmC69Z3ee21uUBAFjAwFMGUOsp4EJhAUCxKE4pMvYr7
+oIHjFXAtAf2tOrIjCkJrnSi7Hv0pLkRFyzZpLb9pDtahPRlXAI-bME9MUPkFGm0SKQkqpSfJfa_JcQ9MCRB_5FlCnmYcJzVvp7Udkt_QyjEL6M1DngjwqLkz
+QZNMz2J5RG19-STvXVeZ8EaiFenL6z1JYbsDEMq3XtBc61yXJEiBCsy3fsfcoTi0pH-ICQYGcc6w_8-ZF8g3aKCvv62S_mxzYWo8JP45aGMHFCgL0v4yokb0
+90iYUHGPa1wZFv07
+}
+
+GCPEntityColoring(CloudVisionAPI)
+!define CloudVisionAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVisionAPI, CloudVisionAPI)
+!define CloudVisionAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVisionAPI, CloudVisionAPI)

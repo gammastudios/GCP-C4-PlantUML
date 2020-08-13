@@ -1,0 +1,10 @@
+sprite $CloudSpanner [70x70/16z] {
+xTL5OiH034HH6LKXr_rF6wPs99bgb_chmMTguCvkORizXe21WW4433IAWe56KJ1GA822WOA1Hb4mq2WA1X0mZZWt0s3zFWLnPX-AMRU3mQPYMYLdK2jpfVWE
+vITaLSX-1PlA-8tubeAgmTwQKVM3b1SrecoHA20XK21HylJAW9FvYBU6PhXq9yx0CTjFm9oV5H7KMzwyLx4sNxtTgNJhOmzMJqkIyTpvlAgXWQSvLHQicym1
+j3VXvxGY93eP3uPRiJfuiJHOEzmi7yFyA7_MNQF4fxCmOoRxS-pq2J5JmetCuw5BLioSVPGhnDceKHGC5OfJmP02XXf5mL2ZA1Wg56Pfb3i5GcgKHO6G4eJK
+A1GW-nZ-Wru
+}
+
+GCPEntityColoring(CloudSpanner)
+!define CloudSpanner(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSpanner, CloudSpanner)
+!define CloudSpanner(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSpanner, CloudSpanner)

@@ -1,0 +1,10 @@
+sprite $CloudDatalab [70x70/16z] {
+xTK5SiCm58JXDMfBrlrFMtZsJ70h9Vi6spyuz9a4jRF_sCuteXo5FX8PIBf20qbNc8BGHw97b1MWg1_XaA8Kp5G9HESh2z39a3gWaoaf2aKh44gXI23YELiA
+CRENeL59KTX6oa_xdoQZ4PngAJGLdX0HS5eTP5kAma1iXRyh4t3S7ne1o_4B1m7tW9LFLW9Pi6UUol8JC55NEnVA5NXE0KQU0ePdb14u2P56z3u4B0ziRvk-
+jPS5AoUrEfL2uYgnsaacRkO070tZT-86rptvb75AJwUj7ea7jE8cSIf28J2HFKez9TQ4qdygaRYzk6mGY5PMzDsL1eERvXPIZUtLPkfD1c8hFbEp59-f6KfL
+vIWlDXBbA9kDH3uI-KhKYVXC_GDz0G
+}
+
+GCPEntityColoring(CloudDatalab)
+!define CloudDatalab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDatalab, CloudDatalab)
+!define CloudDatalab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDatalab, CloudDatalab)
