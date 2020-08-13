@@ -3,7 +3,8 @@
 
 ' Colors
 ' ##################################
-!define GCP_COLOR #0072C6
+'!define GCP_COLOR #0072C6
+!define GCP_COLOR #FFFFFF
 !define GCP_BG_COLOR #FFFFFF
 !define GCP_BORDER_COLOR #3C7FC0
 !define GCP_SYMBOL_COLOR GCP_COLOR
