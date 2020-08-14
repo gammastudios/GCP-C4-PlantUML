@@ -43,5 +43,6 @@ Rel(gceb, bucket, "get static content")
 Rel(gcea, csqla, "get dynamic content")
 Rel(gceb, csqla, "get dynamic content")
 Rel(csqla, csqlb, "replication")
+Rel(publisher,bucket,"publish static content")
 
 @enduml
