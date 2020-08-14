@@ -31,7 +31,7 @@ $graph.DrawImage($img, 0, 0, $new_width, $new_height)
 $img2.Save($outputImageFile)
 
 # encode sprite
-$spriteObj = java -jar "${cwd}\plantuml.jar" -encodesprite 4 "${outputImageFile}"
+$spriteObj = java -jar "${cwd}\plantuml.jar" -encodesprite 4z "${outputImageFile}"
 $spriteStr = $spriteObj | Out-String
 
 # remove resized png file
