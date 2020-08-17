@@ -1,0 +1,27 @@
+@startuml GCP Sequence Diagram
+!define GCPPuml https://raw.githubusercontent.com/gamma-data/GCP-C4-PlantUML/master/templates
+!includeurl GCPPuml/GCPCommon.puml
+!includeurl GCPPuml/Networking/CloudLoadBalancing.puml
+!includeurl GCPPuml/Networking/CloudDNS.puml
+!includeurl GCPPuml/Compute/ComputeEngine.puml
+!includeurl GCPPuml/Storage/CloudStorage.puml
+!includeurl GCPPuml/Databases/CloudSQL.puml
+
+
+actor User as user
+participant "<color:#0072C6><$CloudDNS></color>\nDNS Zone\nCloud DNS" as dns
+participant "<color:#0072C6><$CloudLoadBalancing></color>\nL7 Load Balancer\nCloud Load Balancing" as clb
+participant "<color:#0072C6><$ComputeEngine></color>\nContent Server\nCompute Engine Instance" as vm
+participant "<color:#0072C6><$CloudStorage></color>\nStatic Assets\nCloud Storage Bucket" as gcs
+participant "<color:#0072C6><$CloudSQL></color>\nDynamic Content\nCloud SQL Database" as csql
+
+
+user -> dns: get IP address for load balancer
+dns -> user: << IP address >>
+user -> clb: make content request
+clb -> vm: pass request to vm
+vm -> gcs: get static content
+vm -> csql: get dynamic content
+vm -> user: return content
+
+@enduml
