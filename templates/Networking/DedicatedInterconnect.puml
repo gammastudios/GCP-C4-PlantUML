@@ -4,6 +4,12 @@ zKZf6s8hUSgRClp1kaB2kTAaWeAWhAo3WvbhA2YAqov1K4W49GdA38YW62k3eM2ic1sDQHxpJK7U0yAs
 rOJ2I7TOWubnBIS2Opnwa3_83G
 }
 
+sprite $DedicatedInterconnectParticipant [50x50/4z] {
+pTJ50GCm40D1QVllEVGB63QijyTyb_yFWzG2G0FmGWFG02_GW6h1BP2B5EGY84crs5vz02QYorCCbaU82waMmtTwA4ZukA3JlpQuJ2dYnM2XyJaIAQA5_oLM
+zCc_c-gAYX2sCtXXIMoBwujzDxKWyI822658h6WioI0Lup-Q8m
+}
+
+
 GCPEntityColoring(DedicatedInterconnect)
 !define DedicatedInterconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, DedicatedInterconnect, DedicatedInterconnect)
 !define DedicatedInterconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, DedicatedInterconnect, DedicatedInterconnect)

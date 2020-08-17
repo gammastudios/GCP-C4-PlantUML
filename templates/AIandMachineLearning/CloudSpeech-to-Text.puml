@@ -4,6 +4,12 @@ mFh6hFmx2sLxonQ8hJmzJ9GktZkba31ItZyiVr51GL7QNwIWA74K18L4AIz1gG4H5ADbC1IC5hC7lT5C
 65CRfBcQi37I7DPWOapBYS0OYnxa0d8B
 }
 
+sprite $CloudSpeech [50x50/4z] {
+pTH50iCm00D1QV__wDvJqnQZIt3CTkuV9ga5W0Rm6G6Iy7611bGB1i1KKf2LW2JLOlnnGJWMrO8da6HqTo7LWgj8CXSaZCJ0lYwe5cYHNuX8uUV3hn8h-kBQ
+JUME6dzhEnBwPF32ajWZhc-Ukwa5YHSHG0X3OaLZIIOfu-JNUG
+}
+
+
 GCPEntityColoring(CloudSpeech-to-Text)
 !define CloudSpeech-to-Text(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSpeech-to-Text, CloudSpeech-to-Text)
 !define CloudSpeech-to-Text(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSpeech-to-Text, CloudSpeech-to-Text)

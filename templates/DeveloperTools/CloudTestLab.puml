@@ -4,6 +4,12 @@ bEVU_Sve1NLG7d_1zUFAbJBAg0QA1CgysY2KI1wGBvVUwpJVEru4SxRqS402Fkjknl_MLok4ldk8EoJt
 Sx-o7usTcI7FKcTBUpF-rnbpq-l8ixUh4S1c9V5ndHauxsojQdc5JNiFbLRx1gOI1L6Ao0fcMf5gmKmfzcvWAfbDAyigc6dbZGKpfNmwYm9anM6M-kaF
 }
 
+sprite $CloudTestLabParticipant [50x50/4z] {
+pPP70WGX40A5__zvSsB7qELfkFIfH8pTJY_9NKaZm4CD44z4BMpr0OXuePu5DF5IrC8M1Mnn8W68n1cIilJ2wsyOPUcOXB7Tz2X1f8dgX8wnzVBCSfZrhzvH
+eoGX8obDrnwFU0OvOep-VdJ6v0IV5KxELvVkeFafwPx4xbhbSQyJSQDMiyfhMqs-yJ9GXBzN_1NbBpN_3Q39ngz64VmxQwC3O8ZQwNK5
+}
+
+
 GCPEntityColoring(CloudTestLab)
 !define CloudTestLab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTestLab, CloudTestLab)
 !define CloudTestLab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTestLab, CloudTestLab)

@@ -5,6 +5,13 @@ EbVC9-R-Jk6eCE7d2fh4oHWE2l_QAIX7XV4K-RWlHTv878_XKb7XTGN7OrpOihbLXsDOKDXCTpZ61ILe
 Mc5CwpziOKphltrXJEkOHs5ChgA0h33aF_KJ
 }
 
+sprite $RecommendationsAIParticipant [50x50/4z] {
+dPO7jiGW3CH6S_yx_xga68EVqVOYb9xe2JW1jC9Bb8ENi14wYhVaYMR41MMYZhYaIDGHkoOcQjWdU914s0-OVEVAY17c_-K6SqAJOPBVUNx3BxVXjq4KB8sN
+Vyj6JyE5CGOD2mIl3Dae66Ph22K6tXYQ3HECmSPmquWA0viRFva_Lg1ggWY6HCz0qchfCYt-CIOTWz2j3NKD59JIq33IFOfVtWOAIhbqDHji3HIKalPn5waP
+aPgHatDKCt9ohcr6JguPcf7ZAva8JI72G6--0G
+}
+
+
 GCPEntityColoring(RecommendationsAI)
 !define RecommendationsAI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, RecommendationsAI, RecommendationsAI)
 !define RecommendationsAI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, RecommendationsAI, RecommendationsAI)

@@ -4,6 +4,12 @@ xTWtMWKn00DXZUv_Q2f2jIliwK3b2__dd3BcF_Gj0z8b2b9UgoCKfciKf2XAdn2XCBH2OLg1GL7wsoX8
 Gc6aEwp1nBYM4u4n7Zt87yW7
 }
 
+sprite $PartnerInterconnectParticipant [50x50/4z] {
+pTN50GD1049HeF-UuvwnlyvjvOsBZfzKOWgIO90i8n98ihW81Z4MAG1IYHDOIGA9iHWUajBBjd2Z5vNNTP36UncBGi_y4ENEPtKHV_rU40L5XR3W_U2ZYmLV
+9LHuujgLyOuI4FHau88IqIFECyzTcGA92m40nAgtiqM9AZ7uVzMS0G
+}
+
+
 GCPEntityColoring(PartnerInterconnect)
 !define PartnerInterconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PartnerInterconnect, PartnerInterconnect)
 !define PartnerInterconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PartnerInterconnect, PartnerInterconnect)

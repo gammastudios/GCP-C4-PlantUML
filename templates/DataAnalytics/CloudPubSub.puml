@@ -4,6 +4,12 @@ T9YV3KJIzzgtSI-ZH_u3nPU1Pqijb5qR9rcWVBbejDHNZDlk3rlK79yoHws-J5RY6aWk8UTMU0MPo_Gf
 6VHzHv61c_uVANV3UXuNTlpU71JULMKDL_xQ2k_uEhG2oBR63OMCuY59Rqn4YD652cZkez9pNK6czBpRmD2WY0O65pLKeA42Qa2WGw42GH54533Ov1pn3_86
 }
 
+sprite $CloudPubSubParticipant [50x50/4z] {
+pTG5hiGm54FHQ-z_pny7K-kf7hOeT0eXFZzsZaQGKmFxCS8kYHykN0Eh5WwWUOdI0uUNnCwPg1OUH2JU9h_P2a8wagFLzYLhovL80rGBjmrsQX2GHy2m8HmZ
+fy10Qi7TGhB0_m1iQHNaXmDMUjLINxUoY6iyRPkDM0S8mEE0qABvivUtff41GExI8DWf68HpuqWy0xG3wCvx5xK0Ua412j4GMY5Q0Zbo3g_EDm
+}
+
+
 GCPEntityColoring(CloudPubSub)
 !define CloudPubSub(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudPubSub, CloudPubSub)
 !define CloudPubSub(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudPubSub, CloudPubSub)

@@ -5,6 +5,13 @@ _2sr3_wK8JkhxS4uej2rxy_HOdElDz3fGzrHw5JyrO3CFUygIuhlaRRaARZQfSlevEePQJjSqsoHcoSW
 DeJUQW6Pq1isWQd4ivmAOCh6SwW_a5S
 }
 
+sprite $AIPlatformParticipant [50x50/4z] {
+pPPLWeHG40EftF_Ewq7hftSq8sWHEl1aUNybBWP0DG2g-n394CdTYOo1C2OYmCI4P6WY1xfm1DdTfHEdkmL-250JsVdpdx_bOiLVWFMkuYQUIJn3Bxk4v-Ab
+oLRbG3qg9vfi4wd_fNXE5bsM44JJ1W9e9VeMs0ud03XL3g1X-RlhHo_RR6yYw7lYQTNTNWf_Xl6s8BikX5qGhQoy07wP-B7A2FEVzoM2k0fCkpZ-qUyEJMuP
+FweXC2VkFpfpyvoX8gxbsVe4
+}
+
+
 GCPEntityColoring(AIPlatform)
 !define AIPlatform(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AIPlatform, AIPlatform)
 !define AIPlatform(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AIPlatform, AIPlatform)

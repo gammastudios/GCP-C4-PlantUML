@@ -5,6 +5,13 @@ Bm3bmKd1bI85XIU5TmhphouhQTxysxMI1mp_8-b3kVXJ7qe1QlvFv-kBBqjUGgnEEgsjhdNvpCrrDv_Y
 bfxh2isKddSR31eAqM2Gma8hhNSri8407GK5PBqcei1WpEmGVo2F
 }
 
+sprite $Container [50x50/4z] {
+pPO53aCn34DZt__EuvLSJ_8um-JhXOhr_q8Zi82N623VGv0XmhSJZ04Y9YX05WJw66hp8U0ykH0-tRqPtGK4SG1hr7RvhW07ou9eYAjw-NW4SuYBcTqLbD0G
+77keGQXgBz0GcbHBjw1UiKqA3IiXQCguZv_E2LluzRiP3G4XjjrHpSUmAYw4wQvCgnQiOCPy5sHiZyvKjQ0AZ-TkmKQ50C-jGM_sJ_nUGbfVyNvL2FR4PDyD
+W-JdHtwgnSJdJsUywSxWMrpVbYC
+}
+
+
 GCPEntityColoring(Container-OptimizedOS)
 !define Container-OptimizedOS(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Container-OptimizedOS, Container-OptimizedOS)
 !define Container-OptimizedOS(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Container-OptimizedOS, Container-OptimizedOS)

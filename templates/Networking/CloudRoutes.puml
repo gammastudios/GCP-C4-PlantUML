@@ -5,6 +5,12 @@ wKK3QD8ivf7r2eD5vpbDsYugwmlB5VCS9TXPRHTSEIgVDYGkxqSNzaOAMwoS9F8bK4EZnZ68qhck4APq
 0Nu
 }
 
+sprite $CloudRoutesParticipant [50x50/4z] {
+pTG5RaH140FHSjt_pY5njYt5OGi_lE5f_dyiIGKzCz3l4JeIlrqu0pCB3x1q4XqxqP745egmXflOysu0UHG0s8V0MppVG2Lv56Xk8827Y0Ket8kkWFe035QY
+UcnLRAHd9THJccC8HH01g2jp34cXhLNP3_j-tASaLjBFbJclJpvqTizJL7E3_GvseWrWJHFCW3WNthKBo0fW5mnW40jX5M4bbCGx_7QU0G
+}
+
+
 GCPEntityColoring(CloudRoutes)
 !define CloudRoutes(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudRoutes, CloudRoutes)
 !define CloudRoutes(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudRoutes, CloudRoutes)

@@ -5,6 +5,13 @@ T6SqFuvULKf_hkieg-j8eLpECGf5eoADDmEqOsWluILlIiLDrSsFDatFmmthgzAt-jlqfNITcV5HkiAi
 Z28bHf588596KG1Phma568sP7VGFyWm
 }
 
+sprite $CloudBuildParticipant [50x50/4z] {
+pTLNSi0m30FHnTx_pkbLGsJCTFx2p-eI_xyibGfwhO5-Zz0byTk5Qs3MmXCi6yaGvyD6vj1Eqf8gUkEPepQ-7hO6QZmshDBYl6jM0wXF9ffJ7Bzunw8UNqoD
+QW2UcxaW8W02SWfD4pPX4P4YACAjKAfW468070I383u7Z89vZwJikoAWd9BGoGWSZyqXhXzEIzA9vVptkqJGBh1K1SJrnRjj0h85i1SimLvy_-iSjeHISIv-
+ksu1
+}
+
+
 GCPEntityColoring(CloudBuild)
 !define CloudBuild(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudBuild, CloudBuild)
 !define CloudBuild(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudBuild, CloudBuild)

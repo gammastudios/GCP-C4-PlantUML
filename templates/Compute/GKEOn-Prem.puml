@@ -5,6 +5,13 @@ WsKmlzWO3u5v1HELKs0j7ukna7TbZSik9qT1MfFvxpTye4Yji0lPfPLIrgJdbRqPN7VLInXAc0PaG1Ov
 BAsCiDXRL5wblP48oZi60XibhHYVbWsXGedffRGdooZr_I4-Zelj8N4lEdUg_RjcTLYvDqFJoQR133AwjD9WXgQJS8CPbAZ3IjqCIbMsqc16Qi2e84xIXxu1
 }
 
+sprite $GKEOn [50x50/4z] {
+bPK7biGm34BzkV-Tj-cDKi2RYEcZV1DSrrKahQtGJZj2Uuq1CRcdKhOO8em9FOYfXPleKPZ5q4GQcX2g_6kIQ-mHt1v2OMF1vnyC8LWiFjTHRURmTzigrOS4
+Hd3zWoQH-N1FKJyv1IHSmQM91aeMdpJST2yYBFrQt7x_lMW3OJsiG2nKBpaX8j5nU47S9eCJwQwWWwzNH6Mkq2avCGT2EOVtTa-M0cv4rK8B7VnELCKMKt-6
+vHiMLBVTlmn82mteht4Hncsc3SnYjsa8Ax1QaL3yUs-2J4ntKOrtQiPRzVZ4ONpaZ4zEvgUpYub5wS5YQCAAOWWuae5l
+}
+
+
 GCPEntityColoring(GKEOn-Prem)
 !define GKEOn-Prem(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GKEOn-Prem, GKEOn-Prem)
 !define GKEOn-Prem(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GKEOn-Prem, GKEOn-Prem)

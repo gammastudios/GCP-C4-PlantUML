@@ -5,6 +5,12 @@ F2f7dqacuhu7S5B67sPNE2cFnv7AySKZVuAoJLeuxcxd29Lvvde8gPpLw2Xyg5Ik6QJ1qBWCidHTLoXJ
 o3S
 }
 
+sprite $CloudTPUParticipant [50x50/4z] {
+pTI5bGGn30JHwie_vsEMjM_xMCFmpJR_FrmYBL1heDyZj2H-kx06fXOEq6KIBJFHakJZ-vTJ5k6LmZCGI9vFvyglzTi-LaCK84Cegg97uHJiGjXwri3ulecN
+r7FuRdIfHpCvDP57DWL70NYbqBo8Sys5AK9m4y25KS2nFs28IyDel4Zu44b6__PZbzGpYbvmfQ1VIrf2kyJbY-ikQG7qWW8KeY6q8hI49U8v-Esu1G
+}
+
+
 GCPEntityColoring(CloudTPU)
 !define CloudTPU(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTPU, CloudTPU)
 !define CloudTPU(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTPU, CloudTPU)

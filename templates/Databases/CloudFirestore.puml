@@ -5,6 +5,13 @@ fihb0p0fyzBWHjvSZN3Rl2-STQT3Dp6eLg6hZLufZS4y131FOxoZP5-fNGLMwssjO2nQ5WfeK0o6rf1o
 KW8C4QKgm501Xbg7Djy4r4Dv1m
 }
 
+sprite $CloudFirestoreParticipant [50x50/4z] {
+dPP75aGX20Gjxd_esKsYQ1-_TuQcZEZv4QepYXf4CEmi5HGG6qX5EM89gOiCiOJKLOR8mX1PXiWY8o12q704oDJ2147wvwQuKT0Xc05qp2E2RtTpC2yIpL6j
+0eaGEnHy6j2jz1E5B5Do4CyRvtPpRWok2M0w1rJX55cyJrZ4qQZyLj3FHAlvwLzLsBcYL5XJIWkwKh9-sK7CFRuN2IBLv0GdOVOPRfr5dsJg9UJ1YxErx5_E
+_Uii8YEsbkDA21Si38iVsGi
+}
+
+
 GCPEntityColoring(CloudFirestore)
 !define CloudFirestore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirestore, CloudFirestore)
 !define CloudFirestore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirestore, CloudFirestore)

@@ -4,6 +4,12 @@ tt7fXC1dAZF3h2oUy2OzLqWGbBwh561GblaAp5KvXcoLtiSxfKjblaSHb2JTATRBCYivL38eVL7k6wSs
 1XD3QGmcnjQcqbvDE9XCEKeK96LJ8p0PsZhD7-WM
 }
 
+sprite $PersistentDiskParticipant [50x50/4z] {
+pTG5ZaC130DHU-v_w1LiEP4wPGi3h_sStmzBQW6W0NYX0MY05sX0jM00vayAyaz0acgnjFSPTuiwSHeY1DDf3slxzDJhCRTZHh7VAY-ekLUdpABBQFxvHqMI
+QIx5qEeXJCBVOFrSzS5dDzLlL8ImNmOlB8dznFN9xsvgGU951132a5ZHM98b5VjlpHy
+}
+
+
 GCPEntityColoring(PersistentDisk)
 !define PersistentDisk(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PersistentDisk, PersistentDisk)
 !define PersistentDisk(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PersistentDisk, PersistentDisk)

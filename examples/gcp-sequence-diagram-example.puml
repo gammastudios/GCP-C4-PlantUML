@@ -9,11 +9,11 @@
 
 
 actor User as user
-participant "<color:#0072C6><$CloudDNS></color>\nDNS Zone\nCloud DNS" as dns
-participant "<color:#0072C6><$CloudLoadBalancing></color>\nL7 Load Balancer\nCloud Load Balancing" as clb
-participant "<color:#0072C6><$ComputeEngine></color>\nContent Server\nCompute Engine Instance" as vm
-participant "<color:#0072C6><$CloudStorage></color>\nStatic Assets\nCloud Storage Bucket" as gcs
-participant "<color:#0072C6><$CloudSQL></color>\nDynamic Content\nCloud SQL Database" as csql
+participant "<color:#0072C6><$CloudDNSParticipant></color>\nDNS Zone\nCloud DNS" as dns
+participant "<color:#0072C6><$CloudLoadBalancingParticipant></color>\nL7 Load Balancer\nCloud Load Balancing" as clb
+participant "<color:#0072C6><$ComputeEngineParticipant></color>\nContent Server\nCompute Engine Instance" as vm
+participant "<color:#0072C6><$CloudStorageParticipant></color>\nStatic Assets\nCloud Storage Bucket" as gcs
+participant "<color:#0072C6><$CloudSQLParticipant></color>\nDynamic Content\nCloud SQL Database" as csql
 
 
 user -> dns: get IP address for load balancer

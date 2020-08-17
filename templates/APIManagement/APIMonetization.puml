@@ -4,6 +4,12 @@ Feppt_dTInzc4xgtr229M-nsL8t-7C75SkRwXr667NqYGwiCxSwuj-mdihTO2TWinz5YKyZ9HBOdc0Vj
 k26Hq92mI48pF67kCFHS5mWJUjvDQ4XO9A6XmqGKI4G14nB8M8X8S5bjGCF8x94_m2i
 }
 
+sprite $APIMonetizationParticipant [50x50/4z] {
+pTG50i8m04FHdzp_phYt6GGFplRgBVyVXoY2d0HAqWkx97wxS0siMdW0NIMooqgS0feIPG5JuGU54yZHef0ERsCbImq2Hg9QE4GStcw9YqGXa7ruOxWQLaFe
+HmgStpHST1jIyRcEQmBSwGVG2of1AyGkXM0VtGY1vW8OAz7r8Xogw7OXlMW9xH6d5yzTr0Be1GKeH4DeXMW98V8yV3jh
+}
+
+
 GCPEntityColoring(APIMonetization)
 !define APIMonetization(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, APIMonetization, APIMonetization)
 !define APIMonetization(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, APIMonetization, APIMonetization)

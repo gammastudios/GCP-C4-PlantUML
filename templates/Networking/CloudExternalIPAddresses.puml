@@ -4,6 +4,12 @@ xTOvUiGm5CDWaFU_S_PTZgnOI3M3MjzlTduiTYyzY_Ewae8qJ4ihZEbg2j8eIcU8C2QjCAOLc2XA_vg2
 hi5WAC5W-AqOKy2O0Z4GS1GKX7Ib8300kqwuWHu1
 }
 
+sprite $CloudExternalIPAddressesParticipant [50x50/4z] {
+pTI5SSHG0CHGxVRVSnW_pIWvqg7XcMqUlswA1MqrQ2yZMabwSL4D6Yqw0hcIj78bhIJHuZpzFAhvR3av-r7GVdxFwwqG1SWWnesUHPKez88Y7_LtcOLh5D0n
+RY6G0l029R0Yl2N4V0k6iHK0B_oJ0I_GW5G_UEqg81Q05mWWX25O4InXKxgEM_SC
+}
+
+
 GCPEntityColoring(CloudExternalIPAddresses)
 !define CloudExternalIPAddresses(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, CloudExternalIPAddresses)
 !define CloudExternalIPAddresses(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, CloudExternalIPAddresses)

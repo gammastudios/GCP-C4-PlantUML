@@ -4,6 +4,12 @@ jGFoS8RtZ_tYetG_q8Eo7pFysPNYJ655P_boAvVtadHsYe2olTz_fRYWIEeenahUBYY6IjwlA4QAKaSn
 euPYDHWr54rr53CaTHHl4Jx6kcQmXFK4
 }
 
+sprite $CloudFilestoreParticipant [50x50/4z] {
+nT95aWD15CHGPTx_pZDc_Ere6RMjUCMyLZgdGHlckfm6CuaMhIJHefKaMhIIH8jMadeXo01oqJh1iUMXhXQPnQCcm6t38kh30LGLBJgV8jqtdcGKPDyaEefZ
+lnA05r4202yY1FkyIDV6CIzY0NWH2q08GV324hom12yimOfW2KZ2OhbjsD8_
+}
+
+
 GCPEntityColoring(CloudFilestore)
 !define CloudFilestore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFilestore, CloudFilestore)
 !define CloudFilestore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFilestore, CloudFilestore)

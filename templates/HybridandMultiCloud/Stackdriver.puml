@@ -4,6 +4,12 @@ WyeZP9On6k7qUxoULvGiMkkXUAuohGrLcITXoKnbnF0fppAmjVk7y6tco-MnZgUxTybZyBRC55TcX6Nc
 85ZcsYFsBW2YN8hLmAZn6kJIUrr1flI-sy2eGR4Q63K-RLpwLYl8Q4g7eW84rsGLC08n4Fdu_04
 }
 
+sprite $StackdriverParticipant [50x50/4z] {
+pTH75iDG349HOF-BpYnLJyUaCxNlxvB-Fu4O0OT0INgHb2Hl5wb1N8iCe9d4IJb9KXBJK2WOQ2PPXCRDCu3Xw0WTQoHUffW50siaOG5dpm1knIpw9m7YoAgy
+20z71OTLdDL-vVKL0j1IDV3i-hShCu5lsmaVAbjV4W35moc9sXRd5_kkt0Af5of08HgYLbWj4SJq_xTp0W
+}
+
+
 GCPEntityColoring(Stackdriver)
 !define Stackdriver(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Stackdriver, Stackdriver)
 !define Stackdriver(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Stackdriver, Stackdriver)

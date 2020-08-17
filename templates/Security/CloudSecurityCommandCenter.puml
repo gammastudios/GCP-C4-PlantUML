@@ -5,6 +5,12 @@ eTFoh3CALxk846R35_jMX6A0NAIeCMAB6AMRA8BeAjz44OVx53NZdY1KgDvU4r6qsK3s_EB9bZDJgYyH
 tM5P0KYx9eq0Pg3w78r_e7i
 }
 
+sprite $CloudSecurityCommandCenterParticipant [50x50/4z] {
+pTK5RWHH40FHTjt_q144MgeXXxtilsyOvl-7awG5G0tWUmIKX6yNr83KWakG0LokH1C3tA-u1zQqHE8vht6mmDNrE8z5Ml7MOO5_hYeIuIqMshAUXF-2n9vv
+deazQGc2ekLNIZ6rUB8UGQikGTQd9kgJnfDuk0lFJn7FPF2Fqqh7hcQXJaA3v_Fr64-k30OMR05OcEHD2Aoak2PMrzsTj62c5rE2Ndp_tJdJaZb9ECxyTbu
+}
+
+
 GCPEntityColoring(CloudSecurityCommandCenter)
 !define CloudSecurityCommandCenter(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSecurityCommandCenter, CloudSecurityCommandCenter)
 !define CloudSecurityCommandCenter(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSecurityCommandCenter, CloudSecurityCommandCenter)

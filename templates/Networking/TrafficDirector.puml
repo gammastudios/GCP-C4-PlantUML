@@ -5,6 +5,13 @@ hPW5ZWLH20Gfxd_dzVraXFxDX8wFLEgvn2L0YW3nFkJRu41CZ8OiODBCM6KkatQqoe9C3g9K5cHo5ANY
 2p9R9-45cQqRWWMPfPkJ1GoBDqewo2Gta4y
 }
 
+sprite $TrafficDirectorParticipant [50x50/4z] {
+bPH9OeH0482W___et9AC9Jh5RHOQxOt_wBb1AKuIWcrOGcCPJGYxo7cX4etF2IEI2Ob89uX89tYDZC4YqedNo1pCvpNnrb0pSkuDg8ZV6uw4F1ldcX0SnenS
+arwC4V5gO1lZM-4lP2pytBGlXfx1dq4OWp-3Bmt_3CPvb1S3mR4VUfS8Sv5vCgO2O1jpK05eOouP-zs-Fr4HqNl3vrjQg0HzEHc9lfmYqP4JYOmOYOoCH2W9
+MqEs2bj3jWfRGxOAB1KAxxW-qWy
+}
+
+
 GCPEntityColoring(TrafficDirector)
 !define TrafficDirector(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, TrafficDirector, TrafficDirector)
 !define TrafficDirector(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, TrafficDirector, TrafficDirector)

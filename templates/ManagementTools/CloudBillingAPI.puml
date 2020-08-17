@@ -4,6 +4,12 @@ ZzVO32zDelDMBoRzAgIiIw6zu_HuMRbcstlAIFeuRC1S7EhdKLyoUeYinryW0ZCGSsqm3YbBBCZC1hmv
 xmL3LdY5Gfj_8eAT1ef7O8NDX5REsSuXl3w6B0E6hG0bajN0gF4RvD9_NS5CwN-tWL63OZKmQbnjNBgh5SoKxh0DZ1hNSgk04OevrX_G8m
 }
 
+sprite $CloudBillingAPIParticipant [50x50/4z] {
+pPLN0iCW5CEUVVyxT-zQf8-k-2i38JQr_XWY13W8S3v3s4t47oVS1gmsuG1q9F8hGGM75DnS-2mcJ5yP4PbPWj-C2IDx1sWV_drjwaWOte-VgfIHvx6mT2sP
+9BcLTGWD11EAH9YC1KUOquL-L9POPL2CfnpM11E2hH0asYVzrd1xG7sy1Q7RB645LMI3ldUMT97g7d6QE7URaedxeujKc_Z-xQpg8WKHbVzrjW
+}
+
+
 GCPEntityColoring(CloudBillingAPI)
 !define CloudBillingAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudBillingAPI, CloudBillingAPI)
 !define CloudBillingAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudBillingAPI, CloudBillingAPI)

@@ -5,6 +5,12 @@ JaP6yIMlZ9zWx_Gh4yQRbd_sZduyOUfXTYkTq38PONfyCo7XPKLSBl-C05eoiafc0hBzPl23xZEBZodg
 xnDHO12J7U81yWe
 }
 
+sprite $ErrorReportingParticipant [50x50/4z] {
+pTL5jaHH24FHvCn_pb_AMP06vUbSOpyNVNy8SGGvQm3F4R0aF5sm1dWjQ62t4yDo9yEcJfr0tASlSXOJe2_cETSAhd4Jhg2J26m33iHLdCeCftuNL743BeH2
+QCAIBaVSX8CG186340H15imY7nLQ2OEIq2Z0GQY92aUX8Whf5IYCuuoLIHxdnpk3_JkOIGPY8WuhZUHe-udpWzzTUGkalT0IxCNp_yxMbYZ4gVxT-GK
+}
+
+
 GCPEntityColoring(ErrorReporting)
 !define ErrorReporting(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ErrorReporting, ErrorReporting)
 !define ErrorReporting(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ErrorReporting, ErrorReporting)

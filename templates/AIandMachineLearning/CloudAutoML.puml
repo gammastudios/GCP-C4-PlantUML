@@ -4,6 +4,12 @@ gonTbAZeuujTaa35Btg007eE03fX0dv4ERLkCAOm0p5xsrRhHlgTLCN99zMILNvkFRdq97tPSecEKYSJ
 CQAXCkDKFhxurIscsHrdTbl41MLMxHf89hDuWAaylmpAG-cvhY1JUjvjOAP1OHgOSI5NwR-hvJAzTrYV2cH8g_MOt2JdC3UGHm
 }
 
+sprite $CloudAutoMLParticipant [50x50/4z] {
+pTH70W9H38BXaFiVsfKjYBzEPsNxP5wjwwT3XC33W0aB1anwhM3I69d00A0IjSSJAnuVMNUeq5DC4YkenC5Jp14AAkIJo1KVvqlm9owmTH8RcGbuQy3dou5z
+1CF2rbev4mAnS2P6YMYobyr4s0XmUFn9lnuUXOe0x5E1o3ifW24WbGc3KdEqyjujCPXX0OG12o04MAY0G0LFSHsT6m
+}
+
+
 GCPEntityColoring(CloudAutoML)
 !define CloudAutoML(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudAutoML, CloudAutoML)
 !define CloudAutoML(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudAutoML, CloudAutoML)

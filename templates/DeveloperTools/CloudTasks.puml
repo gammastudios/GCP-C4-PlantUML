@@ -4,6 +4,12 @@ pPW5SWD14CIwzVz7fsY2nXqbiSnmAXr3Vj8xv07ANNeWET60e2cFOQH03GdSiUnZYX43Gan1Y04XXYTP
 YAbqZ2d4r3_s7WvIX1Zh_4Y8iSuRXHZhV5g8iQup2369eCazbkCpzA3a3G
 }
 
+sprite $CloudTasksParticipant [50x50/4z] {
+lPM55GC138K2--zSTwUMS-5n-ZDdnUsQUuLtYWgejmdLP46ZHAC4ZHAD4ZHAD4hGAD4eGQD4eqID4Yl2wIwTxGpPRLqJlaomKxnEk5C4WesY4EuKWN36dnFo
+1s9-Jp148hyFyZlltrN-Tll_SViVPDWGkwrJ8l_dnBZIdbSz4tlkzcpl_IDAUX_ilRRtyufC9PYAp9rwoR04
+}
+
+
 GCPEntityColoring(CloudTasks)
 !define CloudTasks(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTasks, CloudTasks)
 !define CloudTasks(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTasks, CloudTasks)

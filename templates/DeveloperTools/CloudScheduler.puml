@@ -5,6 +5,13 @@ IYMKDagVH64j2HORvr4wfdX9vrCOAVNq5Feq2lDWooaU9Bz66YJl5v_5OU-oeo0G_Mvq_3d4AGX32X9A
 O9F38Rvw0C1PQn1dxr9LP-rrZibtJBUu2VmysA_rpDBauan86APF4XT5oVOtO6JyEeTwc4OtooaQ1VIUZXP1x5u4OEC5wpegqzns5GhgMVKA
 }
 
+sprite $CloudSchedulerParticipant [50x50/4z] {
+hTG7RiKm3C3GJzt_pbr_98G9Dnt2jAGNJ-Jswu3lwdZCpDRSwmOpx80ROAu9DDGNk3TWCaDwvXwPPj7krqmlmkbJJCQPS2VgBuAFc09Wz6XP3t1yK-2L5U1g
+mTyteKWagxe7nuHLhncKGYEFBGRKucAVXMytfWZ1saI0GyoSntjHwz9yAQBjYk18uEdsWdyNN1G6Uq7qxtTE0xUrS7zV6n82VUVMUq281dw8Uu9Q99gmT5G2
+bfzqtu1-7jox1MRxuuiYt98i1dtDn9LETsq0xdkP024wAB2F5AJZKInGSw6onN73H_Y33fovKYsWwg_Z7G
+}
+
+
 GCPEntityColoring(CloudScheduler)
 !define CloudScheduler(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudScheduler, CloudScheduler)
 !define CloudScheduler(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudScheduler, CloudScheduler)

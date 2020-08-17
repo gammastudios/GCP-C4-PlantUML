@@ -4,6 +4,12 @@ zTUkT2PVhNGcWqWUDoUVAv42A0OKe6ic5NVbtHrrHOnYG77f5Ip9p-_yyCvsEQNxitrk1dx-hloRKNIe
 u6AW-Ix1Y50iWX6nj36qLWCk1bh34eo8PRa5CCIcX_KFSWq
 }
 
+sprite $CloudLoadBalancingParticipant [50x50/4z] {
+pTF7OGDH30DHOFelsZVR4fH6cPj9liq_tn-SYLe0Q03F4I09JnTeGBLWWBj8GLu49AaM8CcPzDQe5coI5Lki5bmIPQkSYNC5BwZ_HRN8YeF2KqJcrRRG_csc
+OHB9uMORb8WLpQRQzcYpVr3rY8eNqI1UH8CK_O_QIoIr8F4Y0WXXIAneBCcPgEX_QVm
+}
+
+
 GCPEntityColoring(CloudLoadBalancing)
 !define CloudLoadBalancing(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudLoadBalancing, CloudLoadBalancing)
 !define CloudLoadBalancing(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudLoadBalancing, CloudLoadBalancing)

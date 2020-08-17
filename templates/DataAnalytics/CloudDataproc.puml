@@ -5,6 +5,13 @@ JkM5-zm8i4LOJouJVIZQhheoMXNxigF3r3T3VKnrj-WZAouju-0mW4Tqq54kVlArFRr538IQWpSwPsKU
 er11q72q1OQOx8W_a2y
 }
 
+sprite $CloudDataprocParticipant [50x50/4z] {
+pTG5TW0n30FHaUv_vp9aQwklAdiPVZZX_uT3A88SDR2_HzWbyRSBry2gXGVeCf5TPh9_omI5Brai1RO1-UD97PSpL0iV88j9jB_L2anA9_ShE0itmef3GK7O
+CPiaeXblf2UH3EzL6XO2iLq52m6s8OYjvtyr1ElmEAO1w0fMmPDwAyILw10w-cLKL6cIyHJpUvmnJqzJa4SpyW3Dy6a9xHAdBwwxg0NG2mfGY8RG2j4IGYZz
+_zjn2m
+}
+
+
 GCPEntityColoring(CloudDataproc)
 !define CloudDataproc(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataproc, CloudDataproc)
 !define CloudDataproc(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataproc, CloudDataproc)

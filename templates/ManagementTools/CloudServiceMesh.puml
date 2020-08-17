@@ -5,6 +5,13 @@ _GqduaX16nIBmSQH1z5IQEB8QQ_7q2K43BSiY4kKvotWC3pFtp7dHtILXJmmboSmmJIKTT0yiD2UilOP
 q5vNcpjizHrswTzklpLvu6wAJ44V9p8D4rbkEinFggLjfIRuW9dKbqt0JEgBBs0czIKSC9FwGn0m4_fp4i0G_gFanRkwlri_
 }
 
+sprite $CloudServiceMeshParticipant [50x50/4z] {
+dPK7RaCn34CVTVyxTtu1XamrPPWzdXdDS4fb9JRLAhoq4zg04Aa_vIr2ateXPn6Qr4iPYyoa_Y5s2uqdpcH-eEE9DT5EB2QtUH-9ZqGteNxqaSmq2dZknaUt
+XVH4S7mWNIO-w0Q00vaMZ3GrEzCoYGQqV4KcJG0bC0aJc3G1F8PtmfftsV1TBTM5Z8HDgHpIpmmXOyg3o2Aw8sy4A1FvdbtmsRKLRCHNSEyIP0XnlvvPccSE
+4-a0VBVl4rLkelAfVNyp84je4YBVS9l9jaNpJPt_6wG8AI5IX9GGAK9AY1I1466JXknF-WG
+}
+
+
 GCPEntityColoring(CloudServiceMesh)
 !define CloudServiceMesh(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudServiceMesh, CloudServiceMesh)
 !define CloudServiceMesh(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudServiceMesh, CloudServiceMesh)

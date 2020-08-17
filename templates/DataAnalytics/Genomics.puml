@@ -4,6 +4,12 @@ FHE9rNIv3wQQ3Y1gYi6K1N1XuIK-VHaIrYEsGlq4Sadu4Zn0PmkBFm5eOi47D8a5dn2wwDy5obDNvWue
 qW3TTELZ6Ym-8bduA1O-G4b2DzBIuGBZ6qAeFHhTwmR1ZEwx2mqBYrXeM3njD7gh3O8XiR4maI0tY866GEiHtu3V
 }
 
+sprite $GenomicsParticipant [50x50/4z] {
+pTG5heD100BXWVlV-Mcya2xrYLQ-NzRu_5nI1RqPs8yHzaZySE4PMBDm0CjDv9FABNHnuKHKHyHauIRa_AkFqony5IWIjK6KWVIZcy3vLxidLCIK-g2uD0iU
+9dfn_DJViemuvg_oAqdeFvG07X8h2RjS701ehqtVeOSYVYdsuwV7UiJfpdCNhG1smG06iH1M8LP2ISxnwhu1
+}
+
+
 GCPEntityColoring(Genomics)
 !define Genomics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Genomics, Genomics)
 !define Genomics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Genomics, Genomics)

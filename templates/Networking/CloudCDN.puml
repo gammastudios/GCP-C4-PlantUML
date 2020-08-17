@@ -5,6 +5,12 @@ ro06tmSDPdE-y7hF1cTTSCtoUkv6jwnLtdxERaVEUsegYQ-riI9bKiHNCVXic7nvvo_C0U7cIRPvP5BR
 8Vv07W4
 }
 
+sprite $CloudCDNParticipant [50x50/4z] {
+pTK5iW9H44FH9FlVynTqv5QeneFJTKQUwlkJS5m1fmBESqHw03nTP0pYiSWje7uIqm7BIR3OYQ7a4s61brG8dTqv4Bfv5ZxMeS8WNdm2SKfGxFvnT0xSFeA5
+s1C9m480CGoDXG02PrW8kba1kGe0wVS1W6vz8GZq_k0EKoOH2vUPMySkLOunpuys2R4hiT180uErf9CEvEcQgFcwAq-1D1SQWhbu_kviJOd4SJXwTtu1
+}
+
+
 GCPEntityColoring(CloudCDN)
 !define CloudCDN(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCDN, CloudCDN)
 !define CloudCDN(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCDN, CloudCDN)

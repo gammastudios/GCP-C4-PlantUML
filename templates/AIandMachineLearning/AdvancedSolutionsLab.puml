@@ -6,6 +6,13 @@ JG1Jb2e5svVBXXAuZ1P5YXBeEhgOMFPB_YQrBVQKUjJYr1z5UL1HX6QNWdmanUKJkVb4j1ImM9H-8sqf
 7nFp1a9UIKvWcEG9At322dW20cSe787W5aGEO1Yrpv5FeEy
 }
 
+sprite $AdvancedSolutionsLabParticipant [50x50/4z] {
+pPK7SiD030CN-F-Vqmvf1zqmFOOxfMM1EHAtBn-a4MYDGEi7Y0Pcn3zEU0HKWO6WGmLKGXsBz45TXyybG0k04wAQ06DgciiIAoyOvviQuLrWOVPw9hWFM9OY
+6rkKqG7s6kijfFeKxQuQXn3U7UknIHF1eFtoEoAMBa8nUY004oa_poigacCnIRaH_ZJHNMK0o3TDH1QTZ2En4PztjmZGAz7_e8SjuN9Bw8elHFKXtYERfL1j
+iAGQB4GDIjJkWN6-k8b6PDQZWIAMndWVcW7a-IggRrvtkuW60FpZjnn-WFZfkxFuBC916ix_Czq3
+}
+
+
 GCPEntityColoring(AdvancedSolutionsLab)
 !define AdvancedSolutionsLab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AdvancedSolutionsLab, AdvancedSolutionsLab)
 !define AdvancedSolutionsLab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AdvancedSolutionsLab, AdvancedSolutionsLab)

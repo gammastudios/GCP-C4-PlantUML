@@ -4,6 +4,12 @@ WzdkikHLjogdONPASiHae7GRIvue7VEef9k2I_lM0qZ1VExWUtgI-_5JxQiK5ptn3XQASpU-Tslzw71z
 yiiTyREnJvnIGtO6Yy28M8CCxNM03BJl4XWH58l0YFYrCVIl1iYeXQ48WCmzMG16Gpo8_Fgy0G
 }
 
+sprite $CloudNetworkParticipant [50x50/4z] {
+pTG5RWL140FHikz_vw1uLDeu7rkuyDGmmFj79QB0OmRjVKGxajvTT0RDB7g0BKdQCKax44aH8a9II687bVUPHHMqDa5yiXHhlYQCr4M1Qm5SL9rZV0SPpysP
+X3a7lI9_6DOlmUkMbogKu00xe7vozxrBJ0ZGezFjs3O2H4Ym4jOhBZVUksG5i0i6C8Y5i8gm4YHY_pyxFW4
+}
+
+
 GCPEntityColoring(CloudNetwork)
 !define CloudNetwork(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNetwork, CloudNetwork)
 !define CloudNetwork(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNetwork, CloudNetwork)

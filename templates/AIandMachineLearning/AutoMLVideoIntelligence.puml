@@ -5,6 +5,13 @@ IDnNRRIrtIUeGvBY8Kdnd5TjT1mS5XJgximXXVAfXFfaf-IyQZzjrAq-rIESKhGMdo_uQZO7fKoBoYA0
 22MU9wy
 }
 
+sprite $AutoMLVideoIntelligenceParticipant [50x50/4z] {
+pPK7ba8n3CIYtF_EktJo61lHGQ_-eepJny_3RC2411TSSSC5LwQW4HuobOXG246XCrZf3DhmBkJMSYqYXv3gzVKXx2AGuI8QiH6U6h5ITbkciOfW37PVsC_e
+N2aZ63k5_SUBKAg1Oi3UsR-aDVPVLoC69uhSVrohoXahYbnxdiDjMwDSgCWKsunvH8H8n9vkF_TxWH1qHzzwokXkpcut2YlMLEBbkd1xoDEtWOSyVQkvCYei
+8i6411SSWF5v_W4
+}
+
+
 GCPEntityColoring(AutoMLVideoIntelligence)
 !define AutoMLVideoIntelligence(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AutoMLVideoIntelligence, AutoMLVideoIntelligence)
 !define AutoMLVideoIntelligence(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AutoMLVideoIntelligence, AutoMLVideoIntelligence)

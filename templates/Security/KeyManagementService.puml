@@ -5,6 +5,13 @@ d_zecTfeu787DqOQdAgekHhArQUI_XAf61Pbt2Z5NdR9k57WDRghs08QnG1k5BssKAy851HdnM3dBWH5
 modQg08RLK0R2Emeh238auW5XfZiY3-GHm
 }
 
+sprite $KeyManagementServiceParticipant [50x50/4z] {
+pTQ55SHG24HHXlvxNeqovyMDrG_SkCNp8o64W0C1nm620PCyNEHga5ejSWveUYPMncGRL48YcxdQFo1gVy5EIcPYXMIYz7kkWemOJCoIBP69TkuaieZsL-t0
+MaZaKI9b0jR3WhQLYpAojYC4RTq-hmhgs8Hrm4n8X0iDX0D5q4n0s2dO7qtI1B2aZKmWOK1Rt2f4ceJd-H8doi9CsggcB-xArJUGzI9MWlNY-Bkp3dfcu4qS
+LySR
+}
+
+
 GCPEntityColoring(KeyManagementService)
 !define KeyManagementService(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, KeyManagementService, KeyManagementService)
 !define KeyManagementService(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, KeyManagementService, KeyManagementService)

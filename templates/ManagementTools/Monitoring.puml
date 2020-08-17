@@ -4,6 +4,12 @@ C5QQV_3bok4l31Jeb5Hbk6Wq2bMi5NBuJw1HqYY1lFobwfoPJumSmxwytQF0ULk0fPALSaZ0IRYLKWib
 zduippQ1ToXrhEnM1iDfi0SxkxsXf0ocZ6DGf7ET44OwxnfC6KhAOCgusaIwgmbXf3kimPHnBKy9J0iCdTGVg7i
 }
 
+sprite $MonitoringParticipant [50x50/4z] {
+pTG53WCn44DH-z__pkLsD1ejk6pHGbuuqV-7XJW5G0pWFG92mji5CS2nO82i4KFO28J4iM1l1l1IQl1TQ37kHGW4zPO88a61AM2tu0RC5E0f05zRC4tCL1Cr
+nYaq15OLXLNXFjuYNHHPch6UV3toNTA4juMNZyVIvskyMopEXsr9jby-jif5IfHUSNxntfLJ8EL20GX4GfGAAoLQY8Fo7yqH
+}
+
+
 GCPEntityColoring(Monitoring)
 !define Monitoring(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Monitoring, Monitoring)
 !define Monitoring(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Monitoring, Monitoring)

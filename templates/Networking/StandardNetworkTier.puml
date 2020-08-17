@@ -4,6 +4,12 @@ xTO5SWH134DHVT__pk7bLjjJeyAimh2lvM4DymxLHNrgaWXIjEC4ojGq4QI8A1L1V1dgI7oL04D4gQE9
 YUrPo4fPiLkbU4KAk_DzOB9BL6UZ1AE4WXACBY5HHKfKaJY31CeemIYXe0IZn6CGeUUwG9dGysw2KK912KOk9Af8YIeI2KJAA0eWuvbGW97Dt47_89y
 }
 
+sprite $StandardNetworkTierParticipant [50x50/4z] {
+pTC5hW8154FHs-v_pzy5Q1fIl35aphDaUFsuH1NqpC2-ZR17ufiBpy2QXGDiJMIFJPn1ZjGMO0EsQ29AwPS5IQ33qb2MZv7wzm38EbcB93fgQdDAOfEe1-0Q
+4YI1Sq9yfIn_kiLNXXSWZvZXKAW9L8J_SYn4F1P2j0C1ti9AM8LO2T_H2c0G8s4LOYKSHciBM5k0LW2xO023M0Yh42kXf9sOH-ST
+}
+
+
 GCPEntityColoring(StandardNetworkTier)
 !define StandardNetworkTier(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, StandardNetworkTier, StandardNetworkTier)
 !define StandardNetworkTier(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, StandardNetworkTier, StandardNetworkTier)

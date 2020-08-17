@@ -4,6 +4,12 @@ xTW7SiCm50DHBEv_v_GU-ekHTceCTvFpMDILpTn3ZvBZT2SAKWw78tIckr6GeYXLa39ChT2PLc1GbFur
 2ASLvzZe7EqDXHXCZDCWfFCweJFI-Qx1n528mSIuj46wLXCw8rt36aoCot8YCCPD3_8FyWW
 }
 
+sprite $ComputeEngineParticipant [50x50/4z] {
+pTG53a9148FXjlU_CnB1EflDZpSwyi5p_N-oYBUWWq7o7f50ahUBO11ZaGBiJvp0FqaWCHOrSQAa1mMsmgFGNJmDinRprDNBDQFepcOXzx4VX3s9RkcSUMue
+EjA3ACEFYWj-TPyHGlSSFrSUc_jdLrwy7rPM_my4_J9mGOde9yulVdTb2YGk100GX8WAYn8juipHjtC4
+}
+
+
 GCPEntityColoring(ComputeEngine)
 !define ComputeEngine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ComputeEngine, ComputeEngine)
 !define ComputeEngine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ComputeEngine, ComputeEngine)

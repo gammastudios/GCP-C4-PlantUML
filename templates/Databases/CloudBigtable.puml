@@ -5,6 +5,13 @@ ruf4bUI7Jg5Hoe3NGgEeKxpl8ByWAcJ5WgUsh8PXa-8CRYOTh6oJ57zyVI0OnfE20GTv85yK1ULXQfiZ
 jHp2mCkXCnark7XvE5enFiNc8oSrGAma9nKQChHZpAymyuUSkiJCqnR3p6lfUdU3qOQ2DXYbOY7ArhsQs42a7KKBoBWdjC0erjn1Vw3U0G
 }
 
+sprite $CloudBigtableParticipant [50x50/4z] {
+pTK7ZiKW54DH--v_prF3amWM-W6cM3Nb19o6_dyWnqy1y1Z06G4F2SS5Zm5-B9W3cVaW3jUR3vAFJeZJ26b_9StNDJMF95MGz6r1L1p4TNMtiqLtV02k1jSm
+laH7F9wlLZuBAhsIp2YG8DHeUKa0dWby4o2WWIG8OjOS54GzHBygPAuME5MDOu0Wle-A0akeNXMx5yhDw-NjJr4KRirBLQoUt6RliSRu2TOib6ktnDz2F58X
+ly04a0LexVSp0p9ZxiAR_rtvAP2U2pq4pyNvrTbwIgGSawFVpZi
+}
+
+
 GCPEntityColoring(CloudBigtable)
 !define CloudBigtable(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudBigtable, CloudBigtable)
 !define CloudBigtable(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudBigtable, CloudBigtable)

@@ -4,6 +4,12 @@ noVJimH4KweW3QJdtJeLHlMoA4hxWvGe2euIGGdqF2060e8YC1XAC9ZX_vNRtJuLE51uAziAxtCKDXKC
 DQp1O2pBWy0OcnxX7_G2
 }
 
+sprite $TraceParticipant [50x50/4z] {
+pTJ5WGGn5CJGAkMVy-ummzUmRWslqNP-FwvK1TPf0AyH80al5sX0jU0Ko9kKTLqtkCd9FkwIQi5Gi0DZqQnZdWPhKYr04fuJa-bSBT0Ydn315IyiYHNDAh7G
+P5t78jkyo53a6H6mYs87e4-kkwa5YHSHG0X3OaMVM39cdpYVxXy
+}
+
+
 GCPEntityColoring(Trace)
 !define Trace(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Trace, Trace)
 !define Trace(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Trace, Trace)

@@ -4,6 +4,12 @@ PvNE3Vz-gQEIRQD2dc9L6HUcXvGEYAwmhRFIuRlLVTIMXEDAameAQTUtxj3tKL2KE0hAFegW9E6mefoD
 7j9pdR0mqlEkmSHGYC74UBL1UbSJ5aPwXpMO6A_bH62CGG_o1xe5
 }
 
+sprite $CloudNaturalLanguageAPIParticipant [50x50/4z] {
+pTR50GGX40NH_fL_q7l6gVK-ZV1mg_yF5X4B00tWFG8auUq23OWMQD0M4f25DD_6L2E95bmA1a2RVloMcMZxf1CqO2TQ4YtWs8xsbOyB0geTW1QbXM-7xrqj
+_2on8a_EtSfrE_mQz3k35dQ7e-mMboVsNLd84-U79QN5vq_dF7zdkEpY-dOy
+}
+
+
 GCPEntityColoring(CloudNaturalLanguageAPI)
 !define CloudNaturalLanguageAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, CloudNaturalLanguageAPI)
 !define CloudNaturalLanguageAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, CloudNaturalLanguageAPI)

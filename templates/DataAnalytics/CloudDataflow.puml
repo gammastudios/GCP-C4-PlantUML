@@ -5,6 +5,12 @@ QO9LTg2Hek5mQVPqVxuCnndpYLcUTTsHsX_EZY4K5n8EGQ6_jKj3qS08vt_zPhXoKCIyCAOzMRqm5OuG
 ZmajO1ILEUWNw3y
 }
 
+sprite $CloudDataflowParticipant [50x50/4z] {
+pPK54iGm30Cb___FnrXhfrEk3WhAsk7e_2gG4M0Xm5g1O82HMfqe0bWcWjM0QKay2FQ-CIRfnliAYAd6s1AeCZQU7MmyTwEpbUAKvA8cEhvw_Ba732d-GtG_
+DUAlA1CDHCUGmyAGlQT6Kd4x33cu7UnCp25-mxvup1LjdbS6SzhSXVUyFiRMe9bGA9zQ8I3UuOD3Y7c_Wau1USQ-Ep79ZFDZAgB9nFQdipKL4SXKVczT0G
+}
+
+
 GCPEntityColoring(CloudDataflow)
 !define CloudDataflow(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataflow, CloudDataflow)
 !define CloudDataflow(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataflow, CloudDataflow)

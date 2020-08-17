@@ -4,6 +4,12 @@ PCD87zuqOFAibLs48yorqKFoNSeI233EYldl4E08lymwqpEweYnVEJHZ2ree2pjJdm8Wep2Z07GKsxiv
 6XYqHtZCme7937RKWrnMScPTZ4LoD1BO5-OQodHi4PCO0qafeXy0pGYDQn1Bzxg2cT9zju51Wq8qC6WyRLXwgnNCmAb3GG4IrqGKC1OGSeWNq2S
 }
 
+sprite $BigQueryParticipant [50x50/4z] {
+pTG53aCn38DXE_U_ynYZ_DKyjcZAsrTkzVyfY15m471o0I0ZzNPHCIZ7eZe8Et5Ls4bLI1oBUSncmctHv8SoZPV0kGHagBNVNG1WKikAMVI_IDGapU8gtCaa
+f8NGGaYF23S1IzCBFebXTQdYacWQs8YXGJXNfgyM4BoVT0Lr_I09BawFxM5j10JNNoGOfqJf4-SNtrqv1L8k581094Ifi58Y22snlfqj
+}
+
+
 GCPEntityColoring(BigQuery)
 !define BigQuery(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, BigQuery, BigQuery)
 !define BigQuery(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, BigQuery, BigQuery)

@@ -4,6 +4,12 @@ fX7fh31aH3db615I7_BXsqb5PqeSIvTFGU7IOCS-5-KaiPEYhF1I0IxA7ITWTgOUl9rNq5SG5CwKomS7
 oaihXNNtR8y0BizAkoELNKqTHOjAvSo06emQno1Avxf2OKhdtGQZXe8QZ1fN6qftjK9XIdVO1gF6jHmL6CN83le3yGu
 }
 
+sprite $GPUParticipant [50x50/4z] {
+pTI50GGX44FH9FttVEw3_VDPbuU3_Z_I2LEG18FaFIA196yNmI368WMmJ9p0J198_FZ-Sd97P28AgNdRvrExyjtwzJwY8Lgg_VX7KmI9rAxmwPKwtxj2FP5M
+WvTh2IRK5ecKZg0rZzGHxeXd-aCYehwmzH2so-3bOrV6CqfSQ568hoMKY2vnVd7TbIcGk100G10YAYnAr0c3_pyQMm
+}
+
+
 GCPEntityColoring(GPU)
 !define GPU(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GPU, GPU)
 !define GPU(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GPU, GPU)

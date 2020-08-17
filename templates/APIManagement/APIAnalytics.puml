@@ -5,6 +5,12 @@ pI1Mc_k6MNSYqw7-QrpeCDXCdCqqTWujUgWntk-ETECv707y8w40PXVglGYT0mAB2PqR4nWbA2Y1KU8o
 jXm5C8c77kWFw1K
 }
 
+sprite $APIAnalyticsParticipant [50x50/4z] {
+pTHLOiDG50FHqUn_p-Kczgr9PNqzq4dC_F-uaxH0hO5-Zz2I-Et26fXQE47v9z7oJxGagOKMf09cL-Gbkt-okx57yh5wss2pCER9EtcTpigSHJMWt3OX--Aj
+5ZG63SpIaWU5MuVtQN1aNsH3KFy7ypnkm10bolx5ugswlaYGqTb_qk3y5WOWwwaJO97G4bwJ5a0lg06ze0R4-iFR_WMa1T0B2b28Xj2Aq19sagB_eta4
+}
+
+
 GCPEntityColoring(APIAnalytics)
 !define APIAnalytics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, APIAnalytics, APIAnalytics)
 !define APIAnalytics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, APIAnalytics, APIAnalytics)

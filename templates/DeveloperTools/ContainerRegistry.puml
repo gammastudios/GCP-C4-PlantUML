@@ -5,6 +5,13 @@ KL3UQWpdKT66WXVFB-oeeCG4UBUQlus2l5VZy3iW8uHxeU0zXGJdWTbGBdx5cgW4DoXNWngC6Z-3AFsk
 o5K7_O7S0m
 }
 
+sprite $ContainerRegistryParticipant [50x50/4z] {
+pTH50WDH309GuFw7xkeRIOKwc-gBZE7_eojX04PY8Br7I27HsuLY8CP23i8cbC8cKa2yXVK3Mt7CQW8mSW9W26BxJrd-0EENuwr6QWiUtPl1R6r0ZQ0BHKA0
+NXSsl0lHXVrOXKoCvSQRAb34M87ZpUi2eS0p0YOuBWJwvWEWT2IE9PkBjotGVrTkmNhFrz-zR2FC5o8JnjDdIKgGFkBuudCNJ06G2mGW40b1AeYKu4geFlXs
+BW
+}
+
+
 GCPEntityColoring(ContainerRegistry)
 !define ContainerRegistry(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ContainerRegistry, ContainerRegistry)
 !define ContainerRegistry(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ContainerRegistry, ContainerRegistry)

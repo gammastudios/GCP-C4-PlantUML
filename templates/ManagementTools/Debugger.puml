@@ -4,6 +4,12 @@ JMjGjil9Ng5Kl44E5UstLfVvDN1PtPLneQXMBemhXOH2hLmO5xaeLTHCC58C3YWgbS37mzOOoLHH0Z5x
 uict3cryNPJ-kmkruahX4bMAAcNuRuIRfLBXnLU4gN9qW4byWK0-ZqBdka2Pq7atmP1GH89X5oMgGA8AA850HY6284yY0WnjUaVyWtm2
 }
 
+sprite $DebuggerParticipant [50x50/4z] {
+pTK7RW0n30F1vVx_qK593orOwKGNCTVFvl_7GpA2dZNGxn6w97wxS0tCMbZ0vYJHvKaioKJI19DuFrG5JMq1hqK6GHL-10AgUPgNdZJ192mPtYhuBO91cFa3
+yYwCWXaCehBqPX2rcCHT0RmfIdyM5f7fsytvsoLLM0HFQS9HSFcU-ChdmngG2v0lhhja2s0lM8Az-FxTEMm9XyGUVZiF
+}
+
+
 GCPEntityColoring(Debugger)
 !define Debugger(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Debugger, Debugger)
 !define Debugger(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Debugger, Debugger)

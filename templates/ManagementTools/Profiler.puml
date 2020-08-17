@@ -5,6 +5,13 @@ MOfsYWwJEBbBHCdVY-_eUHlbbBo_u2OOzaVoVNTvIZwEM1Rp_XNM0daLrY13zWvZZ8SmKzRY-wk1U4os
 oQOWqphn5MHQ9-62JEk6e21Jl3dn8ODCWG0IX25hpmC
 }
 
+sprite $ProfilerParticipant [50x50/4z] {
+bPO7ZWD13CDC___HXsh45uu32IMLuhOfjOAcdg5VEO0CwIEa2fVq6LGHIlf744KewPz1597aqVQMS10kwODG2GVXaZu2KiNrn_NpLdZL_XrNS3mEgZYVE4Gn
+jOqL-ZMVh_pAuntWZMsAEQ3k5eaIp3aZakx9TAxx4H4b1CL_efkRg92egkmylcxg5CkrCcB-yQbW0ouPqXMxXS_Fo26ufEQjAlHGpv_Cx437CzmrKQDJJ3vJ
+x-G4AL2L4wH0LKwG0hU4V2VZ8L0uueO_
+}
+
+
 GCPEntityColoring(Profiler)
 !define Profiler(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Profiler, Profiler)
 !define Profiler(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Profiler, Profiler)

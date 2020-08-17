@@ -4,6 +4,13 @@ QxK8Kn-qIK958g4YtN_jpz9CCctHBKKN5LHIA7YulvPw1bzL93voavTGuo9LZJWTffIXfdHbKOcHgaQq
 tMbp9Q3oae1AAtEANFVvje9rX3Af37rw6KUbby5GSJ3Clf8VGZUoW4pgfXgG2TtW4vZJHKO8lR82Cg7NPm8JUfK7C9mfO4BwFF8C
 }
 
+sprite $AutoMLNaturalLanguageParticipant [50x50/4z] {
+pPK70iCm20CZ_l_dxa4HvBfRTO_B6HBRozz7CKG4UCG08qmmm4X0KC6Im9W28m08YHJbJ8H6-IIvTxYay1Qg-tgzXPD2q2xPGQZ3WOgSjkpJQu-gALk5q2tO
+AKhADsgho0wLqQaYEgCPdedencJT2Jj0TdYxhOM5Q2zKnHmzU1Mr2aD8SKnVnTfSa04ue-zTPN0sUzc6mF9ZxhSlYdfcfGO9A5Zoygx6oDA551uHu14374bQ
+lfyj
+}
+
+
 GCPEntityColoring(AutoMLNaturalLanguage)
 !define AutoMLNaturalLanguage(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AutoMLNaturalLanguage, AutoMLNaturalLanguage)
 !define AutoMLNaturalLanguage(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AutoMLNaturalLanguage, AutoMLNaturalLanguage)

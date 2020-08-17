@@ -4,6 +4,12 @@ I_lXwUCK9G2KhzkyF1GtLWAGegGgWXTJgK-zCgzpepXHpl7ZBxu4d7xZHyL3Yuvj-lw7AyMs9ErAtqKM
 E3dLoDEmO5Weic1ON8CStUi6bHdTTnSC2qKM3AUug0eigW8k4DWeJ13CJMJ0KDCT-GDv0m
 }
 
+sprite $CloudMemorystoreParticipant [50x50/4z] {
+pTMfbGGm40DHgV8FUj6oBg2vHUt_shVp-q5I1PuPm6i4Z8IN2sP0Py41bYA5iGYCfBF09zYp3N1nJbwxMxiKw2NuhtiW6cjb4kYquHoL2rHG06HkjhaoDnCw
+3zzX5n4Xgukkhekeo3qgkJrHaLjqFUt8hN6nNdF8IhABbSW4FNtotKrNaEmY8zZ5wt_dPYMHrFf_Edy
+}
+
+
 GCPEntityColoring(CloudMemorystore)
 !define CloudMemorystore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudMemorystore, CloudMemorystore)
 !define CloudMemorystore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudMemorystore, CloudMemorystore)

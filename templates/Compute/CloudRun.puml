@@ -4,6 +4,13 @@ KZ9YAoyQgtni89QzNt0pZ50CitbIf10hNsVDR6ib36jbSYIfybgnI16p5pGpJERi-nOfOzXtSoJ-z5y5
 hi-12CFnR8KqDN2Z8DCK4aWWgyACMPYz2oj9OrMhhB2osiznjVUTXwkm8IjjfgZi3bixrOAPqWw-WIaSiae792edljBfiu4fdSeB61uJ726kjpu1
 }
 
+sprite $CloudRunParticipant [50x50/4z] {
+pPK7RiG03CDC___F7UfkUPUecm0oZ11Izlnxs7MeX40b17h3XLBP0wg8G1KHgeY028sohS7B51wN0XeHFKj1puBiCkeW4HbcgOf4P4XgpO26H91Qf9agCjib
+cYZZionZMuKDLclNOWOpnczm84klvGhKHj_gufdByU7ArNK17sKPi7kEbd9XkV8aPcs2F-thmbvze-pUKh-r_cN8Yk9ZSerf3VglQF-bxly6PSZqVxLM6QEA
+25H2e10K7fdVvnO
+}
+
+
 GCPEntityColoring(CloudRun)
 !define CloudRun(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudRun, CloudRun)
 !define CloudRun(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudRun, CloudRun)

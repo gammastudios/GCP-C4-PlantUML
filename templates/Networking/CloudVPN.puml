@@ -4,6 +4,12 @@ pD1wRVkCaYFRP5PClbwvPzhwxuebBtRJfmLvLY9bLdIRMN5H9D__3qe_7ye49HKZIkaNIqbQxqRU6IEt
 d8tCQKye9cv1qSiOk4jHzphvtGfnzKv4C28KYs14F6qClTM0oa1lM88HyIot04OrtR7-G2u1
 }
 
+sprite $CloudVPNParticipant [50x50/4z] {
+pTLN3WGW54BH2_lVy_Ik93ATNtFi-lZ_E4GHvDJ0Ve-mI-At2zV0MX9tZG44CGoY5U5nY2m6ebfuKJY1B3I8cT7OXGjn8Ag5As78Ls8k50G8fi8QnCMbuvqB
+PJ6V5PoRLeK1aY0z1dig-lFeRqahzEJTHVMBeXSi2buHrFyLMX1wyTz5TJMW5vIW5--lpg8bXCZpyEri0G
+}
+
+
 GCPEntityColoring(CloudVPN)
 !define CloudVPN(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVPN, CloudVPN)
 !define CloudVPN(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVPN, CloudVPN)

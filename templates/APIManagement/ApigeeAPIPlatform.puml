@@ -5,6 +5,12 @@ xPY7ZWGn24Dj__y_Nxz3OcAII5QzzVQ5UPZf2Gxr4hKJzjA98X1nsqx0Z4uLWOWHYY8GRuQwaRSIm312
 kgyBc0dTxoOmI52810Q9eGr3OxM06KpAK1207FT41329IG_Y7-WT
 }
 
+sprite $ApigeeAPIPlatformParticipant [50x50/4z] {
+pPM73iD034A1___eQjMgHMmTtRH9RhsWtB3n_z8WBi2a693UGqWXehSJYW4n9cH0PaATQBGWhMW8pVfXm2NHW6gotgdf_gXYVw4JHLRHJVe4DhCY6a8Z5W_P
+pBPPWX5U5G2xhqJDKYjtKOu0LbxL2GUmUF3I8_yEO9ehJdELhmSGhNcyh_ZatWMFpmVsKxRqJcTc0Q0p8KMGXZY-67V1501o0Y6G4-_FpaIAmBHFCRwj6m
+}
+
+
 GCPEntityColoring(ApigeeAPIPlatform)
 !define ApigeeAPIPlatform(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ApigeeAPIPlatform, ApigeeAPIPlatform)
 !define ApigeeAPIPlatform(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ApigeeAPIPlatform, ApigeeAPIPlatform)

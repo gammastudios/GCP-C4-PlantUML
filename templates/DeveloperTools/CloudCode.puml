@@ -5,6 +5,13 @@ KW5PbeUlpZeXBU3X3_0qCYepViNRFvsJCmt4IgdSOn0hxueh3Oor5iyb36CfEgTQuuHbyRJtOkwet89Q
 d4aoK239032_WGy
 }
 
+sprite $CloudCodeParticipant [50x50/4z] {
+lPO7RiL0448DtF_CwGdHCcj-Hst4w0dZVhnSr22U0REs2BWLIiAbAM91sZ7rus9HZUWXh2eHdI2x2b0GN4OW8feK4LNOHDY8rKpO6NSxqrDkvs1vYZKu8FAK
+vHMbxNrCQtqT64hB-wmFJANFlFyPYggZ1reAm9vSVLbhkUO_df7bx4fvpINI2DogNtFveizLFT48VBD7LK-MDDoAhkh9sZnHKapnsF92xTyCwgz5DgI_i5JV
+lEX8VLEh4MW8ZXh2U51g21KHBOJA5Xt9Y8uueHD6hlwJURdU0G
+}
+
+
 GCPEntityColoring(CloudCode)
 !define CloudCode(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCode, CloudCode)
 !define CloudCode(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCode, CloudCode)

@@ -4,6 +4,13 @@ WEbEbCVOA_UbF5EgKYR8zOhSoUXUkJaITzMuK-6cfZuPTCt-RnWWoPsCFnNVKj3cVzj0hM3-xocYL51V
 z1KtTbCfPiXa_gJ1t1N305eP4C1i4d0TOVrY4JyGO8QAtcHV59Y9sfVXaHw3safYIKPMwIC1PXJHan1QmGTEXj3E9i2CX49eznbW6066CGzLrW7utNpv0G
 }
 
+sprite $CloudDataCatalogParticipant [50x50/4z] {
+rPK5iiDG3CGit__E7ulUQ3hEOBOCifpaGLqXPAeyj0G5D49qUqpXmG2FzBIIq5kajmIzHJgICOM703QIpb2uH7z3aA40W9UXtzaNqIpKyuLqJ_6ReoebFHIy
+rI8agHZdQjGKHTI8Z_c5rv0_v3-SQ7XXA8WcyAkDNAwFHFpCXeXH8aGCHICwYEFHJj4tHnCD34aCBfs4vCW0EVE237S2eGT0ocnNk9HupgpKIycP7MSdeRR8
+UdUcbWYbuJ1rWNm3
+}
+
+
 GCPEntityColoring(CloudDataCatalog)
 !define CloudDataCatalog(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataCatalog, CloudDataCatalog)
 !define CloudDataCatalog(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataCatalog, CloudDataCatalog)

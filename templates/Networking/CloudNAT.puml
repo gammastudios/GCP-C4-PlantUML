@@ -4,6 +4,12 @@ ggqyOZ4mD91VWUoOfastPZicrZxnp6YYLxnZfbvm7B_MPjIe2Qasow7N_HlsRkFEdb0AJBLMUEZk6A2Q
 CNao35QdbEmZise2zLOYftVa9idVQkCaHEvjhqJIi9bDwOG8PMG1CwbCDM0cbC4dC84YArGW4QduKjLdm4oeAWzW69t0XFIwz0q
 }
 
+sprite $CloudNATParticipant [50x50/4z] {
+pPO73WCn3CDC_V_FNSPi10TAfp0xUBGli_u-I3uCG8IW8UI41q94cpX5AD4sgK8Y1IGc0ajCGEqGqwH5l0AGy0XEGJ_1lsyvHTM36ILe9Kgqn2BhLpJgcpVV
+znT6Oh-6vIUU9TYIsYzNdMcxmvt0ZbTCB5LfLrNS-SdRBP8Hv6YM-9auAFBPxjytey8y3WyetndItKS7Ero84E_K9wT1A3aurLAaN4B5B26_PGG1wlkv0W
+}
+
+
 GCPEntityColoring(CloudNAT)
 !define CloudNAT(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNAT, CloudNAT)
 !define CloudNAT(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNAT, CloudNAT)

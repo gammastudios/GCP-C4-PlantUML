@@ -4,6 +4,12 @@ GTCrFnvXHVduhkkOtGDxoBi3ZGpjLyLN2emoWyhtzvmmr52rUSqWCwYGj68pXTifZDMogPWQccXNBxMI
 _o7NWxG623BIscXWog1G1gQCRH3IlawGaVQx1gOC2cLWoZZQ89tL11df36jWoZYMKmB6kFIW_a4U0G
 }
 
+sprite $CloudToolsforPowerShellParticipant [50x50/4z] {
+pT85aiD050DHgUz_vyN4e2c3mhyezD8UqESF6-CM03M0nmWe2GyNr03NWWHbn516e2Ik1HIa0hWMR05jrtFP_--y4ckeuUsKc8ZpJnaISRGHsKfC3mUmZfXf
+l4XmfHeYcKWnHfOw6niBsLv79hQNRcdpGFATDyw3bGZ2SEQM0rJtoZVUNRa5KYzK0_L21IWMRwcCI6L4ERrG0GhH4BN2QeasniNldphV
+}
+
+
 GCPEntityColoring(CloudToolsforPowerShell)
 !define CloudToolsforPowerShell(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudToolsforPowerShell, CloudToolsforPowerShell)
 !define CloudToolsforPowerShell(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudToolsforPowerShell, CloudToolsforPowerShell)

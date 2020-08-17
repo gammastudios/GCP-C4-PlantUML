@@ -4,6 +4,12 @@ fol0cJ8l6QTEYW2We4nhlLO4sYi65nGLbFpdUuYYKO7i4z5HL5041GNGMW6Wex1KmlFBh8Y1YHLEQN4S
 C3GKqM1eFDhepizgg850Hw6282U90WEmTSGNz0S
 }
 
+sprite $CloudComposerParticipant [50x50/4z] {
+pTM55SH0409GeF-Up_s6UKkSkFpe2euVcT02dnX8omWf95fSA0PYB5I0v2QKmfiqByZo66EXGQ4Az8AnaF-oxG4Mvzxdxh0Y8K2h2p4K_LUg1PhYjfX0A315
+816--3X1LtQjC9N62poJ2mmAb8BNVCoDW4Q2j8dZp7ONJ06G2uGW5yltpaHAO4BLmTOv0m
+}
+
+
 GCPEntityColoring(CloudComposer)
 !define CloudComposer(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudComposer, CloudComposer)
 !define CloudComposer(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudComposer, CloudComposer)

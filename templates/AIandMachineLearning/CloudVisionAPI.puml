@@ -4,6 +4,12 @@ TKsc1dHDbtWuMBNysNcXAOdyDVhgyJnAThEIfcg-zsyQgoMYTrfLroM-ybq79Nz_p1fl2j85upyqDDUN
 rJKYEX3YVY9lyiqSbO7jex58a6SZeH5XiGYDYDSWG-zrG3BG-owX4M6n28s8fOsXjHgGZ2OOYm39kYOBqAZIFTO3y0e
 }
 
+sprite $CloudVisionAPIParticipant [50x50/4z] {
+pTG53iDG30JHyTx_q1KMFQgs60i_F4ERXED794Q1Xu6Iz28fIJukKeDCBRA0fiWaPP6a95EBf2HoviCZ9njHuFFjsm186G3joCXUu6BdcRWKi3Ap3mOm2z6v
+BZVdWQ1DaRs6pJ74HnSZGm0n0dPQlGR-NDc97KJt_HMKtVuTR0czQ0dj9sxU_EuoBO1UK812D8HM32r1Okp-h-C4
+}
+
+
 GCPEntityColoring(CloudVisionAPI)
 !define CloudVisionAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVisionAPI, CloudVisionAPI)
 !define CloudVisionAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVisionAPI, CloudVisionAPI)

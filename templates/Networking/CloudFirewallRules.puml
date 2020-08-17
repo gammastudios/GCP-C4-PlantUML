@@ -4,6 +4,12 @@ E1Jr4R8xrsCAGAfSCnuhWtaU63JiEdXsGsM9WaMikOw10Ynv0sWKadSQZne5G_79N3m6i6HKer7mkoYK
 eLYMZu0fDZt6F-WF
 }
 
+sprite $CloudFirewallRulesParticipant [50x50/4z] {
+pTJ50KCn40DHQVhlESmy-QYpdtatwmzlKWi03S0B3K03l403gWLFm2rIa8k09DNYnLuXvxmW_2pgJW6W0JmTkuyRIl8aK8846IyeyFFj7gD5teh-9lpHsnPw
+3hHz1Fuz4YNqlseioJ7L5HKXR6VmmfBO5jU1VJUr8F4Y0WXXIAneBCcRL8oVD5i
+}
+
+
 GCPEntityColoring(CloudFirewallRules)
 !define CloudFirewallRules(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirewallRules, CloudFirewallRules)
 !define CloudFirewallRules(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirewallRules, CloudFirewallRules)

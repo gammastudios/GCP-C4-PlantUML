@@ -4,6 +4,12 @@ xPX7aWCW40Cb_V_FkyvnYEwRtMUgImmPJVB36Q4ncG6HnCFk064o2oA94KiGIJkC4o1C0cYCMB8A8eaH
 Q4HSWmpTwu0mq7sNq8YmM8H6nDF6q5iD20EzOGcDY6Uv1MY8Jm_h2_W7
 }
 
+sprite $TransferApplianceParticipant [50x50/4z] {
+pTJ50KCn40DHQVhlESmV9wopdtat_nycKWi03U0z0YJXxG8Dg1OCW5ka81S1IQe52A80rO8ZKCyxSUp0d1ZCFhi62KCno42uT7XYyR5x4J0jeeids8pURX_o
+C4A_HwBUNF-hFlbtKmiIBw91l8W0ul1ziU-c5YHUH00X38aLZIMPICNuZsOB
+}
+
+
 GCPEntityColoring(TransferAppliance)
 !define TransferAppliance(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, TransferAppliance, TransferAppliance)
 !define TransferAppliance(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, TransferAppliance, TransferAppliance)

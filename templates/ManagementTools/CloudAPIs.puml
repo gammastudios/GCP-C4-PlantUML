@@ -4,6 +4,12 @@ toXZNIpSvJaYTzjymfbFlOmMb0COW83ZHZbQzhzAydJg3MZ914aG8p64CHP36CEHB1Y2U0gRqNpu_JGr
 JHPXdZ0spyYG3Soo4Coq42oNgT6vpchiCLC0SuDmskRICiPKsbktAHGE9Ww40i60IklT1aODYjN0gB6rSMclLWX6cpeK5I3ddAm2HYZcM7z0Fm
 }
 
+sprite $CloudAPIsParticipant [50x50/4z] {
+pTQ55G8m30N0_Eo_CwwbXrlmygvkzV_HY10u21nl40Oc_NRH0ev8E6w1N2yaFSOyhLm4id4HI7OHcpGKpJfjtdkCM6m_qCFesNXGWdz2SP6IawoI3782QllH
+1vfH0BH814Z6tjv-dDLWQ6k106m5242NY46vITCe4WAlM9Kz9U7SrHACrWVNOCfhq8I0BIcqmiHWRBmZB-wxbKT1rUEY7WIFY_UVpddJdS5TND-E9G
+}
+
+
 GCPEntityColoring(CloudAPIs)
 !define CloudAPIs(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudAPIs, CloudAPIs)
 !define CloudAPIs(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudAPIs, CloudAPIs)

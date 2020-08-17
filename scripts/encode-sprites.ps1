@@ -6,6 +6,8 @@ Write-Output "Encoding sprites from GCP icon library..."
 Add-Type -AssemblyName System.Drawing
 [int32]$new_width = 70
 [int32]$new_height = 70
+[int32]$new_width_part = 50
+[int32]$new_height_part = 50
 $cwd = Get-Location
 $template_dir = Join-Path -Path (Split-Path -Path $cwd -Parent) -ChildPath "templates"
  
@@ -21,7 +23,10 @@ Write-Output "Creating sprite and PUML file for ${serviceName}/${resourceName}"
 # create service dir in templates dir if it doesnt exist
 New-Item -ItemType Directory -Force -Path (Join-Path -Path $template_dir -ChildPath $serviceName) | Out-Null	
 $outputImageFile = Join-Path -Path (Join-Path -Path $template_dir -ChildPath $serviceName) -ChildPath "${resourceName}.png"
+$outputImageFilePart = Join-Path -Path (Join-Path -Path $template_dir -ChildPath $serviceName) -ChildPath "${resourceName}Participant.png"
 
+
+## regular sized image
 # resize image to 70x70
 $img = [System.Drawing.Image]::FromFile((Get-Item $inputFullName))
 $img2 = New-Object System.Drawing.Bitmap($new_width, $new_height)
@@ -37,10 +42,27 @@ $spriteStr = $spriteObj | Out-String
 # remove resized png file
 Remove-Item $outputImageFile
 
+## participant sized image (for sequence diagrams)
+# resize image to 30x30
+$img = [System.Drawing.Image]::FromFile((Get-Item $inputFullName))
+$img2 = New-Object System.Drawing.Bitmap($new_width_part, $new_height_part)
+$graph = [System.Drawing.Graphics]::FromImage($img2)
+$graph.Clear([System.Drawing.Color]::White)
+$graph.DrawImage($img, 0, 0, $new_width_part, $new_height_part)
+$img2.Save($outputImageFilePart)
+
+# encode sprite
+$spriteObj = java -jar "${cwd}\plantuml.jar" -encodesprite 4z "${outputImageFilePart}"
+$spriteStrPart = $spriteObj | Out-String
+
+# remove resized png file
+Remove-Item $outputImageFilePart
+
 # create PUML file
 $pumlFile = Join-Path -Path (Join-Path -Path $template_dir -ChildPath $serviceName) -ChildPath "${resourceName}.puml"
 New-Item $pumlFile -ItemType File -Force -Value $spriteStr | Out-Null
-
+$Str = $spriteStrPart
+Add-Content -Path $pumlFile -Value $Str
 $Str = "GCPEntityColoring(${resourceName})"
 Add-Content -Path $pumlFile -Value $Str
 $Str = "!define ${resourceName}(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ${resourceName}, ${resourceName})"

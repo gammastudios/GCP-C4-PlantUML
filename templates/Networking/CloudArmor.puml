@@ -5,6 +5,13 @@ YYiIo5e1nQV57TbSVFpwH6j3DeMxvt8WQmaK7PS3CV_-kSoEcD-sbhXC8FSgF4g4g-3CZ6GLBkD0p0YV
 iqp6E1dwtfrWDA5O4umexbKPA2EE9n1fHj44ylv1CC08y-vOFv0F
 }
 
+sprite $CloudArmorParticipant [50x50/4z] {
+pTK5ZaCn40DGU-v_w1LRtnxGKbiNaz4B5Ju-FpM49yYS8FCtekgRfFvSrBT1yH8y9cchsoGSHfidoQ7qsX9wfnfMZ2bYYLuNK4ztg6g4C92T1dOXmYm2t8GD
+fruWXLefDDeji8fY26WYIaGa1APrc4Z0KmW0jAFEAIbWXomm79OcP0fOsmuBe8Dzx_Hb1p5GtO0vxGEW0JbCW133LZY043hMA2X3XHF8MdLzn2Dr1y_m1fxl
+2tmJV5_y_TMP-2x145OVl3fV
+}
+
+
 GCPEntityColoring(CloudArmor)
 !define CloudArmor(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudArmor, CloudArmor)
 !define CloudArmor(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudArmor, CloudArmor)

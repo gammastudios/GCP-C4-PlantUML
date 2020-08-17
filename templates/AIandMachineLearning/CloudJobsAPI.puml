@@ -4,6 +4,12 @@ xPS5aiH030FT_l-V3nVZYgARql6gAE1foybWcNg8Ff81QKSHIEENiswcNKKWJOJI2X8mGtV0J7S0GuJI
 HsdCbLCYqfXHXrIKisQTRaKCOa1j2rE9FCsCjOWH49VIw1_GAwh4DeZGlYvW9hJVJM0gGQ4Ic4eSRGYTrG9cIYb3gG34heaAOCeGXf4_hsS
 }
 
+sprite $CloudJobsAPIParticipant [50x50/4z] {
+pTG54iD034DHIVU_SvdxdOxABiQUboph_oD3U0Hpr23f1OEIvEqYDOXh4G3DGvoK3qbAubfmcpqJAd35dFV2a30ufuXm3l-V1G9jOo31Z0uVFnQMhiOAnWiQ
+TIqSY4ge5cq_87CjSFGvqq_X37XTUQfwUUr2TLZIrsCbBDo7RUYAcCpZh_uiQOdQ8yuldhjo2wHUg025Q8XQORM4mJp4-dQi0G
+}
+
+
 GCPEntityColoring(CloudJobsAPI)
 !define CloudJobsAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudJobsAPI, CloudJobsAPI)
 !define CloudJobsAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudJobsAPI, CloudJobsAPI)

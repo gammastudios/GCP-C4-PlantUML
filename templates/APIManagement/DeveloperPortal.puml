@@ -4,6 +4,13 @@ aeBqAMAgKbkMg1co8x7ImKYf6hx6u50k1NT1nnr6YnIo5289HhaB19awsaaX8KXbivYnDWnEjjTGlQsX
 V3LAXwcTeKyXAeovOsOvcztTcvEJXAAXSLnHR_F5sUYViEcqy4zxfVX75eLTNyNUvOkfUrtVpDXzju-92GenWOc9fmrJRxM-cVathAeFyMCY1Z1X2CF8r-i5
 }
 
+sprite $DeveloperPortalParticipant [50x50/4z] {
+pPK73iCm54A1-z-vUs7nrTADXWTvSOWN_byQn08ugmQazn1IYUZjX6f0h0dLW0z2gHnai3WY7FfdnxelJp9u2U1jHp132lAcaHEgqHgE-TkSi2OzuQLbY3Le
+071fPW9dWiVAbJ24UQ7b7XSV9M08ZphwFBSD46oKsqJCoGL3yc9O06Zy3N6fzAka9GX3GhBLJ1kD5ZdlgFYURDtlvsGW9cHp_6IXFUBOdxikjW3G4oY1ddZ_
+xKoq20PHMVYsjW
+}
+
+
 GCPEntityColoring(DeveloperPortal)
 !define DeveloperPortal(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, DeveloperPortal, DeveloperPortal)
 !define DeveloperPortal(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, DeveloperPortal, DeveloperPortal)

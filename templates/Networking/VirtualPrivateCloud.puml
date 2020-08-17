@@ -4,6 +4,12 @@ tBMRBMW8bfGCla_fHjTWBocqhcqTtuskghycToiFGg4aTqH1ePH3GQ3GejqkzPcYh80IACREO53uJ8oz
 6Uc-Qs3Ae506feod3T9RJQYCz8OrC6Kyooa1OtnwK2-W3m
 }
 
+sprite $VirtualPrivateCloudParticipant [50x50/4z] {
+pTJ50SGm00D1QVil-huNpeRr2OxPplV3Gce1e05ueG5eW1TeGBL0Ws4b1La9I58jfYy7zrF2Rb4X1f-N1ttXUxK0qIf8E2w6xvO_Lmkqo0F2ZwuMVfLOqODh
+DzKxAaBOay4BIsAFk9uyTrCB4YyYW126n8h6aYoaulzRymC
+}
+
+
 GCPEntityColoring(VirtualPrivateCloud)
 !define VirtualPrivateCloud(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, VirtualPrivateCloud, VirtualPrivateCloud)
 !define VirtualPrivateCloud(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, VirtualPrivateCloud, VirtualPrivateCloud)

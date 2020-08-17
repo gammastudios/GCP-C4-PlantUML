@@ -5,6 +5,13 @@ f10LG6yL0RvNwivR9DwkfLphTEDq3GM6-_c0q5UKrLONBQF9pQe2yjbHV8UkE3qz6JPKb9_dPS8RMLhh
 HMmmf6YZ2cnK0MqWiAEmW8nt4WiCm5L7V87y1
 }
 
+sprite $KubernetesEngineParticipant [50x50/4z] {
+pTG5OiD034JHFtF_EnV3-WKLCy5TwPbjxZ-j9njmo1gqU-5WIVhZeclGh4K5R5OIgR-_4brUtY7n4cyBAPHAnS5X1jkq377HnK5VcmdEOoud3l5b77ulg2no
+Y5mUmzaXOxQ2WscGbfY00pDH5r1mmLy8nf0BWNICCMaFeWNhi2M44bicGyWYCo_Ucl45-2q8nFlxxZtO7AGArlSv7V598H87fEi7xtOLa2s0lM015c93s8gm
+9U19FVnr7W4
+}
+
+
 GCPEntityColoring(KubernetesEngine)
 !define KubernetesEngine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, KubernetesEngine, KubernetesEngine)
 !define KubernetesEngine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, KubernetesEngine, KubernetesEngine)

@@ -5,6 +5,13 @@ HQXCQ4MqmIGKdo0m4ACZGh35CwM-Lt2BpauDup84aqci4BarKoHMJdpXiLWC4Hs-6GE5i6KA6pGW_BDs
 knEOcA0e9Z0nSMkZeNkr0JEpzx2i0KXv9iK09a1TZk8Ez0m
 }
 
+sprite $CloudSecurityScannerParticipant [50x50/4z] {
+pTK5ja8n40FG9FlVyrUaavCf31wqScl8m-T7JTY2FcCWFKP8GwA72us1E1PoC9o4UKpsaxIhuFyhdN2p32rZsXIzaOvT0d2jGpDODb_RBKN80O6q_xNUjhqK
+o7AcMaiA9Q0SASDEQpUW4kq4rgz34c8Gs0gPq4M1IgYmgbxGlWpC0gbG0If0Bf7DL-sgRuc3Pf8y1R4dp5C0D59Q7UHANu0B9oLicgJEz0qUIllPgH3MQjxv
+lmjE0J0N68AvUFpLcPWID67N_zNv1W
+}
+
+
 GCPEntityColoring(CloudSecurityScanner)
 !define CloudSecurityScanner(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSecurityScanner, CloudSecurityScanner)
 !define CloudSecurityScanner(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSecurityScanner, CloudSecurityScanner)

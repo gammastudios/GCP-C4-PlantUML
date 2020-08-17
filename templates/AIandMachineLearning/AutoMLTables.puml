@@ -5,6 +5,13 @@ lP4nwltoUojVXrr9m5H4fgCgZX6Lpmoe76LM9vpdmus5BA6OYjHpbWbLH8POnJ6k8ZLv6DgH3SXCxLG7
 pm
 }
 
+sprite $AutoMLTablesParticipant [50x50/4z] {
+pPK50W8n4CIQ_l_FsE9i69mRN7BP-bXyc18Kq921Z6GY0ncP8L6H9JF651uCy60rSHuZKBb97YtN5Dw5T5_Vxq9J4BgBcuka7fwj0X6rpQwtKXnDiza9g7Ut
+javH0Wwsws5iMr62CRhok4OueaNKMo6gWYkY6R7PNA28IJUYzT4xiPceZjJp4xF858w8ecBhsTS21lXoUtIN2Qkv4ZQJiFs8-uER8g_krA-V1bdozgcMaT4b
+A9eG0KSSo04OlyyQ
+}
+
+
 GCPEntityColoring(AutoMLTables)
 !define AutoMLTables(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AutoMLTables, AutoMLTables)
 !define AutoMLTables(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AutoMLTables, AutoMLTables)
