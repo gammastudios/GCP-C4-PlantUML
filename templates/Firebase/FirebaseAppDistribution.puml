@@ -1,0 +1,17 @@
+sprite $FirebaseAppDistribution [70x70/4z] {
+pTP7WeH03CLGwVwNdjsaecq3dw0TwP6XQ5CvaVyB4FiXgmB6r75G0EaTnmMGqj40em560um660qmPfG4em76nnKZY2OLNw5OAtniNQyrUkTTYgtY_nfbU0lN
+cLYryRS_hF1NuLQ5duuh58gRYetINDpB5Kk53ONEKauf9fN-ilIA6MLfeW3DPw5HbainLe1IMOifTef75JmRxr5UDFA014E28QqGGI22444Wen1188901860
+iS-104DNm9WmJ0iObSF-vi8N
+}
+
+sprite $FirebaseAppDistributionParticipant [50x50/4z] {
+hTR7YS1G5CLGgV-cPpFvyi02Q-tZ_0D7Aa_pJ-7uPyYZ26wZDg8sev5e91g9NLIYaTX59Lre9V6l0ryJvvtWreK2yjL3uL_XAVZg5WjMi6995_U3YziAHmon
+2HuBEFwH4NFgwO_WUE1By5Ve0KQ4g8GkAg6BIY0IkgW48e58W6I0He1aNjdxt8Zf0m
+}
+
+
+GCPEntityColoring(FirebaseAppDistribution)
+!define FirebaseAppDistribution(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseAppDistribution, FirebaseAppDistribution)
+!define FirebaseAppDistribution(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseAppDistribution, FirebaseAppDistribution)
+!define FirebaseAppDistributionParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseAppDistributionParticipant, FirebaseAppDistributionParticipant)
+!define FirebaseAppDistributionParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseAppDistributionParticipant, FirebaseAppDistributionParticipant)

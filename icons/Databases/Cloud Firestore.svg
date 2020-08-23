@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="46px" viewBox="0 0 51 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Cloud Firestore</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Cloud-FirestoreBETA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cloud-Firestore-Beta-Design" transform="translate(-362.000000, -1747.000000)" fill-rule="nonzero">
+            <g id="Group-23" transform="translate(187.000000, 1604.000000)">
+                <g id="simple_and_effortless" transform="translate(29.000000, 46.000000)">
+                    <g id="Group-32">
+                        <g id="Group-31" transform="translate(0.000000, 64.814815)">
+                            <g id="Group-29" transform="translate(77.078923, 0.000000)">
+                                <g id="Cloud-Firestore" transform="translate(69.000000, 32.000000)">
+                                    <g id="Group-16" transform="translate(0.242533, 0.000000)">
+                                        <g id="Cloud-Firestore">
+                                            <path d="M49.3841532,20.5851895 L39.113089,2.51911849 C38.3271345,1.10912522 36.8616074,0.225725287 35.2615766,0.197478794 L14.7194872,0.197478794 C13.119344,0.224836168 11.6534119,1.10799698 10.8675063,2.5181311 L0.596442061,20.548103 C-0.198442355,21.946337 -0.198784367,23.6665178 0.595543981,25.065075 L10.8667644,43.2136132 C11.644674,44.642977 13.106364,45.5553163 14.7182768,45.6176015 L35.2602099,45.6176015 C36.8713614,45.5613931 38.3345792,44.6523185 39.1126204,43.2241585 L49.383177,25.1569421 C50.1787641,23.7393557 50.1791348,22.0031234 49.3841532,20.5851895 Z" id="Shape" fill="#4285F4"></path>
+                                            <path d="M34.666384,16.7171329 L24.9900438,14.6984652 L15.3137427,21.0670378 L19.3054726,25.1047682 L15.3137427,28.6796873 L32.0591805,45.6176015 L35.2602099,45.6176015 C36.8713637,45.5614009 38.334585,44.6523241 39.1126204,43.2241585 L47.0565258,29.2498481 L34.666384,16.7171329 Z" id="Shape" fill="#000000" opacity="0.07"></path>
+                                            <polygon id="Shape" fill="#FFFFFF" points="24.9900438 12.367307 15.3138208 16.7169749 15.3138208 21.0670378 24.9900438 16.7169749 34.6662669 21.0670378 34.6662669 16.7169749"></polygon>
+                                            <polygon id="Shape" fill="#FFFFFF" points="15.3138208 24.3297824 15.3138208 28.6798453 24.9900438 24.3297824 34.6662669 28.6798453 34.6662669 24.3297824 24.9900438 19.9797196"></polygon>
+                                            <polygon id="Shape" fill="#FFFFFF" points="24.9900438 29.7671636 24.9900438 34.1172264 33.4593258 30.3098353 28.6147716 28.1375685"></polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -13,3 +13,5 @@ n0puYSuAgOiLr3PgBIp03jK_7X2jWtalx9FfjIeBAI4L8YLyHoc0N103Sa40WkK5OHDwb0B81G48H498
 GCPEntityColoring(PremiumNetworkTier)
 !define PremiumNetworkTier(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PremiumNetworkTier, PremiumNetworkTier)
 !define PremiumNetworkTier(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PremiumNetworkTier, PremiumNetworkTier)
+!define PremiumNetworkTierParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, PremiumNetworkTierParticipant, PremiumNetworkTierParticipant)
+!define PremiumNetworkTierParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, PremiumNetworkTierParticipant, PremiumNetworkTierParticipant)

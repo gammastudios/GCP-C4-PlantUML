@@ -1,0 +1,16 @@
+sprite $FirebaseRemoteConfig [70x70/4z] {
+tTP70eCm4C10wV-VpZLr0rYfkZDqhtcQoa9U5n3x8QSAGxKmr0HH2qDD43L1D44qGJH1D44qG3B51D40oHGJH4l5hT4e0xD7uQ7YTcLWWbz_L60ZCoArCYCw
+AxUiXMAXM2W6ojJVARnTeL5e51g5GHa75PSroeC31iL2qOrtrCo0QXwzVpR6UuPUWOAXOAWL4WGIX0I1HY51844WGI0mzZcC9GWG65iOjXOOayF-jWid
+}
+
+sprite $FirebaseRemoteConfigParticipant [50x50/4z] {
+nTO53iD05CJGyVqlNM7vQzP12zh02rE6WAp6Psx-RXYIO3Q08xGAw0Ga0KdmmXAGX5C5LIH_H5ja6rCNkNH3x1H4WLby_NS2AsXz2-uGVJ-yY1UPnFTTcLTU
+f0k04PnnHo5lsxyWc699lB0aaIHUM998agyaw2P_Ay0O_UrJAxC_
+}
+
+
+GCPEntityColoring(FirebaseRemoteConfig)
+!define FirebaseRemoteConfig(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseRemoteConfig, FirebaseRemoteConfig)
+!define FirebaseRemoteConfig(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseRemoteConfig, FirebaseRemoteConfig)
+!define FirebaseRemoteConfigParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseRemoteConfigParticipant, FirebaseRemoteConfigParticipant)
+!define FirebaseRemoteConfigParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseRemoteConfigParticipant, FirebaseRemoteConfigParticipant)

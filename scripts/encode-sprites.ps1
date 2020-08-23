@@ -1,5 +1,5 @@
 
-$iconlibrary = "C:\Users\javen\Downloads\gcp-icons\GCP Icons\Products and services"
+$iconlibrary = "..\icons"
 
 Write-Output "Encoding sprites from GCP icon library..."
 
@@ -25,7 +25,6 @@ New-Item -ItemType Directory -Force -Path (Join-Path -Path $template_dir -ChildP
 $outputImageFile = Join-Path -Path (Join-Path -Path $template_dir -ChildPath $serviceName) -ChildPath "${resourceName}.png"
 $outputImageFilePart = Join-Path -Path (Join-Path -Path $template_dir -ChildPath $serviceName) -ChildPath "${resourceName}Participant.png"
 
-
 ## regular sized image
 # resize image to 70x70
 $img = [System.Drawing.Image]::FromFile((Get-Item $inputFullName))
@@ -38,6 +37,7 @@ $img2.Save($outputImageFile)
 # encode sprite
 $spriteObj = java -jar "${cwd}\plantuml.jar" -encodesprite 4z "${outputImageFile}"
 $spriteStr = $spriteObj | Out-String
+$partResourceName = "${resourceName}Participant"
 
 # remove resized png file
 Remove-Item $outputImageFile
@@ -68,5 +68,9 @@ Add-Content -Path $pumlFile -Value $Str
 $Str = "!define ${resourceName}(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ${resourceName}, ${resourceName})"
 Add-Content -Path $pumlFile -Value $Str
 $Str = "!define ${resourceName}(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ${resourceName}, ${resourceName})"
+Add-Content -Path $pumlFile -Value $Str
+$Str = "!define ${partResourceName}(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, ${partResourceName}, ${partResourceName})"
+Add-Content -Path $pumlFile -Value $Str
+$Str = "!define ${partResourceName}(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, ${partResourceName}, ${partResourceName})"
 Add-Content -Path $pumlFile -Value $Str
 }

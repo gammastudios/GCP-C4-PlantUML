@@ -1,0 +1,10 @@
+sprite $CloudFirestore [70x70/4z] xS6100000CEW-rCVPDNY00000E
+
+sprite $CloudFirestoreParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
+
+
+GCPEntityColoring(CloudFirestore)
+!define CloudFirestore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirestore, CloudFirestore)
+!define CloudFirestore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirestore, CloudFirestore)
+!define CloudFirestoreParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudFirestoreParticipant, CloudFirestoreParticipant)
+!define CloudFirestoreParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudFirestoreParticipant, CloudFirestoreParticipant)

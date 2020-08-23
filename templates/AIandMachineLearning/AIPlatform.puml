@@ -15,3 +15,5 @@ FweXC2VkFpfpyvoX8gxbsVe4
 GCPEntityColoring(AIPlatform)
 !define AIPlatform(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AIPlatform, AIPlatform)
 !define AIPlatform(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AIPlatform, AIPlatform)
+!define AIPlatformParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, AIPlatformParticipant, AIPlatformParticipant)
+!define AIPlatformParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, AIPlatformParticipant, AIPlatformParticipant)

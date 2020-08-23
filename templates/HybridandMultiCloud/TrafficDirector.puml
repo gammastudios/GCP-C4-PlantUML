@@ -15,3 +15,5 @@ MqEs2bj3jWfRGxOAB1KAxxW-qWy
 GCPEntityColoring(TrafficDirector)
 !define TrafficDirector(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, TrafficDirector, TrafficDirector)
 !define TrafficDirector(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, TrafficDirector, TrafficDirector)
+!define TrafficDirectorParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, TrafficDirectorParticipant, TrafficDirectorParticipant)
+!define TrafficDirectorParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, TrafficDirectorParticipant, TrafficDirectorParticipant)

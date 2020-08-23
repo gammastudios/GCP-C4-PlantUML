@@ -1,0 +1,16 @@
+sprite $FirebaseABTesting [70x70/4z] {
+xTN9bG814CDGEV-avpmiHUcrsL40_sXpioGSAASL20zbgc1idIp28zx9EeTu9ow1M2O-WHWcAJ1vgf85ufWyNKa5IMR5xLzUGabFIP85bA7NKl8oIl3AJocD
+Qe6Xe-mPzWXu1GI3GRoY61G2Hg6ZE0Pm26mLvkweS5ZXhef78CR9Hl51Ww71q5Qe8F1ADq57eO901O4A0WN3EOnL4A1WR1YsASCx-FR27m
+}
+
+sprite $FirebaseABTestingParticipant [50x50/4z] {
+rTB70G9H3CHGJVzDSoNPWyYhg_qsVeQIy6YvpErtao49PfEr3hf9hu164adYXIM99D52VP8YXc6K230zxZZAnqKE9BvmHB44Li8Eu1C22g41s0LUL09K02-A
+cSo0cB04Bom1IV324f04906K0Hm1b04mXbfPFm4
+}
+
+
+GCPEntityColoring(FirebaseABTesting)
+!define FirebaseABTesting(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseABTesting, FirebaseABTesting)
+!define FirebaseABTesting(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseABTesting, FirebaseABTesting)
+!define FirebaseABTestingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseABTestingParticipant, FirebaseABTestingParticipant)
+!define FirebaseABTestingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseABTestingParticipant, FirebaseABTestingParticipant)

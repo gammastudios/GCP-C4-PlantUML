@@ -1,5 +1,5 @@
 # GCP-C4-PlantUML
-PlantUML template library to render [C4 diagrams](https://c4model.com/) using GCP resource icons.  Includes the C4 templates, as well as the complete GCP Icon Library.
+PlantUML template library to render [C4 diagrams](https://c4model.com/) using GCP and Firebase resource icons.  Includes the C4 templates, as well as the complete GCP and Firebase Icon Libraries. Also includes smaller icons with be used in sequence and activity diagrams.
 ## Usage
 Add the following `include` statements after the `@startuml` label:
 

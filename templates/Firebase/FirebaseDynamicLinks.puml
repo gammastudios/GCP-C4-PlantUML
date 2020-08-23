@@ -1,0 +1,17 @@
+sprite $FirebaseDynamicLinks [70x70/4z] {
+tTN7OGKn3CHGeF-cVNJMa5_ZY3FtRPQ8gLpasmh47l9KmPWw3YeWsN5SGAuTBJ1QOBJ0Q87H0kEFAWPap_ZZYXL4cyhyT5TAUfaZ1G8pHuwd12P8E2amGDBu
+3X7WGSMeY8bvgoObM-mLU7CZGGcFX9UAK-NjeV5I_7y8VjGIaI4Yu8Loc8nA_i_cIhRc2i1Z2Yi4af8HmwgUaAo0oWIH8yCSGO-EDueMDl5GNO46GuEXhL11
+e89GGQ2ZK46WWa05WOAnSw30a2eO4uPfmRXrs3SNdW
+}
+
+sprite $FirebaseDynamicLinksParticipant [50x50/4z] {
+nTQv0K914CDGg_-cIRZ1U1MXTEOb_zoKW9p6Qsv_6qeIT0Cumcg0JK0Ia0GlB059y48JDHoWFFrqm1Vo2m2mn2ief08d24hajdigyhBw3jWWVm2He8lxT8jz
+g-RDtc80mWSP81aVc2aO0Fig4_yjiIHUM9984YyioKiQ919iawyDO8m--yp6-WK
+}
+
+
+GCPEntityColoring(FirebaseDynamicLinks)
+!define FirebaseDynamicLinks(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseDynamicLinks, FirebaseDynamicLinks)
+!define FirebaseDynamicLinks(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseDynamicLinks, FirebaseDynamicLinks)
+!define FirebaseDynamicLinksParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseDynamicLinksParticipant, FirebaseDynamicLinksParticipant)
+!define FirebaseDynamicLinksParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseDynamicLinksParticipant, FirebaseDynamicLinksParticipant)

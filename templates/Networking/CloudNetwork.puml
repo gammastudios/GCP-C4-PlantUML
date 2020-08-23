@@ -13,3 +13,5 @@ X3a7lI9_6DOlmUkMbogKu00xe7vozxrBJ0ZGezFjs3O2H4Ym4jOhBZVUksG5i0i6C8Y5i8gm4YHY_pyx
 GCPEntityColoring(CloudNetwork)
 !define CloudNetwork(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNetwork, CloudNetwork)
 !define CloudNetwork(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNetwork, CloudNetwork)
+!define CloudNetworkParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudNetworkParticipant, CloudNetworkParticipant)
+!define CloudNetworkParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudNetworkParticipant, CloudNetworkParticipant)

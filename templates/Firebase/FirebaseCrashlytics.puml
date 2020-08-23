@@ -1,0 +1,17 @@
+sprite $FirebaseCrashlytics [70x70/4z] {
+rTL5WjX040F0qly_dMkmhOqLM1qDDJpjCKcyIBxFWFWub2i3etLIP80yEwapG4ud6J39W4a6J39WaW6JVwfaWYG7ibT0mUJTDutop9pl6IZGAG570wLo8rHA
+S27yLILJvTxNjn8vcNIHYqaPayFk4O7N2WtJAJw7qi-kDolzxLaxBFqrYT_RkyhDx4Je3fORGNCesllbPF1VAHUJ1ec-7fr8Nnll5ZEfzlwyaXOXRsB1M2ic
+21F4166Zc21C42O82mCc21C40wDXj1aOb-FZwOKl
+}
+
+sprite $FirebaseCrashlyticsParticipant [50x50/4z] {
+hTG74WCX58BXd_iVEhq77v89KtVriokBI68tUajPFoCjCe7AQ4m6sIWdW4IaagWNBP5AiYmQH55Y_vE4-HTwTzqEmWFufn3on9PveRIdX7r8WgSOe1Vy9AX5
+EO_b0ZCVMYZt0w3Qysk2s7djisZkX-aYt45JthyClHZ80D1-Q0cKX5wq14e29G4gWqq0ZG5e336X-X4
+}
+
+
+GCPEntityColoring(FirebaseCrashlytics)
+!define FirebaseCrashlytics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseCrashlytics, FirebaseCrashlytics)
+!define FirebaseCrashlytics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseCrashlytics, FirebaseCrashlytics)
+!define FirebaseCrashlyticsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseCrashlyticsParticipant, FirebaseCrashlyticsParticipant)
+!define FirebaseCrashlyticsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseCrashlyticsParticipant, FirebaseCrashlyticsParticipant)

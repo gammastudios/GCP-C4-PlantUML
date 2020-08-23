@@ -1,0 +1,17 @@
+sprite $FirebaseInAppMessaging [70x70/4z] {
+pTR10K100CJ0RFzDUmF4BUG71i1nMX86oh82uQ4S9GpX24CokPOrF1EJG3mJcq0SanIOfC2aepIOfC286saLS4msGpBRY5JoiB8rC-jwIeQLL9NjX7AowLq5
+i4es5UWeq560ZW924GvG-8Oj56VTLb37SZPwQzoZdpmlFtcFadZ5Vr_Cdl_mtVNAZ_vgnVyq3ogH27GK1eRMxJ4cL12e85GGw2XK4AWWK46WO3W72Wnd2ME4
+uMhAy0w-wy84
+}
+
+sprite $FirebaseInAppMessagingParticipant [50x50/4z] {
+jTH55e0m0CJGpFqlpRglCWJ92ljuowOat2rZxlXkika4bCcn3hf9hu164adocyWE79wG3g0BQCIBp69SdNPhaIaloX5CzoC5U05u0UP99sF6JXNZZVddKEBl
+xv48CLM46X__Y_zdXa9cuET4F-zAWXUMW2GW2Q0Cu0YW380nrChX5m
+}
+
+
+GCPEntityColoring(FirebaseInAppMessaging)
+!define FirebaseInAppMessaging(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseInAppMessaging, FirebaseInAppMessaging)
+!define FirebaseInAppMessaging(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseInAppMessaging, FirebaseInAppMessaging)
+!define FirebaseInAppMessagingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseInAppMessagingParticipant, FirebaseInAppMessagingParticipant)
+!define FirebaseInAppMessagingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseInAppMessagingParticipant, FirebaseInAppMessagingParticipant)

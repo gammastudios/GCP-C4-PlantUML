@@ -14,3 +14,5 @@ QCAIBaVSX8CG186340H15imY7nLQ2OEIq2Z0GQY92aUX8Whf5IYCuuoLIHxdnpk3_JkOIGPY8WuhZUHe
 GCPEntityColoring(ErrorReporting)
 !define ErrorReporting(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ErrorReporting, ErrorReporting)
 !define ErrorReporting(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ErrorReporting, ErrorReporting)
+!define ErrorReportingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, ErrorReportingParticipant, ErrorReportingParticipant)
+!define ErrorReportingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, ErrorReportingParticipant, ErrorReportingParticipant)

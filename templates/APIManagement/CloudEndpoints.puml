@@ -13,3 +13,5 @@ pTJ7WKGX40DHgV8FUi_Rz9WQhzCtF3pazmDxQW6W0NYX0MY05sX0jM02sKX1DWAIL0iGH06g1Hh0Ckpn
 GCPEntityColoring(CloudEndpoints)
 !define CloudEndpoints(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudEndpoints, CloudEndpoints)
 !define CloudEndpoints(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudEndpoints, CloudEndpoints)
+!define CloudEndpointsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudEndpointsParticipant, CloudEndpointsParticipant)
+!define CloudEndpointsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudEndpointsParticipant, CloudEndpointsParticipant)

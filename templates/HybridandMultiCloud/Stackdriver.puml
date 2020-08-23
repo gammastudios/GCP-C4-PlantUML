@@ -13,3 +13,5 @@ pTH75iDG349HOF-BpYnLJyUaCxNlxvB-Fu4O0OT0INgHb2Hl5wb1N8iCe9d4IJb9KXBJK2WOQ2PPXCRD
 GCPEntityColoring(Stackdriver)
 !define Stackdriver(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Stackdriver, Stackdriver)
 !define Stackdriver(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Stackdriver, Stackdriver)
+!define StackdriverParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, StackdriverParticipant, StackdriverParticipant)
+!define StackdriverParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, StackdriverParticipant, StackdriverParticipant)

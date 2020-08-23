@@ -13,3 +13,5 @@ pTG73iCm34FHJzx_pjsj44L1m6vYP3vlc_-FDw8Ks8w1_HvXXyHl5uw15Gjt45OYEwp43ebYOGSa0jPQ
 GCPEntityColoring(CloudTranslationAPI)
 !define CloudTranslationAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTranslationAPI, CloudTranslationAPI)
 !define CloudTranslationAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTranslationAPI, CloudTranslationAPI)
+!define CloudTranslationAPIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudTranslationAPIParticipant, CloudTranslationAPIParticipant)
+!define CloudTranslationAPIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudTranslationAPIParticipant, CloudTranslationAPIParticipant)

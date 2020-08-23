@@ -1,0 +1,10 @@
+sprite $CloudStorage [70x70/4z] xS6100000CEW-rCVPDNY00000E
+
+sprite $CloudStorageParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
+
+
+GCPEntityColoring(CloudStorage)
+!define CloudStorage(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudStorage, CloudStorage)
+!define CloudStorage(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudStorage, CloudStorage)
+!define CloudStorageParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudStorageParticipant, CloudStorageParticipant)
+!define CloudStorageParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudStorageParticipant, CloudStorageParticipant)

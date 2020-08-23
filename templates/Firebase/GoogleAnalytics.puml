@@ -1,0 +1,16 @@
+sprite $GoogleAnalytics [70x70/4z] {
+xTQtSKD144J1dloJfi_wQck74dZEwRRFRKaiokSAn1pALGDZw-H15IJ9r9WpcLH1aWgIL92aWYGL92aWDIKL91aWLGN7p0ovOYO81_jpXAzHqbEoLlAxbFmQ
+9I-eWAq2E506gIg-G_4QoblXa05R1R1Jc2jE5GyLtw0SJyr-0KwcJvM0W-a5GZPfCDgA2a85KK7eA2e85OGAGiE02a85GSF0t9X3i7NCUovy
+}
+
+sprite $GoogleAnalyticsParticipant [50x50/4z] {
+tTD55a9H34J1wlrlcYaIScWSxZZrvGbpITnQJcldTqEkj87AP6q6dKbAafGaAKbwqPAa8pj09vZ81aQHIeHUvEKYloKmY2NG27SAe_2lGYd0Al2O0AnY8jif
+OHVp0EDI62-fGUnf2INHYvPG4ag2og0Zg0mq1lRsSGS
+}
+
+
+GCPEntityColoring(GoogleAnalytics)
+!define GoogleAnalytics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GoogleAnalytics, GoogleAnalytics)
+!define GoogleAnalytics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GoogleAnalytics, GoogleAnalytics)
+!define GoogleAnalyticsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, GoogleAnalyticsParticipant, GoogleAnalyticsParticipant)
+!define GoogleAnalyticsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, GoogleAnalyticsParticipant, GoogleAnalyticsParticipant)

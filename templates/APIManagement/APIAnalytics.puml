@@ -14,3 +14,5 @@ pTHLOiDG50FHqUn_p-Kczgr9PNqzq4dC_F-uaxH0hO5-Zz2I-Et26fXQE47v9z7oJxGagOKMf09cL-Gb
 GCPEntityColoring(APIAnalytics)
 !define APIAnalytics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, APIAnalytics, APIAnalytics)
 !define APIAnalytics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, APIAnalytics, APIAnalytics)
+!define APIAnalyticsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, APIAnalyticsParticipant, APIAnalyticsParticipant)
+!define APIAnalyticsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, APIAnalyticsParticipant, APIAnalyticsParticipant)

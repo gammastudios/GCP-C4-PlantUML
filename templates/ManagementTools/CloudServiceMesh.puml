@@ -15,3 +15,5 @@ XVH4S7mWNIO-w0Q00vaMZ3GrEzCoYGQqV4KcJG0bC0aJc3G1F8PtmfftsV1TBTM5Z8HDgHpIpmmXOyg3
 GCPEntityColoring(CloudServiceMesh)
 !define CloudServiceMesh(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudServiceMesh, CloudServiceMesh)
 !define CloudServiceMesh(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudServiceMesh, CloudServiceMesh)
+!define CloudServiceMeshParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudServiceMeshParticipant, CloudServiceMeshParticipant)
+!define CloudServiceMeshParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudServiceMeshParticipant, CloudServiceMeshParticipant)

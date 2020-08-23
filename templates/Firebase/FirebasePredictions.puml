@@ -1,0 +1,17 @@
+sprite $FirebasePredictions [70x70/4z] {
+hTO5Zi104CH0-_-VFj7nJhP7QOk25GQkgRp8lnM8FUHJ1IDr32eWTyUu2g9M4AqWMa6qWcW5qG9IKwmWMa1gYay8g7AQnfbnOFxD0WIFYlEEvXDnPf9fMjaN
+hs_xRDz71LGO9WxA5CF8GP_AjqM4N9a8yS8G8LuO8kJ642BwGk5BUVrQhI1GGU26q42aWSW2OLo57D7nFBD0vZSi2qG7H79aLe0b0eEI8e8EoWvHEIc4o1pF
+YWLbWyoCRnJtoCoOApDZMliV4oe8L10g27GKAWXK4AWWK31s3XGORXMCX25jPUmTzkN21m
+}
+
+sprite $FirebasePredictionsParticipant [50x50/4z] {
+hTGnQa0n34J1sVjVEcr4XBuNyafx1roPlIHUowpRVvjaxmALoTaEEfEK92b9KfBqeYLvxnMuXT-BaB5O1NDYlRqcSx4BnoisC4ubESJCSRo6JX0QGR8J1vZa
+3ZMW1jY15iG7y6VZ1e55N4z2HWvmY1Da4XnW2nt8k7y5gj_8GZx1tF3FtoWbqOkMK19AWigW8wWCDCPdzzmF
+}
+
+
+GCPEntityColoring(FirebasePredictions)
+!define FirebasePredictions(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebasePredictions, FirebasePredictions)
+!define FirebasePredictions(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebasePredictions, FirebasePredictions)
+!define FirebasePredictionsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebasePredictionsParticipant, FirebasePredictionsParticipant)
+!define FirebasePredictionsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebasePredictionsParticipant, FirebasePredictionsParticipant)
