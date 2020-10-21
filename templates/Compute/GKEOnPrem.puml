@@ -1,19 +1,19 @@
-sprite $GKEOn [70x70/4z] {
+sprite $GKEOnPrem [70x70/4z] {
 hPS9hiGW34FzSlyx_wteep8u12cUVPe-77Qq4QbK4d4GL26vQ82SCKHDIXL5aLkfAhVIWA654XSYirANjzA0eOKIby9OQS34lIwie0ipMI1L2daODSmf20er
 WsKmlzWO3u5v1HELKs0j7ukna7TbZSik9qT1MfFvxpTye4Yji0lPfPLIrgJdbRqPN7VLInXAc0PaG1OvIZv8riw0Yz__2_2qy0kYuN9H_k-uTTQ9fOGKdZ9k
 73GyXGD5ZE6GKx0Kz6YcPIdXAH5hGtjAaX61RwDwlKpE0qWe99JvWHHPIwlGHf6t4P8mb60caxUH7OtQJQg6WgSetfnanEYHjxXE7hPCUPDhrR4Drj0XL_9A
 BAsCiDXRL5wblP48oZi60XibhHYVbWsXGedffRGdooZr_I4-Zelj8N4lEdUg_RjcTLYvDqFJoQR133AwjD9WXgQJS8CPbAZ3IjqCIbMsqc16Qi2e84xIXxu1
 }
 
-sprite $GKEOn [50x50/4z] {
+sprite $GKEOnPremParticipant [50x50/4z] {
 bPK7biGm34BzkV-Tj-cDKi2RYEcZV1DSrrKahQtGJZj2Uuq1CRcdKhOO8em9FOYfXPleKPZ5q4GQcX2g_6kIQ-mHt1v2OMF1vnyC8LWiFjTHRURmTzigrOS4
 Hd3zWoQH-N1FKJyv1IHSmQM91aeMdpJST2yYBFrQt7x_lMW3OJsiG2nKBpaX8j5nU47S9eCJwQwWWwzNH6Mkq2avCGT2EOVtTa-M0cv4rK8B7VnELCKMKt-6
 vHiMLBVTlmn82mteht4Hncsc3SnYjsa8Ax1QaL3yUs-2J4ntKOrtQiPRzVZ4ONpaZ4zEvgUpYub5wS5YQCAAOWWuae5l
 }
 
 
-GCPEntityColoring(GKEOn-Prem)
-!define GKEOn-Prem(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GKEOn-Prem, GKEOn-Prem)
-!define GKEOn-Prem(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GKEOn-Prem, GKEOn-Prem)
-!define GKEOn-PremParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, GKEOn-PremParticipant, GKEOn-PremParticipant)
-!define GKEOn-PremParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, GKEOn-PremParticipant, GKEOn-PremParticipant)
+GCPEntityColoring(GKEOnPrem)
+!define GKEOnPrem(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GKEOnPrem, GKEOnPrem)
+!define GKEOnPrem(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GKEOnPrem, GKEOnPrem)
+!define GKEOnPremParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, GKEOnPremParticipant, GKEOnPremParticipant)
+!define GKEOnPremParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, GKEOnPremParticipant, GKEOnPremParticipant)
