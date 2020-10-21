@@ -13,8 +13,8 @@ $template_dir = Join-Path -Path (Split-Path -Path $cwd -Parent) -ChildPath "temp
  
 # iterate through GCP icons dir
 foreach ($file in Get-ChildItem -Path $iconlibrary -Recurse –File | Where-Object Extension -eq ".png") {
-$resourceName = $file.Name.replace(".png","").replace(" ", "")
-$serviceName = (Split-Path (Split-Path $file.FullName -Parent) -leaf).replace(" ", "")
+$resourceName = $file.Name.replace(".png","").replace(" ", "").replace("-", "")
+$serviceName = (Split-Path (Split-Path $file.FullName -Parent) -leaf).replace(" ", "").replace("-", "")
 $inputFullName = $file.FullName
 #$inputFileName = $file.Name
 
