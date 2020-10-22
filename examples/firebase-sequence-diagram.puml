@@ -1,0 +1,31 @@
+@startuml GCP Sequence Diagram
+!define GCPPuml https://raw.githubusercontent.com/gamma-data/GCP-C4-PlantUML/master/templates
+!includeurl GCPPuml/GCPCommon.puml
+!includeurl GCPPuml/Firebase/FirebaseAuthentication.puml
+!includeurl GCPPuml/Firebase/FirebaseRealtimeDatabase.puml
+!includeurl GCPPuml/Firebase/FirebaseInAppMessaging.puml
+!includeurl GCPPuml/Firebase/CloudFirestore.puml
+
+skinparam sequenceParticipant {
+    borderColor Black
+    backgroundColor<<FirebaseAuthenticationParticipant>> Gainsboro
+    backgroundColor<<FirebaseRealtimeDatabaseParticipant>> Gainsboro
+    backgroundColor<<FirebaseInAppMessagingParticipant>> Gainsboro
+    backgroundColor<<CloudFirestoreParticipant>> Gainsboro
+}
+
+actor User as user
+participant WebApp as webapp
+
+FirebaseAuthenticationParticipant(auth, "DNS Zone", "Cloud DNS")
+FirebaseRealtimeDatabaseParticipant(clb, "L7 Load Balancer", "Cloud Load Balancing")
+FirebaseInAppMessagingParticipant(vm, "Content Server", "Compute Engine Instance")
+CloudFirestoreParticipant(gcs, "Static Assets", "Cloud Storage Bucket")
+
+user -> auth: get IP address for load balancer
+webapp -> csql: something
+csql -> csql1: something
+csql1 -> csql2: something
+csql2 -> csql3: something
+
+@enduml

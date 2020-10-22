@@ -19,8 +19,8 @@
 !includeurl GCPPuml/AIandMachineLearning/CloudInferenceAPI.puml
 !includeurl GCPPuml/AIandMachineLearning/CloudJobsAPI.puml
 !includeurl GCPPuml/AIandMachineLearning/CloudNaturalLanguageAPI.puml
-!includeurl GCPPuml/AIandMachineLearning/CloudSpeech-to-Text.puml
-!includeurl GCPPuml/AIandMachineLearning/CloudText-to-Speech.puml
+!includeurl GCPPuml/AIandMachineLearning/CloudSpeechtoText.puml
+!includeurl GCPPuml/AIandMachineLearning/CloudTexttoSpeech.puml
 !includeurl GCPPuml/AIandMachineLearning/CloudTPU.puml
 !includeurl GCPPuml/AIandMachineLearning/CloudTranslationAPI.puml
 !includeurl GCPPuml/AIandMachineLearning/CloudVideoIntelligenceAPI.puml
@@ -37,8 +37,8 @@
 !includeurl GCPPuml/Compute/CloudFunctions.puml
 !includeurl GCPPuml/Compute/CloudRun.puml
 !includeurl GCPPuml/Compute/ComputeEngine.puml
-!includeurl GCPPuml/Compute/Container-OptimizedOS.puml
-!includeurl GCPPuml/Compute/GKEOn-Prem.puml
+!includeurl GCPPuml/Compute/ContainerOptimizedOS.puml
+!includeurl GCPPuml/Compute/GKEOnPrem.puml
 !includeurl GCPPuml/Compute/GPU.puml
 !includeurl GCPPuml/Compute/KubernetesEngine.puml
 !includeurl GCPPuml/DataAnalytics/BigQuery.puml
