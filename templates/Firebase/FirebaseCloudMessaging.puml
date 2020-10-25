@@ -12,5 +12,11 @@ U-YX_LQQHeksm7-mQwCbLikgIinW3xqFJtWbdkeK6ZGBb4LGXN0YCJ0nk1Sc1YO69WOsxZSni0cHQGN8
 
 !define FirebaseCloudMessaging(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseCloudMessaging, resource)
 !define FirebaseCloudMessaging(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseCloudMessaging, resource)
+!define FirebaseCloudMessaging_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseCloudMessaging, new_resource)
+!define FirebaseCloudMessaging_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseCloudMessaging, new_resource)
+!define FirebaseCloudMessaging_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseCloudMessaging, modified_resource)
+!define FirebaseCloudMessaging_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseCloudMessaging, modified_resource)
+!define FirebaseCloudMessaging_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseCloudMessaging, deleted_resource)
+!define FirebaseCloudMessaging_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseCloudMessaging, deleted_resource)
 !define FirebaseCloudMessagingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseCloudMessagingParticipant, FirebaseCloudMessagingParticipant)
 !define FirebaseCloudMessagingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseCloudMessagingParticipant, FirebaseCloudMessagingParticipant)

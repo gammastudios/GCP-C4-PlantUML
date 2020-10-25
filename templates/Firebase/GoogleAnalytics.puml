@@ -11,5 +11,11 @@ OHVp0EDI62-fGUnf2INHYvPG4ag2og0Zg0mq1lRsSGS
 
 !define GoogleAnalytics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GoogleAnalytics, resource)
 !define GoogleAnalytics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GoogleAnalytics, resource)
+!define GoogleAnalytics_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GoogleAnalytics, new_resource)
+!define GoogleAnalytics_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GoogleAnalytics, new_resource)
+!define GoogleAnalytics_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GoogleAnalytics, modified_resource)
+!define GoogleAnalytics_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GoogleAnalytics, modified_resource)
+!define GoogleAnalytics_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GoogleAnalytics, deleted_resource)
+!define GoogleAnalytics_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GoogleAnalytics, deleted_resource)
 !define GoogleAnalyticsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, GoogleAnalyticsParticipant, GoogleAnalyticsParticipant)
 !define GoogleAnalyticsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, GoogleAnalyticsParticipant, GoogleAnalyticsParticipant)

@@ -12,5 +12,11 @@ l4XmfHeYcKWnHfOw6niBsLv79hQNRcdpGFATDyw3bGZ2SEQM0rJtoZVUNRa5KYzK0_L21IWMRwcCI6L4
 
 !define CloudToolsforPowerShell(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudToolsforPowerShell, resource)
 !define CloudToolsforPowerShell(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudToolsforPowerShell, resource)
+!define CloudToolsforPowerShell_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudToolsforPowerShell, new_resource)
+!define CloudToolsforPowerShell_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudToolsforPowerShell, new_resource)
+!define CloudToolsforPowerShell_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudToolsforPowerShell, modified_resource)
+!define CloudToolsforPowerShell_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudToolsforPowerShell, modified_resource)
+!define CloudToolsforPowerShell_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudToolsforPowerShell, deleted_resource)
+!define CloudToolsforPowerShell_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudToolsforPowerShell, deleted_resource)
 !define CloudToolsforPowerShellParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudToolsforPowerShellParticipant, CloudToolsforPowerShellParticipant)
 !define CloudToolsforPowerShellParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudToolsforPowerShellParticipant, CloudToolsforPowerShellParticipant)

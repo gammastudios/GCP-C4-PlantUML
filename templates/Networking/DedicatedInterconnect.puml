@@ -12,5 +12,11 @@ zCc_c-gAYX2sCtXXIMoBwujzDxKWyI822658h6WioI0Lup-Q8m
 
 !define DedicatedInterconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, DedicatedInterconnect, resource)
 !define DedicatedInterconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, DedicatedInterconnect, resource)
+!define DedicatedInterconnect_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, DedicatedInterconnect, new_resource)
+!define DedicatedInterconnect_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, DedicatedInterconnect, new_resource)
+!define DedicatedInterconnect_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, DedicatedInterconnect, modified_resource)
+!define DedicatedInterconnect_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, DedicatedInterconnect, modified_resource)
+!define DedicatedInterconnect_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, DedicatedInterconnect, deleted_resource)
+!define DedicatedInterconnect_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, DedicatedInterconnect, deleted_resource)
 !define DedicatedInterconnectParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, DedicatedInterconnectParticipant, DedicatedInterconnectParticipant)
 !define DedicatedInterconnectParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, DedicatedInterconnectParticipant, DedicatedInterconnectParticipant)

@@ -12,5 +12,11 @@ QIx5qEeXJCBVOFrSzS5dDzLlL8ImNmOlB8dznFN9xsvgGU951132a5ZHM98b5VjlpHy
 
 !define PersistentDisk(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PersistentDisk, resource)
 !define PersistentDisk(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PersistentDisk, resource)
+!define PersistentDisk_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PersistentDisk, new_resource)
+!define PersistentDisk_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PersistentDisk, new_resource)
+!define PersistentDisk_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PersistentDisk, modified_resource)
+!define PersistentDisk_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PersistentDisk, modified_resource)
+!define PersistentDisk_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PersistentDisk, deleted_resource)
+!define PersistentDisk_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PersistentDisk, deleted_resource)
 !define PersistentDiskParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, PersistentDiskParticipant, PersistentDiskParticipant)
 !define PersistentDiskParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, PersistentDiskParticipant, PersistentDiskParticipant)

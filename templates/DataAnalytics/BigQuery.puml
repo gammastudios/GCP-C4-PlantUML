@@ -12,5 +12,11 @@ f8NGGaYF23S1IzCBFebXTQdYacWQs8YXGJXNfgyM4BoVT0Lr_I09BawFxM5j10JNNoGOfqJf4-SNtrqv
 
 !define BigQuery(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, BigQuery, resource)
 !define BigQuery(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, BigQuery, resource)
+!define BigQuery_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, BigQuery, new_resource)
+!define BigQuery_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, BigQuery, new_resource)
+!define BigQuery_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, BigQuery, modified_resource)
+!define BigQuery_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, BigQuery, modified_resource)
+!define BigQuery_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, BigQuery, deleted_resource)
+!define BigQuery_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, BigQuery, deleted_resource)
 !define BigQueryParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, BigQueryParticipant, BigQueryParticipant)
 !define BigQueryParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, BigQueryParticipant, BigQueryParticipant)

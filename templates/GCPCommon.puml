@@ -8,6 +8,14 @@
 !define GCP_BORDER_COLOR #3C7FC0
 !define GCP_SYMBOL_COLOR GCP_COLOR
 
+!define YELLOW #FFFF00
+!define GREEN #00FF00
+!define RED #FF0000
+!define GCP_MODIFIED_SYMBOL_COLOR YELLOW
+!define GCP_NEW_SYMBOL_COLOR GREEN
+!define GCP_DELETED_SYMBOL_COLOR RED
+
+
 ' Styling
 ' ##################################
 
@@ -31,6 +39,21 @@ skinparam Arrow {
 skinparam rectangle<< resource >> {
     BackgroundColor GCP_BG_COLOR
     BorderColor GCP_BORDER_COLOR
+}
+
+skinparam rectangle<< modified_resource >> {
+    BackgroundColor GCP_BG_COLOR
+    BorderColor GCP_MODIFIED_SYMBOL_COLOR
+}
+
+skinparam rectangle<< new_resource >> {
+    BackgroundColor GCP_BG_COLOR
+    BorderColor GCP_NEW_SYMBOL_COLOR
+}
+
+skinparam rectangle<< deleted_resource >> {
+    BackgroundColor GCP_BG_COLOR
+    BorderColor GCP_DELETED_SYMBOL_COLOR
 }
 
 skinparam participant {

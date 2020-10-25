@@ -12,5 +12,11 @@ pTP50eGm04FH9FU_yxXH_-FP8G_ghVu_wSGK9C4WUOz88CdRHJ28iKW5s4-Sm9zixoqGLqARr29piILP
 
 !define Logging(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Logging, resource)
 !define Logging(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Logging, resource)
+!define Logging_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Logging, new_resource)
+!define Logging_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Logging, new_resource)
+!define Logging_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Logging, modified_resource)
+!define Logging_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Logging, modified_resource)
+!define Logging_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Logging, deleted_resource)
+!define Logging_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Logging, deleted_resource)
 !define LoggingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, LoggingParticipant, LoggingParticipant)
 !define LoggingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, LoggingParticipant, LoggingParticipant)

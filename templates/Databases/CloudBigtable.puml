@@ -14,5 +14,11 @@ ly04a0LexVSp0p9ZxiAR_rtvAP2U2pq4pyNvrTbwIgGSawFVpZi
 
 !define CloudBigtable(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudBigtable, resource)
 !define CloudBigtable(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudBigtable, resource)
+!define CloudBigtable_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudBigtable, new_resource)
+!define CloudBigtable_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudBigtable, new_resource)
+!define CloudBigtable_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudBigtable, modified_resource)
+!define CloudBigtable_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudBigtable, modified_resource)
+!define CloudBigtable_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudBigtable, deleted_resource)
+!define CloudBigtable_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudBigtable, deleted_resource)
 !define CloudBigtableParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudBigtableParticipant, CloudBigtableParticipant)
 !define CloudBigtableParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudBigtableParticipant, CloudBigtableParticipant)

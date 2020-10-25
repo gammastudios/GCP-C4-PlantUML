@@ -12,5 +12,11 @@ XCNmSt8RTuJIG5CQmpyRstkjXmO0ZS7IG9I6RR3_jNP3RXZRt8NXsMn85aa6yctaX4S6v_Wjpj_eVg8-
 
 !define CloudDataFusion(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataFusion, resource)
 !define CloudDataFusion(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataFusion, resource)
+!define CloudDataFusion_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataFusion, new_resource)
+!define CloudDataFusion_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataFusion, new_resource)
+!define CloudDataFusion_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataFusion, modified_resource)
+!define CloudDataFusion_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataFusion, modified_resource)
+!define CloudDataFusion_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataFusion, deleted_resource)
+!define CloudDataFusion_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataFusion, deleted_resource)
 !define CloudDataFusionParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudDataFusionParticipant, CloudDataFusionParticipant)
 !define CloudDataFusionParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudDataFusionParticipant, CloudDataFusionParticipant)

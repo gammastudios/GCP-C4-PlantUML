@@ -14,5 +14,11 @@ W-JdHtwgnSJdJsUywSxWMrpVbYC
 
 !define ContainerOptimizedOS(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ContainerOptimizedOS, resource)
 !define ContainerOptimizedOS(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ContainerOptimizedOS, resource)
+!define ContainerOptimizedOS_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ContainerOptimizedOS, new_resource)
+!define ContainerOptimizedOS_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ContainerOptimizedOS, new_resource)
+!define ContainerOptimizedOS_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ContainerOptimizedOS, modified_resource)
+!define ContainerOptimizedOS_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ContainerOptimizedOS, modified_resource)
+!define ContainerOptimizedOS_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ContainerOptimizedOS, deleted_resource)
+!define ContainerOptimizedOS_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ContainerOptimizedOS, deleted_resource)
 !define ContainerOptimizedOSParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, ContainerOptimizedOSParticipant, ContainerOptimizedOSParticipant)
 !define ContainerOptimizedOSParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, ContainerOptimizedOSParticipant, ContainerOptimizedOSParticipant)

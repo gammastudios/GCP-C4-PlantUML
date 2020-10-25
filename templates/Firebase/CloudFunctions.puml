@@ -5,5 +5,11 @@ sprite $CloudFunctionsParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
 
 !define CloudFunctions(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFunctions, resource)
 !define CloudFunctions(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFunctions, resource)
+!define CloudFunctions_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFunctions, new_resource)
+!define CloudFunctions_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFunctions, new_resource)
+!define CloudFunctions_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFunctions, modified_resource)
+!define CloudFunctions_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFunctions, modified_resource)
+!define CloudFunctions_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFunctions, deleted_resource)
+!define CloudFunctions_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFunctions, deleted_resource)
 !define CloudFunctionsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudFunctionsParticipant, CloudFunctionsParticipant)
 !define CloudFunctionsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudFunctionsParticipant, CloudFunctionsParticipant)

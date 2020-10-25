@@ -12,5 +12,11 @@ pTM55SH0409GeF-Up_s6UKkSkFpe2euVcT02dnX8omWf95fSA0PYB5I0v2QKmfiqByZo66EXGQ4Az8An
 
 !define CloudComposer(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudComposer, resource)
 !define CloudComposer(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudComposer, resource)
+!define CloudComposer_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudComposer, new_resource)
+!define CloudComposer_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudComposer, new_resource)
+!define CloudComposer_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudComposer, modified_resource)
+!define CloudComposer_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudComposer, modified_resource)
+!define CloudComposer_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudComposer, deleted_resource)
+!define CloudComposer_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudComposer, deleted_resource)
 !define CloudComposerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudComposerParticipant, CloudComposerParticipant)
 !define CloudComposerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudComposerParticipant, CloudComposerParticipant)

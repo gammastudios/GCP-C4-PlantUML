@@ -12,5 +12,11 @@ JUME6dzhEnBwPF32ajWZhc-Ukwa5YHSHG0X3OaLZIIOfu-JNUG
 
 !define CloudSpeechtoText(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSpeechtoText, resource)
 !define CloudSpeechtoText(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSpeechtoText, resource)
+!define CloudSpeechtoText_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSpeechtoText, new_resource)
+!define CloudSpeechtoText_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSpeechtoText, new_resource)
+!define CloudSpeechtoText_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSpeechtoText, modified_resource)
+!define CloudSpeechtoText_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSpeechtoText, modified_resource)
+!define CloudSpeechtoText_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSpeechtoText, deleted_resource)
+!define CloudSpeechtoText_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSpeechtoText, deleted_resource)
 !define CloudSpeechtoTextParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudSpeechtoTextParticipant, CloudSpeechtoTextParticipant)
 !define CloudSpeechtoTextParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudSpeechtoTextParticipant, CloudSpeechtoTextParticipant)

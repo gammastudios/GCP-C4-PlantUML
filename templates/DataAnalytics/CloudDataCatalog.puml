@@ -13,5 +13,11 @@ UdUcbWYbuJ1rWNm3
 
 !define CloudDataCatalog(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataCatalog, resource)
 !define CloudDataCatalog(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataCatalog, resource)
+!define CloudDataCatalog_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataCatalog, new_resource)
+!define CloudDataCatalog_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataCatalog, new_resource)
+!define CloudDataCatalog_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataCatalog, modified_resource)
+!define CloudDataCatalog_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataCatalog, modified_resource)
+!define CloudDataCatalog_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataCatalog, deleted_resource)
+!define CloudDataCatalog_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataCatalog, deleted_resource)
 !define CloudDataCatalogParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudDataCatalogParticipant, CloudDataCatalogParticipant)
 !define CloudDataCatalogParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudDataCatalogParticipant, CloudDataCatalogParticipant)

@@ -12,5 +12,11 @@ OHB9uMORb8WLpQRQzcYpVr3rY8eNqI1UH8CK_O_QIoIr8F4Y0WXXIAneBCcPgEX_QVm
 
 !define CloudLoadBalancing(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudLoadBalancing, resource)
 !define CloudLoadBalancing(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudLoadBalancing, resource)
+!define CloudLoadBalancing_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudLoadBalancing, new_resource)
+!define CloudLoadBalancing_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudLoadBalancing, new_resource)
+!define CloudLoadBalancing_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudLoadBalancing, modified_resource)
+!define CloudLoadBalancing_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudLoadBalancing, modified_resource)
+!define CloudLoadBalancing_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudLoadBalancing, deleted_resource)
+!define CloudLoadBalancing_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudLoadBalancing, deleted_resource)
 !define CloudLoadBalancingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudLoadBalancingParticipant, CloudLoadBalancingParticipant)
 !define CloudLoadBalancingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudLoadBalancingParticipant, CloudLoadBalancingParticipant)

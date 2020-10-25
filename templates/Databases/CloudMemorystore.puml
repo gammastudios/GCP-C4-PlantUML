@@ -12,5 +12,11 @@ pTMfbGGm40DHgV8FUj6oBg2vHUt_shVp-q5I1PuPm6i4Z8IN2sP0Py41bYA5iGYCfBF09zYp3N1nJbwx
 
 !define CloudMemorystore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudMemorystore, resource)
 !define CloudMemorystore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudMemorystore, resource)
+!define CloudMemorystore_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudMemorystore, new_resource)
+!define CloudMemorystore_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudMemorystore, new_resource)
+!define CloudMemorystore_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudMemorystore, modified_resource)
+!define CloudMemorystore_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudMemorystore, modified_resource)
+!define CloudMemorystore_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudMemorystore, deleted_resource)
+!define CloudMemorystore_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudMemorystore, deleted_resource)
 !define CloudMemorystoreParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudMemorystoreParticipant, CloudMemorystoreParticipant)
 !define CloudMemorystoreParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudMemorystoreParticipant, CloudMemorystoreParticipant)

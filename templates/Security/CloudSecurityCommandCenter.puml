@@ -13,5 +13,11 @@ deazQGc2ekLNIZ6rUB8UGQikGTQd9kgJnfDuk0lFJn7FPF2Fqqh7hcQXJaA3v_Fr64-k30OMR05OcEHD
 
 !define CloudSecurityCommandCenter(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSecurityCommandCenter, resource)
 !define CloudSecurityCommandCenter(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSecurityCommandCenter, resource)
+!define CloudSecurityCommandCenter_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSecurityCommandCenter, new_resource)
+!define CloudSecurityCommandCenter_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSecurityCommandCenter, new_resource)
+!define CloudSecurityCommandCenter_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSecurityCommandCenter, modified_resource)
+!define CloudSecurityCommandCenter_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSecurityCommandCenter, modified_resource)
+!define CloudSecurityCommandCenter_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSecurityCommandCenter, deleted_resource)
+!define CloudSecurityCommandCenter_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSecurityCommandCenter, deleted_resource)
 !define CloudSecurityCommandCenterParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudSecurityCommandCenterParticipant, CloudSecurityCommandCenterParticipant)
 !define CloudSecurityCommandCenterParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudSecurityCommandCenterParticipant, CloudSecurityCommandCenterParticipant)

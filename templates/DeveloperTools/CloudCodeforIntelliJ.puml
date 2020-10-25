@@ -12,5 +12,11 @@ pPLN0iCW5CEUVVyxT-zQf8-k-2i38JQr_XWY13W8S3v3s4t47oVS1gmsuG1q9F8hGGM75DnS-2mcJ5yP
 
 !define CloudCodeforIntelliJ(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCodeforIntelliJ, resource)
 !define CloudCodeforIntelliJ(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCodeforIntelliJ, resource)
+!define CloudCodeforIntelliJ_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCodeforIntelliJ, new_resource)
+!define CloudCodeforIntelliJ_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCodeforIntelliJ, new_resource)
+!define CloudCodeforIntelliJ_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCodeforIntelliJ, modified_resource)
+!define CloudCodeforIntelliJ_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCodeforIntelliJ, modified_resource)
+!define CloudCodeforIntelliJ_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCodeforIntelliJ, deleted_resource)
+!define CloudCodeforIntelliJ_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCodeforIntelliJ, deleted_resource)
 !define CloudCodeforIntelliJParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudCodeforIntelliJParticipant, CloudCodeforIntelliJParticipant)
 !define CloudCodeforIntelliJParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudCodeforIntelliJParticipant, CloudCodeforIntelliJParticipant)

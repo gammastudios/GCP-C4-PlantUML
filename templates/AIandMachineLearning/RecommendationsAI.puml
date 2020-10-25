@@ -14,5 +14,11 @@ aPgHatDKCt9ohcr6JguPcf7ZAva8JI72G6--0G
 
 !define RecommendationsAI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, RecommendationsAI, resource)
 !define RecommendationsAI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, RecommendationsAI, resource)
+!define RecommendationsAI_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, RecommendationsAI, new_resource)
+!define RecommendationsAI_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, RecommendationsAI, new_resource)
+!define RecommendationsAI_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, RecommendationsAI, modified_resource)
+!define RecommendationsAI_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, RecommendationsAI, modified_resource)
+!define RecommendationsAI_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, RecommendationsAI, deleted_resource)
+!define RecommendationsAI_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, RecommendationsAI, deleted_resource)
 !define RecommendationsAIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, RecommendationsAIParticipant, RecommendationsAIParticipant)
 !define RecommendationsAIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, RecommendationsAIParticipant, RecommendationsAIParticipant)

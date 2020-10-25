@@ -15,5 +15,11 @@ iAGQB4GDIjJkWN6-k8b6PDQZWIAMndWVcW7a-IggRrvtkuW60FpZjnn-WFZfkxFuBC916ix_Czq3
 
 !define AdvancedSolutionsLab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AdvancedSolutionsLab, resource)
 !define AdvancedSolutionsLab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AdvancedSolutionsLab, resource)
+!define AdvancedSolutionsLab_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AdvancedSolutionsLab, new_resource)
+!define AdvancedSolutionsLab_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AdvancedSolutionsLab, new_resource)
+!define AdvancedSolutionsLab_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AdvancedSolutionsLab, modified_resource)
+!define AdvancedSolutionsLab_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AdvancedSolutionsLab, modified_resource)
+!define AdvancedSolutionsLab_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AdvancedSolutionsLab, deleted_resource)
+!define AdvancedSolutionsLab_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AdvancedSolutionsLab, deleted_resource)
 !define AdvancedSolutionsLabParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, AdvancedSolutionsLabParticipant, AdvancedSolutionsLabParticipant)
 !define AdvancedSolutionsLabParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, AdvancedSolutionsLabParticipant, AdvancedSolutionsLabParticipant)

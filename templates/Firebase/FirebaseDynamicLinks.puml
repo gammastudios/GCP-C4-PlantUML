@@ -12,5 +12,11 @@ g-RDtc80mWSP81aVc2aO0Fig4_yjiIHUM9984YyioKiQ919iawyDO8m--yp6-WK
 
 !define FirebaseDynamicLinks(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseDynamicLinks, resource)
 !define FirebaseDynamicLinks(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseDynamicLinks, resource)
+!define FirebaseDynamicLinks_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseDynamicLinks, new_resource)
+!define FirebaseDynamicLinks_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseDynamicLinks, new_resource)
+!define FirebaseDynamicLinks_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseDynamicLinks, modified_resource)
+!define FirebaseDynamicLinks_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseDynamicLinks, modified_resource)
+!define FirebaseDynamicLinks_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseDynamicLinks, deleted_resource)
+!define FirebaseDynamicLinks_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseDynamicLinks, deleted_resource)
 !define FirebaseDynamicLinksParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseDynamicLinksParticipant, FirebaseDynamicLinksParticipant)
 !define FirebaseDynamicLinksParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseDynamicLinksParticipant, FirebaseDynamicLinksParticipant)

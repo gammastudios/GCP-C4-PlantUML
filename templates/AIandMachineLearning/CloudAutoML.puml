@@ -12,5 +12,11 @@ pTH70W9H38BXaFiVsfKjYBzEPsNxP5wjwwT3XC33W0aB1anwhM3I69d00A0IjSSJAnuVMNUeq5DC4Yke
 
 !define CloudAutoML(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudAutoML, resource)
 !define CloudAutoML(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudAutoML, resource)
+!define CloudAutoML_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudAutoML, new_resource)
+!define CloudAutoML_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudAutoML, new_resource)
+!define CloudAutoML_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudAutoML, modified_resource)
+!define CloudAutoML_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudAutoML, modified_resource)
+!define CloudAutoML_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudAutoML, deleted_resource)
+!define CloudAutoML_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudAutoML, deleted_resource)
 !define CloudAutoMLParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudAutoMLParticipant, CloudAutoMLParticipant)
 !define CloudAutoMLParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudAutoMLParticipant, CloudAutoMLParticipant)

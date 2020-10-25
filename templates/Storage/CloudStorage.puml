@@ -12,5 +12,11 @@ kMeioJ6r8F4Y6iIB220ctu7lRcf1uaK44CAGMD5OaZUfg3zfjW
 
 !define CloudStorage(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudStorage, resource)
 !define CloudStorage(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudStorage, resource)
+!define CloudStorage_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudStorage, new_resource)
+!define CloudStorage_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudStorage, new_resource)
+!define CloudStorage_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudStorage, modified_resource)
+!define CloudStorage_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudStorage, modified_resource)
+!define CloudStorage_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudStorage, deleted_resource)
+!define CloudStorage_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudStorage, deleted_resource)
 !define CloudStorageParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudStorageParticipant, CloudStorageParticipant)
 !define CloudStorageParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudStorageParticipant, CloudStorageParticipant)

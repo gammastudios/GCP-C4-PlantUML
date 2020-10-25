@@ -12,5 +12,11 @@ PJ6V5PoRLeK1aY0z1dig-lFeRqahzEJTHVMBeXSi2buHrFyLMX1wyTz5TJMW5vIW5--lpg8bXCZpyEri
 
 !define CloudVPN(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVPN, resource)
 !define CloudVPN(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVPN, resource)
+!define CloudVPN_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVPN, new_resource)
+!define CloudVPN_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVPN, new_resource)
+!define CloudVPN_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVPN, modified_resource)
+!define CloudVPN_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVPN, modified_resource)
+!define CloudVPN_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVPN, deleted_resource)
+!define CloudVPN_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVPN, deleted_resource)
 !define CloudVPNParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudVPNParticipant, CloudVPNParticipant)
 !define CloudVPNParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudVPNParticipant, CloudVPNParticipant)

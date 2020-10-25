@@ -5,5 +5,11 @@ sprite $FirebaseRealtimeDatabaseParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
 
 !define FirebaseRealtimeDatabase(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabase, resource)
 !define FirebaseRealtimeDatabase(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabase, resource)
+!define FirebaseRealtimeDatabase_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabase, new_resource)
+!define FirebaseRealtimeDatabase_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabase, new_resource)
+!define FirebaseRealtimeDatabase_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabase, modified_resource)
+!define FirebaseRealtimeDatabase_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabase, modified_resource)
+!define FirebaseRealtimeDatabase_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabase, deleted_resource)
+!define FirebaseRealtimeDatabase_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabase, deleted_resource)
 !define FirebaseRealtimeDatabaseParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabaseParticipant, FirebaseRealtimeDatabaseParticipant)
 !define FirebaseRealtimeDatabaseParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabaseParticipant, FirebaseRealtimeDatabaseParticipant)

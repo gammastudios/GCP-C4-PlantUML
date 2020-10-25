@@ -12,5 +12,11 @@ _2on8a_EtSfrE_mQz3k35dQ7e-mMboVsNLd84-U79QN5vq_dF7zdkEpY-dOy
 
 !define CloudNaturalLanguageAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, resource)
 !define CloudNaturalLanguageAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, resource)
+!define CloudNaturalLanguageAPI_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, new_resource)
+!define CloudNaturalLanguageAPI_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, new_resource)
+!define CloudNaturalLanguageAPI_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, modified_resource)
+!define CloudNaturalLanguageAPI_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, modified_resource)
+!define CloudNaturalLanguageAPI_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, deleted_resource)
+!define CloudNaturalLanguageAPI_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPI, deleted_resource)
 !define CloudNaturalLanguageAPIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPIParticipant, CloudNaturalLanguageAPIParticipant)
 !define CloudNaturalLanguageAPIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudNaturalLanguageAPIParticipant, CloudNaturalLanguageAPIParticipant)

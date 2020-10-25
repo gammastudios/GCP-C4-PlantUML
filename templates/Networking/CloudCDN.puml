@@ -13,5 +13,11 @@ s1C9m480CGoDXG02PrW8kba1kGe0wVS1W6vz8GZq_k0EKoOH2vUPMySkLOunpuys2R4hiT180uErf9CE
 
 !define CloudCDN(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCDN, resource)
 !define CloudCDN(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCDN, resource)
+!define CloudCDN_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCDN, new_resource)
+!define CloudCDN_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCDN, new_resource)
+!define CloudCDN_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCDN, modified_resource)
+!define CloudCDN_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCDN, modified_resource)
+!define CloudCDN_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCDN, deleted_resource)
+!define CloudCDN_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCDN, deleted_resource)
 !define CloudCDNParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudCDNParticipant, CloudCDNParticipant)
 !define CloudCDNParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudCDNParticipant, CloudCDNParticipant)

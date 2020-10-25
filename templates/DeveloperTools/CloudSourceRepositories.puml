@@ -12,5 +12,11 @@ pPLN0iCW5CEUVVyxT-zQf8-k-2i38JQr_XWY13W8S3v3s4t47oVS1gmsuG1q9F8hGGM75DnS-2mcJ5yP
 
 !define CloudSourceRepositories(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSourceRepositories, resource)
 !define CloudSourceRepositories(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSourceRepositories, resource)
+!define CloudSourceRepositories_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSourceRepositories, new_resource)
+!define CloudSourceRepositories_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSourceRepositories, new_resource)
+!define CloudSourceRepositories_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSourceRepositories, modified_resource)
+!define CloudSourceRepositories_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSourceRepositories, modified_resource)
+!define CloudSourceRepositories_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSourceRepositories, deleted_resource)
+!define CloudSourceRepositories_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSourceRepositories, deleted_resource)
 !define CloudSourceRepositoriesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudSourceRepositoriesParticipant, CloudSourceRepositoriesParticipant)
 !define CloudSourceRepositoriesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudSourceRepositoriesParticipant, CloudSourceRepositoriesParticipant)
