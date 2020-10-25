@@ -12,5 +12,11 @@ TIqSY4ge5cq_87CjSFGvqq_X37XTUQfwUUr2TLZIrsCbBDo7RUYAcCpZh_uiQOdQ8yuldhjo2wHUg025
 
 !define CloudJobsAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudJobsAPI, resource)
 !define CloudJobsAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudJobsAPI, resource)
+!define CloudJobsAPI_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudJobsAPI, new_resource)
+!define CloudJobsAPI_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudJobsAPI, new_resource)
+!define CloudJobsAPI_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudJobsAPI, modified_resource)
+!define CloudJobsAPI_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudJobsAPI, modified_resource)
+!define CloudJobsAPI_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudJobsAPI, deleted_resource)
+!define CloudJobsAPI_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudJobsAPI, deleted_resource)
 !define CloudJobsAPIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudJobsAPIParticipant, CloudJobsAPIParticipant)
 !define CloudJobsAPIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudJobsAPIParticipant, CloudJobsAPIParticipant)

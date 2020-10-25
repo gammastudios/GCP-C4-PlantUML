@@ -67,6 +67,25 @@ $Str = "!define ${resourceName}(e_alias, e_label, e_techn) GCPEntity(e_alias, e_
 Add-Content -Path $pumlFile -Value $Str
 $Str = "!define ${resourceName}(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ${resourceName}, resource)"
 Add-Content -Path $pumlFile -Value $Str
+#
+# extensions for new, modified and deleted resources
+#
+# new
+$Str = "!define ${resourceName}_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ${resourceName}, new_resource)"
+Add-Content -Path $pumlFile -Value $Str
+$Str = "!define ${resourceName}_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ${resourceName}, new_resource)"
+Add-Content -Path $pumlFile -Value $Str
+# modified
+$Str = "!define ${resourceName}_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ${resourceName}, modified_resource)"
+Add-Content -Path $pumlFile -Value $Str
+$Str = "!define ${resourceName}_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ${resourceName}, modified_resource)"
+Add-Content -Path $pumlFile -Value $Str
+# deleted
+$Str = "!define ${resourceName}_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ${resourceName}, deleted_resource)"
+Add-Content -Path $pumlFile -Value $Str
+$Str = "!define ${resourceName}_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ${resourceName}, deleted_resource)"
+Add-Content -Path $pumlFile -Value $Str
+# sequence diagram participants
 $Str = "!define ${partResourceName}(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, ${partResourceName}, ${partResourceName})"
 Add-Content -Path $pumlFile -Value $Str
 $Str = "!define ${partResourceName}(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, ${partResourceName}, ${partResourceName})"

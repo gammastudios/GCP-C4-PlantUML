@@ -14,5 +14,11 @@ lmjE0J0N68AvUFpLcPWID67N_zNv1W
 
 !define CloudSecurityScanner(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSecurityScanner, resource)
 !define CloudSecurityScanner(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSecurityScanner, resource)
+!define CloudSecurityScanner_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSecurityScanner, new_resource)
+!define CloudSecurityScanner_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSecurityScanner, new_resource)
+!define CloudSecurityScanner_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSecurityScanner, modified_resource)
+!define CloudSecurityScanner_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSecurityScanner, modified_resource)
+!define CloudSecurityScanner_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSecurityScanner, deleted_resource)
+!define CloudSecurityScanner_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSecurityScanner, deleted_resource)
 !define CloudSecurityScannerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudSecurityScannerParticipant, CloudSecurityScannerParticipant)
 !define CloudSecurityScannerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudSecurityScannerParticipant, CloudSecurityScannerParticipant)

@@ -12,5 +12,11 @@ RY6G0l029R0Yl2N4V0k6iHK0B_oJ0I_GW5G_UEqg81Q05mWWX25O4InXKxgEM_SC
 
 !define CloudExternalIPAddresses(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, resource)
 !define CloudExternalIPAddresses(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, resource)
+!define CloudExternalIPAddresses_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, new_resource)
+!define CloudExternalIPAddresses_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, new_resource)
+!define CloudExternalIPAddresses_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, modified_resource)
+!define CloudExternalIPAddresses_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, modified_resource)
+!define CloudExternalIPAddresses_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, deleted_resource)
+!define CloudExternalIPAddresses_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudExternalIPAddresses, deleted_resource)
 !define CloudExternalIPAddressesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudExternalIPAddressesParticipant, CloudExternalIPAddressesParticipant)
 !define CloudExternalIPAddressesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudExternalIPAddressesParticipant, CloudExternalIPAddressesParticipant)

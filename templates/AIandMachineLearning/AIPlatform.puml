@@ -14,5 +14,11 @@ FweXC2VkFpfpyvoX8gxbsVe4
 
 !define AIPlatform(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AIPlatform, resource)
 !define AIPlatform(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AIPlatform, resource)
+!define AIPlatform_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AIPlatform, new_resource)
+!define AIPlatform_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AIPlatform, new_resource)
+!define AIPlatform_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AIPlatform, modified_resource)
+!define AIPlatform_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AIPlatform, modified_resource)
+!define AIPlatform_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AIPlatform, deleted_resource)
+!define AIPlatform_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AIPlatform, deleted_resource)
 !define AIPlatformParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, AIPlatformParticipant, AIPlatformParticipant)
 !define AIPlatformParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, AIPlatformParticipant, AIPlatformParticipant)

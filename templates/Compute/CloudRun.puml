@@ -13,5 +13,11 @@ cYZZionZMuKDLclNOWOpnczm84klvGhKHj_gufdByU7ArNK17sKPi7kEbd9XkV8aPcs2F-thmbvze-pU
 
 !define CloudRun(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudRun, resource)
 !define CloudRun(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudRun, resource)
+!define CloudRun_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudRun, new_resource)
+!define CloudRun_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudRun, new_resource)
+!define CloudRun_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudRun, modified_resource)
+!define CloudRun_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudRun, modified_resource)
+!define CloudRun_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudRun, deleted_resource)
+!define CloudRun_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudRun, deleted_resource)
 !define CloudRunParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudRunParticipant, CloudRunParticipant)
 !define CloudRunParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudRunParticipant, CloudRunParticipant)

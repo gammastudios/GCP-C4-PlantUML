@@ -14,5 +14,11 @@ ZBespTSckfuJzHCoOM1WaMAP4e4m03cii1SPZevlWixn8p43JT0t1nAEmQBkwhyiwYCoeX1k0qYvMbQm
 
 !define CloudDNS(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDNS, resource)
 !define CloudDNS(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDNS, resource)
+!define CloudDNS_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDNS, new_resource)
+!define CloudDNS_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDNS, new_resource)
+!define CloudDNS_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDNS, modified_resource)
+!define CloudDNS_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDNS, modified_resource)
+!define CloudDNS_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDNS, deleted_resource)
+!define CloudDNS_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDNS, deleted_resource)
 !define CloudDNSParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudDNSParticipant, CloudDNSParticipant)
 !define CloudDNSParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudDNSParticipant, CloudDNSParticipant)

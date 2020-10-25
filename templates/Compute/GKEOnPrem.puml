@@ -14,5 +14,11 @@ vHiMLBVTlmn82mteht4Hncsc3SnYjsa8Ax1QaL3yUs-2J4ntKOrtQiPRzVZ4ONpaZ4zEvgUpYub5wS5Y
 
 !define GKEOnPrem(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GKEOnPrem, resource)
 !define GKEOnPrem(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GKEOnPrem, resource)
+!define GKEOnPrem_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GKEOnPrem, new_resource)
+!define GKEOnPrem_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GKEOnPrem, new_resource)
+!define GKEOnPrem_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GKEOnPrem, modified_resource)
+!define GKEOnPrem_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GKEOnPrem, modified_resource)
+!define GKEOnPrem_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GKEOnPrem, deleted_resource)
+!define GKEOnPrem_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GKEOnPrem, deleted_resource)
 !define GKEOnPremParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, GKEOnPremParticipant, GKEOnPremParticipant)
 !define GKEOnPremParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, GKEOnPremParticipant, GKEOnPremParticipant)

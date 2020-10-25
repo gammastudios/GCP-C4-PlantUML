@@ -12,5 +12,11 @@ znT6Oh-6vIUU9TYIsYzNdMcxmvt0ZbTCB5LfLrNS-SdRBP8Hv6YM-9auAFBPxjytey8y3WyetndItKS7
 
 !define CloudNAT(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNAT, resource)
 !define CloudNAT(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNAT, resource)
+!define CloudNAT_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNAT, new_resource)
+!define CloudNAT_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNAT, new_resource)
+!define CloudNAT_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNAT, modified_resource)
+!define CloudNAT_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNAT, modified_resource)
+!define CloudNAT_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudNAT, deleted_resource)
+!define CloudNAT_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudNAT, deleted_resource)
 !define CloudNATParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudNATParticipant, CloudNATParticipant)
 !define CloudNATParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudNATParticipant, CloudNATParticipant)

@@ -12,5 +12,11 @@ lTO53a9100FHzlw7ng9Dbmp59eOzxA_fIRRrQew4kUENTmmwV7t7W8sv0bm13W4BJZmkpWJ-GnPCTk4e
 
 !define FirebaseTestLab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseTestLab, resource)
 !define FirebaseTestLab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseTestLab, resource)
+!define FirebaseTestLab_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseTestLab, new_resource)
+!define FirebaseTestLab_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseTestLab, new_resource)
+!define FirebaseTestLab_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseTestLab, modified_resource)
+!define FirebaseTestLab_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseTestLab, modified_resource)
+!define FirebaseTestLab_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseTestLab, deleted_resource)
+!define FirebaseTestLab_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseTestLab, deleted_resource)
 !define FirebaseTestLabParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseTestLabParticipant, FirebaseTestLabParticipant)
 !define FirebaseTestLabParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseTestLabParticipant, FirebaseTestLabParticipant)

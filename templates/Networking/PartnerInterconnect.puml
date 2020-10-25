@@ -12,5 +12,11 @@ pTN50GD1049HeF-UuvwnlyvjvOsBZfzKOWgIO90i8n98ihW81Z4MAG1IYHDOIGA9iHWUajBBjd2Z5vNN
 
 !define PartnerInterconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PartnerInterconnect, resource)
 !define PartnerInterconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PartnerInterconnect, resource)
+!define PartnerInterconnect_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PartnerInterconnect, new_resource)
+!define PartnerInterconnect_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PartnerInterconnect, new_resource)
+!define PartnerInterconnect_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PartnerInterconnect, modified_resource)
+!define PartnerInterconnect_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PartnerInterconnect, modified_resource)
+!define PartnerInterconnect_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PartnerInterconnect, deleted_resource)
+!define PartnerInterconnect_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PartnerInterconnect, deleted_resource)
 !define PartnerInterconnectParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, PartnerInterconnectParticipant, PartnerInterconnectParticipant)
 !define PartnerInterconnectParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, PartnerInterconnectParticipant, PartnerInterconnectParticipant)

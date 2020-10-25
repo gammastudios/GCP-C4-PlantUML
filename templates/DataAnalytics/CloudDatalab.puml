@@ -12,5 +12,11 @@ Zg29QN2Q2g2hY22vTGcXuGiH-9luTfE0tRmh0NR7HHk-o8ZOca_3IEmVsYlz3nBV12wCm8KHuC88bofS
 
 !define CloudDatalab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDatalab, resource)
 !define CloudDatalab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDatalab, resource)
+!define CloudDatalab_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDatalab, new_resource)
+!define CloudDatalab_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDatalab, new_resource)
+!define CloudDatalab_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDatalab, modified_resource)
+!define CloudDatalab_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDatalab, modified_resource)
+!define CloudDatalab_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDatalab, deleted_resource)
+!define CloudDatalab_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDatalab, deleted_resource)
 !define CloudDatalabParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudDatalabParticipant, CloudDatalabParticipant)
 !define CloudDatalabParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudDatalabParticipant, CloudDatalabParticipant)

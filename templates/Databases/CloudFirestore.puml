@@ -14,5 +14,11 @@ _Uii8YEsbkDA21Si38iVsGi
 
 !define CloudFirestore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirestore, resource)
 !define CloudFirestore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirestore, resource)
+!define CloudFirestore_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirestore, new_resource)
+!define CloudFirestore_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirestore, new_resource)
+!define CloudFirestore_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirestore, modified_resource)
+!define CloudFirestore_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirestore, modified_resource)
+!define CloudFirestore_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirestore, deleted_resource)
+!define CloudFirestore_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirestore, deleted_resource)
 !define CloudFirestoreParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudFirestoreParticipant, CloudFirestoreParticipant)
 !define CloudFirestoreParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudFirestoreParticipant, CloudFirestoreParticipant)

@@ -12,5 +12,11 @@ C4A_HwBUNF-hFlbtKmiIBw91l8W0ul1ziU-c5YHUH00X38aLZIMPICNuZsOB
 
 !define TransferAppliance(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, TransferAppliance, resource)
 !define TransferAppliance(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, TransferAppliance, resource)
+!define TransferAppliance_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, TransferAppliance, new_resource)
+!define TransferAppliance_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, TransferAppliance, new_resource)
+!define TransferAppliance_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, TransferAppliance, modified_resource)
+!define TransferAppliance_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, TransferAppliance, modified_resource)
+!define TransferAppliance_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, TransferAppliance, deleted_resource)
+!define TransferAppliance_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, TransferAppliance, deleted_resource)
 !define TransferApplianceParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, TransferApplianceParticipant, TransferApplianceParticipant)
 !define TransferApplianceParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, TransferApplianceParticipant, TransferApplianceParticipant)

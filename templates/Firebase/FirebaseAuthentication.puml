@@ -5,5 +5,11 @@ sprite $FirebaseAuthenticationParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
 
 !define FirebaseAuthentication(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseAuthentication, resource)
 !define FirebaseAuthentication(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseAuthentication, resource)
+!define FirebaseAuthentication_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseAuthentication, new_resource)
+!define FirebaseAuthentication_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseAuthentication, new_resource)
+!define FirebaseAuthentication_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseAuthentication, modified_resource)
+!define FirebaseAuthentication_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseAuthentication, modified_resource)
+!define FirebaseAuthentication_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseAuthentication, deleted_resource)
+!define FirebaseAuthentication_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseAuthentication, deleted_resource)
 !define FirebaseAuthenticationParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseAuthenticationParticipant, FirebaseAuthenticationParticipant)
 !define FirebaseAuthenticationParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseAuthenticationParticipant, FirebaseAuthenticationParticipant)

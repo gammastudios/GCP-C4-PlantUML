@@ -12,5 +12,11 @@ pTC5hW8154FHs-v_pzy5Q1fIl35aphDaUFsuH1NqpC2-ZR17ufiBpy2QXGDiJMIFJPn1ZjGMO0EsQ29A
 
 !define StandardNetworkTier(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, StandardNetworkTier, resource)
 !define StandardNetworkTier(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, StandardNetworkTier, resource)
+!define StandardNetworkTier_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, StandardNetworkTier, new_resource)
+!define StandardNetworkTier_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, StandardNetworkTier, new_resource)
+!define StandardNetworkTier_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, StandardNetworkTier, modified_resource)
+!define StandardNetworkTier_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, StandardNetworkTier, modified_resource)
+!define StandardNetworkTier_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, StandardNetworkTier, deleted_resource)
+!define StandardNetworkTier_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, StandardNetworkTier, deleted_resource)
 !define StandardNetworkTierParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, StandardNetworkTierParticipant, StandardNetworkTierParticipant)
 !define StandardNetworkTierParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, StandardNetworkTierParticipant, StandardNetworkTierParticipant)

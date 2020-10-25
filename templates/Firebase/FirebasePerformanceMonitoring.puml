@@ -12,5 +12,11 @@ Y6T1AdWH-LdvjuWNaOxwiNgFYuJ4ceXZHBoIE6VnKdn90YR2I5v7J5v4IE-1HPB1Cx5B9c-3kOW6Q939
 
 !define FirebasePerformanceMonitoring(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebasePerformanceMonitoring, resource)
 !define FirebasePerformanceMonitoring(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebasePerformanceMonitoring, resource)
+!define FirebasePerformanceMonitoring_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebasePerformanceMonitoring, new_resource)
+!define FirebasePerformanceMonitoring_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebasePerformanceMonitoring, new_resource)
+!define FirebasePerformanceMonitoring_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebasePerformanceMonitoring, modified_resource)
+!define FirebasePerformanceMonitoring_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebasePerformanceMonitoring, modified_resource)
+!define FirebasePerformanceMonitoring_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebasePerformanceMonitoring, deleted_resource)
+!define FirebasePerformanceMonitoring_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebasePerformanceMonitoring, deleted_resource)
 !define FirebasePerformanceMonitoringParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebasePerformanceMonitoringParticipant, FirebasePerformanceMonitoringParticipant)
 !define FirebasePerformanceMonitoringParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebasePerformanceMonitoringParticipant, FirebasePerformanceMonitoringParticipant)

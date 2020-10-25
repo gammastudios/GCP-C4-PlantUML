@@ -12,5 +12,11 @@ l4XmfHeYcKWnHfOw6niBsLv79hQNRcdpGFATDyw3bGZ2SEQM0rJtoZVUNRa5KYzK0_L21IWMRwcCI6L4
 
 !define IDEPlugins(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, IDEPlugins, resource)
 !define IDEPlugins(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, IDEPlugins, resource)
+!define IDEPlugins_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, IDEPlugins, new_resource)
+!define IDEPlugins_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, IDEPlugins, new_resource)
+!define IDEPlugins_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, IDEPlugins, modified_resource)
+!define IDEPlugins_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, IDEPlugins, modified_resource)
+!define IDEPlugins_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, IDEPlugins, deleted_resource)
+!define IDEPlugins_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, IDEPlugins, deleted_resource)
 !define IDEPluginsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, IDEPluginsParticipant, IDEPluginsParticipant)
 !define IDEPluginsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, IDEPluginsParticipant, IDEPluginsParticipant)

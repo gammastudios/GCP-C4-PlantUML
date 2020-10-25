@@ -5,5 +5,11 @@ sprite $FirebaseHostingParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
 
 !define FirebaseHosting(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseHosting, resource)
 !define FirebaseHosting(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseHosting, resource)
+!define FirebaseHosting_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseHosting, new_resource)
+!define FirebaseHosting_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseHosting, new_resource)
+!define FirebaseHosting_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseHosting, modified_resource)
+!define FirebaseHosting_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseHosting, modified_resource)
+!define FirebaseHosting_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseHosting, deleted_resource)
+!define FirebaseHosting_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseHosting, deleted_resource)
 !define FirebaseHostingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseHostingParticipant, FirebaseHostingParticipant)
 !define FirebaseHostingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseHostingParticipant, FirebaseHostingParticipant)

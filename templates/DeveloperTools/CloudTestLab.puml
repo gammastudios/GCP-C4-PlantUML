@@ -12,5 +12,11 @@ eoGX8obDrnwFU0OvOep-VdJ6v0IV5KxELvVkeFafwPx4xbhbSQyJSQDMiyfhMqs-yJ9GXBzN_1NbBpN_
 
 !define CloudTestLab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTestLab, resource)
 !define CloudTestLab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTestLab, resource)
+!define CloudTestLab_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTestLab, new_resource)
+!define CloudTestLab_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTestLab, new_resource)
+!define CloudTestLab_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTestLab, modified_resource)
+!define CloudTestLab_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTestLab, modified_resource)
+!define CloudTestLab_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTestLab, deleted_resource)
+!define CloudTestLab_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTestLab, deleted_resource)
 !define CloudTestLabParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudTestLabParticipant, CloudTestLabParticipant)
 !define CloudTestLabParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudTestLabParticipant, CloudTestLabParticipant)

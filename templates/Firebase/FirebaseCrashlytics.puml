@@ -12,5 +12,11 @@ EO_b0ZCVMYZt0w3Qysk2s7djisZkX-aYt45JthyClHZ80D1-Q0cKX5wq14e29G4gWqq0ZG5e336X-X4
 
 !define FirebaseCrashlytics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseCrashlytics, resource)
 !define FirebaseCrashlytics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseCrashlytics, resource)
+!define FirebaseCrashlytics_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseCrashlytics, new_resource)
+!define FirebaseCrashlytics_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseCrashlytics, new_resource)
+!define FirebaseCrashlytics_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseCrashlytics, modified_resource)
+!define FirebaseCrashlytics_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseCrashlytics, modified_resource)
+!define FirebaseCrashlytics_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseCrashlytics, deleted_resource)
+!define FirebaseCrashlytics_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, FirebaseCrashlytics, deleted_resource)
 !define FirebaseCrashlyticsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, FirebaseCrashlyticsParticipant, FirebaseCrashlyticsParticipant)
 !define FirebaseCrashlyticsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, FirebaseCrashlyticsParticipant, FirebaseCrashlyticsParticipant)

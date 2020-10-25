@@ -12,5 +12,11 @@ DzKxAaBOay4BIsAFk9uyTrCB4YyYW126n8h6aYoaulzRymC
 
 !define VirtualPrivateCloud(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, VirtualPrivateCloud, resource)
 !define VirtualPrivateCloud(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, VirtualPrivateCloud, resource)
+!define VirtualPrivateCloud_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, VirtualPrivateCloud, new_resource)
+!define VirtualPrivateCloud_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, VirtualPrivateCloud, new_resource)
+!define VirtualPrivateCloud_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, VirtualPrivateCloud, modified_resource)
+!define VirtualPrivateCloud_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, VirtualPrivateCloud, modified_resource)
+!define VirtualPrivateCloud_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, VirtualPrivateCloud, deleted_resource)
+!define VirtualPrivateCloud_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, VirtualPrivateCloud, deleted_resource)
 !define VirtualPrivateCloudParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, VirtualPrivateCloudParticipant, VirtualPrivateCloudParticipant)
 !define VirtualPrivateCloudParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, VirtualPrivateCloudParticipant, VirtualPrivateCloudParticipant)

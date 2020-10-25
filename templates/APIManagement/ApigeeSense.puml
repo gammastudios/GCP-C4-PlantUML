@@ -14,5 +14,11 @@ JsThYWXaIlzgVGC
 
 !define ApigeeSense(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ApigeeSense, resource)
 !define ApigeeSense(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ApigeeSense, resource)
+!define ApigeeSense_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ApigeeSense, new_resource)
+!define ApigeeSense_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ApigeeSense, new_resource)
+!define ApigeeSense_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ApigeeSense, modified_resource)
+!define ApigeeSense_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ApigeeSense, modified_resource)
+!define ApigeeSense_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ApigeeSense, deleted_resource)
+!define ApigeeSense_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ApigeeSense, deleted_resource)
 !define ApigeeSenseParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, ApigeeSenseParticipant, ApigeeSenseParticipant)
 !define ApigeeSenseParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, ApigeeSenseParticipant, ApigeeSenseParticipant)
