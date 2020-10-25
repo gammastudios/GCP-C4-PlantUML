@@ -12,8 +12,7 @@ ksu1
 }
 
 
-GCPEntityColoring(CloudBuild)
-!define CloudBuild(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudBuild, CloudBuild)
-!define CloudBuild(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudBuild, CloudBuild)
+!define CloudBuild(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudBuild, resource)
+!define CloudBuild(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudBuild, resource)
 !define CloudBuildParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudBuildParticipant, CloudBuildParticipant)
 !define CloudBuildParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudBuildParticipant, CloudBuildParticipant)

@@ -11,8 +11,7 @@ UcnLRAHd9THJccC8HH01g2jp34cXhLNP3_j-tASaLjBFbJclJpvqTizJL7E3_GvseWrWJHFCW3WNthKB
 }
 
 
-GCPEntityColoring(CloudRoutes)
-!define CloudRoutes(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudRoutes, CloudRoutes)
-!define CloudRoutes(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudRoutes, CloudRoutes)
+!define CloudRoutes(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudRoutes, resource)
+!define CloudRoutes(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudRoutes, resource)
 !define CloudRoutesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudRoutesParticipant, CloudRoutesParticipant)
 !define CloudRoutesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudRoutesParticipant, CloudRoutesParticipant)

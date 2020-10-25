@@ -10,8 +10,7 @@ dEkas0Ml1DJm8FfQ7Gi6wrfT9OdM6L__2LXlmIcqYd0He0eu2z9wTx-3-ykmYq9gM9-uVF7T9Ik0NJ20
 }
 
 
-GCPEntityColoring(CloudDataprep)
-!define CloudDataprep(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataprep, CloudDataprep)
-!define CloudDataprep(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataprep, CloudDataprep)
+!define CloudDataprep(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDataprep, resource)
+!define CloudDataprep(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDataprep, resource)
 !define CloudDataprepParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudDataprepParticipant, CloudDataprepParticipant)
 !define CloudDataprepParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudDataprepParticipant, CloudDataprepParticipant)

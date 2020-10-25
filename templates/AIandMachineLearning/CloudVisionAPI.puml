@@ -10,8 +10,7 @@ BZVdWQ1DaRs6pJ74HnSZGm0n0dPQlGR-NDc97KJt_HMKtVuTR0czQ0dj9sxU_EuoBO1UK812D8HM32r1
 }
 
 
-GCPEntityColoring(CloudVisionAPI)
-!define CloudVisionAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVisionAPI, CloudVisionAPI)
-!define CloudVisionAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVisionAPI, CloudVisionAPI)
+!define CloudVisionAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVisionAPI, resource)
+!define CloudVisionAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVisionAPI, resource)
 !define CloudVisionAPIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudVisionAPIParticipant, CloudVisionAPIParticipant)
 !define CloudVisionAPIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudVisionAPIParticipant, CloudVisionAPIParticipant)

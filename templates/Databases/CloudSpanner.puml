@@ -10,8 +10,7 @@ ZccIs6UQ6keh0sPXUnRBkqw_0METUPgcdwlGoQVm5vOw57Vgj4K5MoPcQsW9lMW9xHMdE-zTr0Be1GKe
 }
 
 
-GCPEntityColoring(CloudSpanner)
-!define CloudSpanner(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSpanner, CloudSpanner)
-!define CloudSpanner(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSpanner, CloudSpanner)
+!define CloudSpanner(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudSpanner, resource)
+!define CloudSpanner(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudSpanner, resource)
 !define CloudSpannerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudSpannerParticipant, CloudSpannerParticipant)
 !define CloudSpannerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudSpannerParticipant, CloudSpannerParticipant)

@@ -10,8 +10,7 @@ bWMiaBdpAEA0T4ztzVZlfqterySmjJk9pZ5jFiaqGMX8180yCKqW81BernAWNgz0hSCdrrsm1K0lK89U
 }
 
 
-GCPEntityColoring(CloudResourceManager)
-!define CloudResourceManager(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudResourceManager, CloudResourceManager)
-!define CloudResourceManager(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudResourceManager, CloudResourceManager)
+!define CloudResourceManager(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudResourceManager, resource)
+!define CloudResourceManager(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudResourceManager, resource)
 !define CloudResourceManagerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudResourceManagerParticipant, CloudResourceManagerParticipant)
 !define CloudResourceManagerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudResourceManagerParticipant, CloudResourceManagerParticipant)

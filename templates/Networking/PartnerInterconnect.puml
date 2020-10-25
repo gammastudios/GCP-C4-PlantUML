@@ -10,8 +10,7 @@ pTN50GD1049HeF-UuvwnlyvjvOsBZfzKOWgIO90i8n98ihW81Z4MAG1IYHDOIGA9iHWUajBBjd2Z5vNN
 }
 
 
-GCPEntityColoring(PartnerInterconnect)
-!define PartnerInterconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PartnerInterconnect, PartnerInterconnect)
-!define PartnerInterconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PartnerInterconnect, PartnerInterconnect)
+!define PartnerInterconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, PartnerInterconnect, resource)
+!define PartnerInterconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, PartnerInterconnect, resource)
 !define PartnerInterconnectParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, PartnerInterconnectParticipant, PartnerInterconnectParticipant)
 !define PartnerInterconnectParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, PartnerInterconnectParticipant, PartnerInterconnectParticipant)

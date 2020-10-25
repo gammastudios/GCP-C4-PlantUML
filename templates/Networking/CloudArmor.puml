@@ -12,8 +12,7 @@ fruWXLefDDeji8fY26WYIaGa1APrc4Z0KmW0jAFEAIbWXomm79OcP0fOsmuBe8Dzx_Hb1p5GtO0vxGEW
 }
 
 
-GCPEntityColoring(CloudArmor)
-!define CloudArmor(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudArmor, CloudArmor)
-!define CloudArmor(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudArmor, CloudArmor)
+!define CloudArmor(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudArmor, resource)
+!define CloudArmor(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudArmor, resource)
 !define CloudArmorParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudArmorParticipant, CloudArmorParticipant)
 !define CloudArmorParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudArmorParticipant, CloudArmorParticipant)

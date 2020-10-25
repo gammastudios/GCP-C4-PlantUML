@@ -12,8 +12,7 @@ lEX8VLEh4MW8ZXh2U51g21KHBOJA5Xt9Y8uueHD6hlwJURdU0G
 }
 
 
-GCPEntityColoring(CloudCode)
-!define CloudCode(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCode, CloudCode)
-!define CloudCode(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCode, CloudCode)
+!define CloudCode(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudCode, resource)
+!define CloudCode(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudCode, resource)
 !define CloudCodeParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudCodeParticipant, CloudCodeParticipant)
 !define CloudCodeParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudCodeParticipant, CloudCodeParticipant)

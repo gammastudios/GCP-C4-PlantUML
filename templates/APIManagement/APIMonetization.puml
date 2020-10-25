@@ -10,8 +10,7 @@ HmgStpHST1jIyRcEQmBSwGVG2of1AyGkXM0VtGY1vW8OAz7r8Xogw7OXlMW9xH6d5yzTr0Be1GKeH4De
 }
 
 
-GCPEntityColoring(APIMonetization)
-!define APIMonetization(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, APIMonetization, APIMonetization)
-!define APIMonetization(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, APIMonetization, APIMonetization)
+!define APIMonetization(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, APIMonetization, resource)
+!define APIMonetization(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, APIMonetization, resource)
 !define APIMonetizationParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, APIMonetizationParticipant, APIMonetizationParticipant)
 !define APIMonetizationParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, APIMonetizationParticipant, APIMonetizationParticipant)

@@ -10,8 +10,7 @@ pTK5aiGm44DH_Rx_dPUt0vgkHCCg2hsORRrzg244e4a4ckJ2GKZg84CHII5rcBI8AXBG91SEO6s1YQoV
 }
 
 
-GCPEntityColoring(CloudInferenceAPI)
-!define CloudInferenceAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudInferenceAPI, CloudInferenceAPI)
-!define CloudInferenceAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudInferenceAPI, CloudInferenceAPI)
+!define CloudInferenceAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudInferenceAPI, resource)
+!define CloudInferenceAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudInferenceAPI, resource)
 !define CloudInferenceAPIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudInferenceAPIParticipant, CloudInferenceAPIParticipant)
 !define CloudInferenceAPIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudInferenceAPIParticipant, CloudInferenceAPIParticipant)

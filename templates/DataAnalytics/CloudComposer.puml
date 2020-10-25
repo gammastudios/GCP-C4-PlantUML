@@ -10,8 +10,7 @@ pTM55SH0409GeF-Up_s6UKkSkFpe2euVcT02dnX8omWf95fSA0PYB5I0v2QKmfiqByZo66EXGQ4Az8An
 }
 
 
-GCPEntityColoring(CloudComposer)
-!define CloudComposer(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudComposer, CloudComposer)
-!define CloudComposer(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudComposer, CloudComposer)
+!define CloudComposer(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudComposer, resource)
+!define CloudComposer(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudComposer, resource)
 !define CloudComposerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudComposerParticipant, CloudComposerParticipant)
 !define CloudComposerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudComposerParticipant, CloudComposerParticipant)

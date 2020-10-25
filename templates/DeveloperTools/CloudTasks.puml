@@ -10,8 +10,7 @@ lPM55GC138K2--zSTwUMS-5n-ZDdnUsQUuLtYWgejmdLP46ZHAC4ZHAD4ZHAD4hGAD4eGQD4eqID4Yl2
 }
 
 
-GCPEntityColoring(CloudTasks)
-!define CloudTasks(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTasks, CloudTasks)
-!define CloudTasks(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTasks, CloudTasks)
+!define CloudTasks(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTasks, resource)
+!define CloudTasks(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTasks, resource)
 !define CloudTasksParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudTasksParticipant, CloudTasksParticipant)
 !define CloudTasksParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudTasksParticipant, CloudTasksParticipant)

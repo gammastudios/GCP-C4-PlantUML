@@ -10,8 +10,7 @@ pTG5heD100BXWVlV-Mcya2xrYLQ-NzRu_5nI1RqPs8yHzaZySE4PMBDm0CjDv9FABNHnuKHKHyHauIRa
 }
 
 
-GCPEntityColoring(Genomics)
-!define Genomics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Genomics, Genomics)
-!define Genomics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Genomics, Genomics)
+!define Genomics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Genomics, resource)
+!define Genomics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Genomics, resource)
 !define GenomicsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, GenomicsParticipant, GenomicsParticipant)
 !define GenomicsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, GenomicsParticipant, GenomicsParticipant)

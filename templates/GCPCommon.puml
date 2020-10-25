@@ -1,4 +1,4 @@
-' GCP-C4-PlantUML, version 1.0.0
+' GCP-C4-PlantUML
 ' https://github.com/gamma-data/GCP-C4-PlantUML
 
 ' Colors
@@ -28,16 +28,15 @@ skinparam Arrow {
     FontSize 12
 }
 
-!definelong GCPEntityColoring(e_stereo)
-skinparam rectangle<<e_stereo>> {
+skinparam rectangle<< resource >> {
     BackgroundColor GCP_BG_COLOR
     BorderColor GCP_BORDER_COLOR
 }
-skinparam participant<<e_stereo>> {
+
+skinparam participant {
     BackgroundColor GCP_BG_COLOR
     BorderColor GCP_BORDER_COLOR
 }
-!enddefinelong
 
 ' Layout
 ' ##################################

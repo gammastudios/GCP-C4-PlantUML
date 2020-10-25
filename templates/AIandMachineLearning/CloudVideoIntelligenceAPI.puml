@@ -10,8 +10,7 @@ pTG50iCm049H-FU_yzpIC67EjF8QZ_u_aECM03M0zmWe2MyNr03NWW2QGWnb8L0Irm9AaixaPpc9aUH2
 }
 
 
-GCPEntityColoring(CloudVideoIntelligenceAPI)
-!define CloudVideoIntelligenceAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVideoIntelligenceAPI, CloudVideoIntelligenceAPI)
-!define CloudVideoIntelligenceAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVideoIntelligenceAPI, CloudVideoIntelligenceAPI)
+!define CloudVideoIntelligenceAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudVideoIntelligenceAPI, resource)
+!define CloudVideoIntelligenceAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudVideoIntelligenceAPI, resource)
 !define CloudVideoIntelligenceAPIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudVideoIntelligenceAPIParticipant, CloudVideoIntelligenceAPIParticipant)
 !define CloudVideoIntelligenceAPIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudVideoIntelligenceAPIParticipant, CloudVideoIntelligenceAPIParticipant)

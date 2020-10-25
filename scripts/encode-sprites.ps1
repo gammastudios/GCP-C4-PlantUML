@@ -63,11 +63,9 @@ $pumlFile = Join-Path -Path (Join-Path -Path $template_dir -ChildPath $serviceNa
 New-Item $pumlFile -ItemType File -Force -Value $spriteStr | Out-Null
 $Str = $spriteStrPart
 Add-Content -Path $pumlFile -Value $Str
-$Str = "GCPEntityColoring(${resourceName})"
+$Str = "!define ${resourceName}(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ${resourceName}, resource)"
 Add-Content -Path $pumlFile -Value $Str
-$Str = "!define ${resourceName}(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, ${resourceName}, ${resourceName})"
-Add-Content -Path $pumlFile -Value $Str
-$Str = "!define ${resourceName}(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ${resourceName}, ${resourceName})"
+$Str = "!define ${resourceName}(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, ${resourceName}, resource)"
 Add-Content -Path $pumlFile -Value $Str
 $Str = "!define ${partResourceName}(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, ${partResourceName}, ${partResourceName})"
 Add-Content -Path $pumlFile -Value $Str

@@ -11,8 +11,7 @@ r7FuRdIfHpCvDP57DWL70NYbqBo8Sys5AK9m4y25KS2nFs28IyDel4Zu44b6__PZbzGpYbvmfQ1VIrf2
 }
 
 
-GCPEntityColoring(CloudTPU)
-!define CloudTPU(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTPU, CloudTPU)
-!define CloudTPU(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTPU, CloudTPU)
+!define CloudTPU(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudTPU, resource)
+!define CloudTPU(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudTPU, resource)
 !define CloudTPUParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudTPUParticipant, CloudTPUParticipant)
 !define CloudTPUParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudTPUParticipant, CloudTPUParticipant)

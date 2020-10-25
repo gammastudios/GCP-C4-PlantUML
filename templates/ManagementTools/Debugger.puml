@@ -10,8 +10,7 @@ yYwCWXaCehBqPX2rcCHT0RmfIdyM5f7fsytvsoLLM0HFQS9HSFcU-ChdmngG2v0lhhja2s0lM8Az-FxT
 }
 
 
-GCPEntityColoring(Debugger)
-!define Debugger(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Debugger, Debugger)
-!define Debugger(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Debugger, Debugger)
+!define Debugger(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Debugger, resource)
+!define Debugger(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Debugger, resource)
 !define DebuggerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, DebuggerParticipant, DebuggerParticipant)
 !define DebuggerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, DebuggerParticipant, DebuggerParticipant)

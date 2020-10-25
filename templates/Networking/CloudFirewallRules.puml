@@ -10,8 +10,7 @@ pTJ50KCn40DHQVhlESmy-QYpdtatwmzlKWi03S0B3K03l403gWLFm2rIa8k09DNYnLuXvxmW_2pgJW6W
 }
 
 
-GCPEntityColoring(CloudFirewallRules)
-!define CloudFirewallRules(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirewallRules, CloudFirewallRules)
-!define CloudFirewallRules(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirewallRules, CloudFirewallRules)
+!define CloudFirewallRules(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirewallRules, resource)
+!define CloudFirewallRules(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudFirewallRules, resource)
 !define CloudFirewallRulesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudFirewallRulesParticipant, CloudFirewallRulesParticipant)
 !define CloudFirewallRulesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudFirewallRulesParticipant, CloudFirewallRulesParticipant)
