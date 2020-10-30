@@ -109,6 +109,7 @@
 !includeurl GCPPuml/ManagementTools/Stackdriver.puml
 !includeurl GCPPuml/ManagementTools/Trace.puml
 !includeurl GCPPuml/Migration/TransferAppliance.puml
+!includeurl GCPPuml/Misc/Slack.puml
 !includeurl GCPPuml/Networking/CloudArmor.puml
 !includeurl GCPPuml/Networking/CloudCDN.puml
 !includeurl GCPPuml/Networking/CloudDNS.puml
@@ -126,6 +127,7 @@
 !includeurl GCPPuml/Networking/StandardNetworkTier.puml
 !includeurl GCPPuml/Networking/TrafficDirector.puml
 !includeurl GCPPuml/Networking/VirtualPrivateCloud.puml
+!includeurl GCPPuml/Security/CloudDLP.puml
 !includeurl GCPPuml/Security/CloudIAM.puml
 !includeurl GCPPuml/Security/CloudResourceManager.puml
 !includeurl GCPPuml/Security/CloudSecurityCommandCenter.puml

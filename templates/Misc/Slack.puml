@@ -1,0 +1,22 @@
+sprite $Slack [70x70/4z] {
+xTG7RWCm34DHV_h-P-vUjBieTrSVArWF3WDbV6TTrtNm8GXy208_IU5a2LU0wdV0onHd91qgkkr8WJE5sq_Ef3-k1Aioaa3IfaJ6kkSj0qGAmC8e6_Q5FQaf
+s9unWocgNkIwvwwy1yDR6NJTkvWNBX8zLBvhtHOgnY0ldTc8ieBs20zXpXc_mxicDeNGq7GblsjqrNI6kpB47bCvRBd2FLvN1AEkt390h3Z3jaJ-tsktTDPF
+K9mPtwPqNTTT0W
+}
+
+sprite $SlackParticipant [50x50/4z] {
+xT570W91449HeEz_PhDIng9Dg_uhmxn9uA-jLYGdmLk2yRrKGSPdvgLOQDU489K9q6bN3q3jiX2wg2g22v0coOYqyFT8a4Z5fK80xPgONSSO2Za4H3LqGaEr
+TfMnImvDaaOX_OWgWiaaiWX7r8dSZDYHcn7HPv7t3u42Lgij
+}
+
+
+!define Slack(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Slack, resource)
+!define Slack(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Slack, resource)
+!define Slack_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Slack, new_resource)
+!define Slack_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Slack, new_resource)
+!define Slack_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Slack, modified_resource)
+!define Slack_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Slack, modified_resource)
+!define Slack_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Slack, deleted_resource)
+!define Slack_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Slack, deleted_resource)
+!define SlackParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, SlackParticipant, SlackParticipant)
+!define SlackParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, SlackParticipant, SlackParticipant)
