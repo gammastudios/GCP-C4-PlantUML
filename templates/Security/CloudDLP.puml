@@ -1,0 +1,24 @@
+sprite $CloudDLP [70x70/4z] {
+xPU7RWCm24Hvz___t8LG7To0Ow7PN1PUZuDiEzHRg9Frqeb68A8jPy2CJZK24ICKZK14qTe1Cz80XX6ANjK8H8nGD08HLMllpUXEfrRQrTvAdwQ7S62NZcAX
+4dC6MH9Ic2bN5IgpDOiUS89vDA2u2uW_He2PnmN5G09BXuaIaN2A5YM80xHHris-WrG13zILGXncewJakM5-Wh2lmlWYYjS-gNKHjCBx5nK5969VyB2Z64Oq
+OQCO8ELgsVjY-fF2GY5rmX8blE0OGlhb-fPyR1N4tFQ2_5Oi9WYny-hT66e_nMW-6VeCIHGR2molGEm8eZRNqnonHuLgitcXT_niLRtgpfr32ZDsGx7xUbRT
+jhR4S6Lbptm2OVftNOWRo80Pcy3O10MRmDZ4Nnk6_giDcB5ACnGRW1pNX0rWh5NFmVw1FW4
+}
+
+sprite $CloudDLPParticipant [50x50/4z] {
+pTLLUWCm30JXdRd_dKl-7FG-gBnjoD8VDEJ_nnAcG1q3_HwXG-At2yT0ni83cBm8EdmH7HAExw2AGwqM-dWZd8Vt4ANM06gfuWh1H5RNpNMKv4PilLfMqtOc
+Y19ksdOYBd5JI28AEGXHsGBSmlkWEr6oUl8HbmXwd1P4SoTOWiZz4-yiGS8MYnCrNPZaVdQ5-xQS9Y5zEfQnFglDYT21EOdUhxIfQClnkP9GmKvRhrrayfvM
+1YznUf4EfbiSNzntmnGaSv4Xc8llFvt9bAI4rl_RUGK
+}
+
+
+!define CloudDLP(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDLP, resource)
+!define CloudDLP(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDLP, resource)
+!define CloudDLP_New(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDLP, new_resource)
+!define CloudDLP_New(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDLP, new_resource)
+!define CloudDLP_Modified(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDLP, modified_resource)
+!define CloudDLP_Modified(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDLP, modified_resource)
+!define CloudDLP_Deleted(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudDLP, deleted_resource)
+!define CloudDLP_Deleted(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, CloudDLP, deleted_resource)
+!define CloudDLPParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GCP_SYMBOL_COLOR, CloudDLPParticipant, CloudDLPParticipant)
+!define CloudDLPParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GCP_SYMBOL_COLOR, CloudDLPParticipant, CloudDLPParticipant)
