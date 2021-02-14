@@ -1,6 +1,13 @@
-sprite $FirebaseAuthentication [70x70/4z] xS6100000CEW-rCVPDNY00000E
+sprite $FirebaseAuthentication [70x70/4z] {
+tTA5SSHG5CLGtVwB3jFIWx52gq7JyIU-kvmd47ieHO8nXZB8G7edqmIZT1A1IGGc-nGaKP04V2KHc4HWuYW64qSncFm99RN2oGMbKewJqQY14e6JgqCAr0oa
+KJYWi5BIZCLIeYdfbPevknefvyxvLQ_q_NE5jqwkLmgddR4pXVFwGqE3p4umBT8pSuNlLu3xKyZHS1I3uUyeO30O3BQ2We22e23WA2W8A0We20Z6pW61eKim
+9WxJ1ADos3SN7W4
+}
 
-sprite $FirebaseAuthenticationParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
+sprite $FirebaseAuthenticationParticipant [50x50/4z] {
+pT37bSD03C1GeF-czxIEjFdWZ8iIlwGPNf1drVaTERVC1wEDk9M1Pg0PQ1SPQ0RwgB3qcB0r201kluyPmE4iYPdyX70L7kSMiVHT0N1_9KppmtxDWiiEjxhW
+EK4KF2HQL48NbT159H09LK0bL0ADC9G1BA0OW69OMyR_
+}
 
 
 !define FirebaseAuthentication(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseAuthentication, resource)

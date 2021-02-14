@@ -1,6 +1,13 @@
-sprite $CloudFunctions [70x70/4z] xS6100000CEW-rCVPDNY00000E
+sprite $CloudFunctions [70x70/4z] {
+xTS54a8n40JHdVjVcZ9yToez5Pp6VvA7MpqwtRQ1u91CtCWXBKIGtD5gpE2EM02XZ7W08Ooo7g4epI0aYd2bbVlD3ccPPhDHw6QWJvjbjW9T_YfN6Oi0PbBK
+nnHDzOfvgFeUfuWgV-LqUhu85N-QAvKe_Mdsk0WyBc_zJFyL_bdtWi_TAe2e38EGqYhZjuEhnBZ0vd50JICoCMghH_smgzrAphpFB_W7_2T9cKVzL-DC3OL6
+xfGD83PWs81XGmPtYhSk7
+}
 
-sprite $CloudFunctionsParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
+sprite $CloudFunctionsParticipant [50x50/4z] {
+tTO53eHG60FXD_U_zCRM6vh1eJZy7svZXV0LMzyHEQLU67245Wr00z00lD00D80adbDvEe0s_HHnHYx8e92mU8ea44aM0OJPznNF_dDqU-6FuyPYo7lNFn_-
+6TJFkN-N-FULVoTQiltNOEutwXaDEl7VyvW2ZD7_FZMb_04
+}
 
 
 !define CloudFunctions(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFunctions, resource)

@@ -1,6 +1,12 @@
-sprite $CloudStorage [70x70/4z] xS6100000CEW-rCVPDNY00000E
+sprite $CloudStorage [70x70/4z] {
+xTWt4i9050JHt_U_D24UfffPdDInwYLQFwlZCa_W8Hua30qH913Xa9OPte420mK62WmK65mh52Wm-3pIL_18Nw62aApIAVFoUBoD64OigWrbRYWiKWIpAxjo
+5XGK0A-Sh1rUELyyf78vwvLo_OLGk95GxZE5jUwx5B6L18gwmQpPgETxbD9Pgi5CM_7CzvpWwtSIpxJlQfwPEqd3E-MxlNScAJQyKtqBoik50m
+}
 
-sprite $CloudStorageParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
+sprite $CloudStorageParticipant [50x50/4z] {
+xTOf0iGm30D0pVy_lRZ8Le-W5VQqkPEy49UqzJE2na1bw8WfDQ06r81Ur80QS5TeSa-KWv6adA9aiwgV2IkHIVo5lI19q0cm5130IhZaZR5AAV9Gc84J9qDB
+qekMV7yR92r9IvAEfB_FItBdNTAOZ1dAVm
+}
 
 
 !define CloudStorage(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudStorage, resource)

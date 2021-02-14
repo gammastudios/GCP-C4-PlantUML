@@ -1,6 +1,13 @@
-sprite $FirebaseExtensions [70x70/4z] xS6100000CEW-rCVPDNY00000E
+sprite $FirebaseExtensions [70x70/4z] {
+pTStUaKX5CJWqVuNxTmumUWOtcTrD_1tfDoEhnqWFCGYRymXYWmoTsXpXdTm2SGo-0HY66RTK9XM88xX0KfICUkHIQALhoEJZbc-pqTA-JeoQHc-f6Vy0X4A
+lO9Jq0W9D0nUGI8G2eR3IZ9LYZcLBTBCgUoGQavbWtHpQdPYsYfvcC89XRt2025OXav18mJ7q2jO98h1AImGeI0Gic0KaZ-Vjh9c318AXhc2GFnvuFp1BgUL
+EVD_Jl392IOdcEG0S-dUw9bRzsdFP9SovaxQbE6T-7hX6G
+}
 
-sprite $FirebaseExtensionsParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
+sprite $FirebaseExtensionsParticipant [50x50/4z] {
+jTO73i8m44JH-VU_D2fqbk-HLXarjmUfwoJxy95sVO-OKwml3HPPNnlE4T0Gkcm4RKRWCJ4F3-3HJuHC0_fOJeUP6Fa5YGfMWZC0Uqbf109QaQG-gjU0Y7pa
+DV1NL4KcBTWB9mn22I8OWGgEW4p4GL128L10d4Xbg0kPJcY5kwwCNhyRxFQef0OzMUpd9Tb_bxZ9CVZo6m
+}
 
 
 !define FirebaseExtensions(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseExtensions, resource)

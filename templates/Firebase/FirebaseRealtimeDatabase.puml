@@ -1,6 +1,12 @@
-sprite $FirebaseRealtimeDatabase [70x70/4z] xS6100000CEW-rCVPDNY00000E
+sprite $FirebaseRealtimeDatabase [70x70/4z] {
+xTZ74SD03CLGel-cVNOcPk3iVrDwoXAvy-Xmce3m43SI66k8HH84i8XdC168Po1Wy4aGI11uX0810m53enGClUBVDO7SO6xCDaodS6FkSj5xAJnCqL_utr60
+TrA-wEfY4IQfAuOY__T8V-i-KtchlvfdE4rJCqJrIy4qrM6Z5CpxLF1HJr8mNQ_ccRxzxFhflhVtpcoY3UyaOq4-U-4
+}
 
-sprite $FirebaseRealtimeDatabaseParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
+sprite $FirebaseRealtimeDatabaseParticipant [50x50/4z] {
+pTOt5eH04CJGqlqllV4offyQgmpp4nYN2-8l-twD08m1K0OSeKe3q00q02yq00sWAzIV6kua1Qd0A1W5nmR1xO9137r2mFqYKO9h18CGVVWFHlwFQE7dO6kU
+1zCJAvmbz-y6YIMn976aiPzBqZcN69EoulKV
+}
 
 
 !define FirebaseRealtimeDatabase(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseRealtimeDatabase, resource)
