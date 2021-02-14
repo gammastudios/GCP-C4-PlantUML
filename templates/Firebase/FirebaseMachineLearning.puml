@@ -1,6 +1,13 @@
-sprite $FirebaseMachineLearning [70x70/4z] xS6100000CEW-rCVPDNY00000E
+sprite $FirebaseMachineLearning [70x70/4z] {
+xTS53iC034DH__jVUe8nvhV9sEBKUcNAT3XF0-4XxaGP0XA6OwZ58fx1H22UmKOWZe46XcMPKA21ONd4FRnMgQoct6bInEQAuo8L2eqs1Q5yGCM-lfIIn34E
+IQGYvjmgW-2bmfELmlUBKPASJhzJ-IkN6LQkze-AsULYaL4uHkQLhBwdSySk8xWVeVjj34DTkMGALQX1ufDC9ZrA1_C-N_1D_oGTpDY_Mg8HmGX3Ert_zi8H
+XdHIZJAy4v-wi04
+}
 
-sprite $FirebaseMachineLearningParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
+sprite $FirebaseMachineLearningParticipant [50x50/4z] {
+vTKt0i9050FHcVjVceui2n4grA7z3sURByIRhFCTgIx6d0GsOiiCT0Ow0zt53FG8X3gBr4VWlc3g8z3Oimi_5-s6OxwhgG2Qi3GKe8U2vmAAk4m0VoBsSoNm
+y73U0U6Py0Ay1xl8l_C4qxtxK5Y0vSiN5tqzhEJtNmDO2Ik1ZR1_pqT2oZIV3JLb_0G
+}
 
 
 !define FirebaseMachineLearning(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseMachineLearning, resource)

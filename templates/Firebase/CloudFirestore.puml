@@ -1,6 +1,13 @@
-sprite $CloudFirestore [70x70/4z] xS6100000CEW-rCVPDNY00000E
+sprite $CloudFirestore [70x70/4z] {
+rTS5ZWD134L1-_w7NX0k9ExwaKDFF533q7Nl-cyBH0xrq8B1K4CB23YjWK418Z6ICvq7Y0I8jAC08W4Y0RAeb37dXKIHtJqomSsGA-7B68rvsO5GgAgEI0-C
+AltTKS7hUxlYjrSbDq2iN5aaKeRDioBdr9NwdIZ-7BbILqgKcW95dYDG_3boHL-Ux_8S-IoNX-Se-pKTPaU_1JjA5PwjV5ygKyO5JF7voGxdIWyj_KiP0yY2
+ii2ypX_yqfXaWzaQgpdZICviZwUTSSITai2W8YDtAi-5Jm
+}
 
-sprite $CloudFirestoreParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
+sprite $CloudFirestoreParticipant [50x50/4z] {
+fTPB4W9138BXSFzBkyPYyZSLTgRvr7dFO3Yoj7r6oe5-ORI5-sp40K14Rxa8lIO0oYPc4R0GLgfTaePmQF5w28MlleomMFP-4ZvW8G-AKDn4tXoXW0jdy886
+CIcRi5OZ_2CBdx3GVv9WxzFoadwvdxSYpHV1O_xr_dxLtnDRSdyQC6Z90070vFeyPt9xBs4p6AZ_
+}
 
 
 !define CloudFirestore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, CloudFirestore, resource)

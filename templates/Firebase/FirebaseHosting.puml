@@ -1,6 +1,13 @@
-sprite $FirebaseHosting [70x70/4z] xS6100000CEW-rCVPDNY00000E
+sprite $FirebaseHosting [70x70/4z] {
+pTT73iD034DHylwNpZg567v50vXhuxchw7RycGM2GtOED-QGYn1axhWDCxXZ5e1GnZm08OndkQ5ucW9XZAyhTQdedjrG0VKF819GWd4wjaES6O3OcI6A3PI8
+PAP0YkV8b7mni6QiAHee_aj1RrK_4QyeXt-ZLC8pfafWkEAWzEye54oeA3ORSSNh2leRyor9K0clIRc-a8i9I532e-7LEpyRtagwPdtkZJPgiVC-JMS6e0Je
+VCnfvBe_s6bRcJFFcU3NTv8vSsjNuun25WpcNDhjkQCcsE2EI9B1qmil
+}
 
-sprite $FirebaseHostingParticipant [50x50/4z] xS410G0020AW_g_kHYamxm00i
+sprite $FirebaseHostingParticipant [50x50/4z] {
+jTP75WCX40DHrVqlxPsJ7bsJqDRy8JUEniDFeg6ZxSyOrb7GyVPky1Jm5F3S4HnD0O-SZAMG2VgdveqIi203W2OZ271S3AEGJIsoHJ29PJcP1AT5ZSn54nSV
+OZF__7X6_98Qb8h4HCyaUXHJf44mqg99uCorPIolvsl9MA-amkqge_jVW-GiYH01Jkw-vqxk_Izn4uqqVm4
+}
 
 
 !define FirebaseHosting(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, FirebaseHosting, resource)
